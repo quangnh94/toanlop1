@@ -2265,14 +2265,14 @@
     {
       "id": "word-015",
       "type": "word-problem",
-      "question": "Kho có 30 thùng hàng. Đã chuyển đi 18 thẻ. Nhận thêm 12 thùng. Kho có bao nhiêu thùng?",
+      "question": "Kho có 30 thùng hàng. Đã chuyển đi 18 thùng. Nhận thêm 12 thùng. Kho có bao nhiêu thùng?",
       "options": [
         "22 thùng",
         "23 thùng",
         "24 thùng",
         "25 thùng"
       ],
-      "correctAnswer": "1",
+      "correctAnswer": "2",
       "difficulty": "hard"
     },
     {
@@ -2493,7 +2493,7 @@
         "45",
         "46"
       ],
-      "correctAnswer": "1",
+      "correctAnswer": "2",
       "difficulty": "hard"
     },
     {
