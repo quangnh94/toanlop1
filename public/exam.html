@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Làm bài thi - Toán lớp 1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Loading -->
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Đang tải đề thi...</p>
+    </div>
+
+    <!-- Exam Container -->
+    <div id="examContainer" style="display: none;">
+      <div class="header">
+        <h1>📝 Bài thi Toán lớp 1</h1>
+        <p class="subtitle">Hãy làm thật tốt nhé!</p>
+      </div>
+
+      <div class="exam-info">
+        <div id="timer" class="timer">⏱️ 00:00</div>
+        <div id="questionProgress">Đã làm: 0 / 0 câu</div>
+      </div>
+
+      <div id="questionsList"></div>
+
+      <div class="exam-actions">
+        <button id="backHome" class="btn btn-secondary">
+          <span>🏠 Về trang chủ</span>
+        </button>
+        <button id="submitExam" class="btn btn-primary btn-large">
+          <span>✅ Nộp bài</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Result Container -->
+    <div id="resultContainer" style="display: none;">
+      <div class="result-container">
+        <div class="result-card">
+          <h2 id="resultTitle">🎉 Kết quả</h2>
+
+          <div class="score-display">
+            <div class="score-circle">
+              <span id="scoreNumber">0</span>
+              <span class="score-label">điểm</span>
+            </div>
+          </div>
+
+          <div class="result-stats">
+            <p>Số câu đúng: <strong id="correctCount">0</strong></p>
+            <p>Số câu sai: <strong id="incorrectCount">0</strong></p>
+            <p id="passedMessage" class="passed-message"></p>
+          </div>
+
+          <div class="result-actions">
+            <button id="reviewAnswers" class="btn btn-info">
+              <span>📝 Xem đáp án</span>
+            </button>
+            <button id="newExam" class="btn btn-success">
+              <span>✨ Làm đề mới</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="answerReview" class="answer-review" style="display: none;">
+          <h3>📋 Chi tiết đáp án</h3>
+          <div id="reviewList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/exam.js"></script>
+</body>
+</html>

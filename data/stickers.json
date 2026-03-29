@@ -1,0 +1,1162 @@
+{
+  "stickers": [
+    {
+      "id": "star-1",
+      "name": "Ngôi sao vàng",
+      "emoji": "⭐",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "star-2",
+      "name": "Ngôi sao lấp lánh",
+      "emoji": "🌟",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "star-3",
+      "name": "Ngôi sao bùng nổ",
+      "emoji": "💥",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "star-4",
+      "name": "Ngôi sao phép thuật",
+      "emoji": "✨",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-1",
+      "name": "Chó cưng",
+      "emoji": "🐕",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-2",
+      "name": "Mèo dễ thương",
+      "emoji": "🐱",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-3",
+      "name": "Thỏ hồng",
+      "emoji": "🐰",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-4",
+      "name": "Gấu nâu",
+      "emoji": "🐻",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-5",
+      "name": "Chuột Hamster",
+      "emoji": "🐹",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-6",
+      "name": "Gấu trúc",
+      "emoji": "🐼",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "animal-7",
+      "name": "Hổ mạnh mẽ",
+      "emoji": "🐯",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-8",
+      "name": "Sư tử dũng cảm",
+      "emoji": "🦁",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-9",
+      "name": "Khỉ đột",
+      "emoji": "🦍",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-10",
+      "name": "Hươu cao cổ",
+      "emoji": "🦒",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-11",
+      "name": "Voi信息披露",
+      "emoji": "🐘",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-12",
+      "name": "Hà mã",
+      "emoji": "🦛",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-13",
+      "name": "Kỳ lân",
+      "emoji": "🦄",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "animal-14",
+      "name": "Rồng thần",
+      "emoji": "🐉",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "animal-15",
+      "name": "Cá heo",
+      "emoji": "🐬",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "animal-16",
+      "name": "Cá voi",
+      "emoji": "🐳",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "animal-17",
+      "name": "Chim cánh cụt",
+      "emoji": "🐧",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "fruit-1",
+      "name": "Quả táo ngon",
+      "emoji": "🍎",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "fruit-2",
+      "name": "Quả cam",
+      "emoji": "🍊",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "fruit-3",
+      "name": "Quả nho",
+      "emoji": "🍇",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "fruit-4",
+      "name": "Dưa hấu",
+      "emoji": "🍉",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "fruit-5",
+      "name": "Dâu tây",
+      "emoji": "🍓",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "fruit-6",
+      "name": "Chanh",
+      "emoji": "🍋",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "fruit-7",
+      "name": "Dứa",
+      "emoji": "🍍",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "fruit-8",
+      "name": "Đu đủ",
+      "emoji": "🥝",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sport-1",
+      "name": "Bóng đá",
+      "emoji": "⚽",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sport-2",
+      "name": "Bóng rổ",
+      "emoji": "🏀",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sport-3",
+      "name": "Bóng chuyền",
+      "emoji": "🏐",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sport-4",
+      "name": "Bóng bàn",
+      "emoji": "🏓",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sport-5",
+      "name": "Cầu lông",
+      "emoji": "🏸",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sport-6",
+      "name": "Gôn",
+      "emoji": "⛳",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sport-7",
+      "name": "Bowling",
+      "emoji": "🎳",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sport-8",
+      "name": "Huy chương vàng",
+      "emoji": "🥇",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sport-9",
+      "name": "Huy chương bạc",
+      "emoji": "🥈",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sport-10",
+      "name": "Huy chương đồng",
+      "emoji": "🥉",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "trophy-1",
+      "name": "Cúp vàng",
+      "emoji": "🏆",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "trophy-2",
+      "name": "Cúp bạc",
+      "emoji": "🏅",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "trophy-3",
+      "name": "Huy hiệu",
+      "emoji": "🎖️",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "trophy-4",
+      "name": "Ribbon",
+      "emoji": "🎗️",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "trophy-5",
+      "name": "Hoa hồng",
+      "emoji": "🌹",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "trophy-6",
+      "name": "Hoa hướng dương",
+      "emoji": "🌻",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "trophy-7",
+      "name": "Hoa cúc",
+      "emoji": "🌼",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "trophy-8",
+      "name": "Cành hoa",
+      "emoji": "💐",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "trophy-9",
+      "name": "Cây thông",
+      "emoji": "🎄",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "trophy-10",
+      "name": "Howa dừa",
+      "emoji": "🌴",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "weather-1",
+      "name": "Mặt trời",
+      "emoji": "☀️",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "weather-2",
+      "name": "Mặt trăng",
+      "emoji": "🌙",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "weather-3",
+      "name": "Mây",
+      "emoji": "☁️",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "weather-4",
+      "name": "Ngôi sao",
+      "emoji": "🌠",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "weather-5",
+      "name": "Cầu vồng",
+      "emoji": "🌈",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "weather-6",
+      "name": "Tia sét",
+      "emoji": "⚡",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "weather-7",
+      "name": "Tuyết",
+      "emoji": "❄️",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "weather-8",
+      "name": "Bão tuyết",
+      "emoji": "🌨️",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "weather-9",
+      "name": "Lửa",
+      "emoji": "🔥",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "weather-10",
+      "name": "Giọt nước",
+      "emoji": "💧",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "weather-11",
+      "name": "Làn sóng",
+      "emoji": "🌊",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "space-1",
+      "name": "Trái đất",
+      "emoji": "🌍",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "space-2",
+      "name": "Mặt trăng",
+      "emoji": "🌑",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "space-3",
+      "name": "Sao Hỏa",
+      "emoji": "🔴",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "space-4",
+      "name": "Sao Mộc",
+      "emoji": "🟠",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "space-5",
+      "name": "Người ngoài hành tinh",
+      "emoji": "👽",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "space-6",
+      "name": "Phi thuyền",
+      "emoji": "🚀",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "space-7",
+      "name": "Ngôi sao lā",
+      "emoji": "🌟",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "space-8",
+      "name": "Dải ngân hà",
+      "emoji": "🌌",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "food-1",
+      "name": "Cơm",
+      "emoji": "🍚",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "food-2",
+      "name": "Mì",
+      "emoji": "🍜",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "food-3",
+      "name": "Bánh mì",
+      "emoji": "🍞",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "food-4",
+      "name": "Pizza",
+      "emoji": "🍕",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "food-5",
+      "name": "Hamburger",
+      "emoji": "🍔",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "food-6",
+      "name": "Kem",
+      "emoji": "🍦",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "food-7",
+      "name": "Bánh ngọt",
+      "emoji": "🍰",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "food-8",
+      "name": "Donut",
+      "emoji": "🍩",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "food-9",
+      "name": "Kẹo",
+      "emoji": "🍬",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "food-10",
+      "name": "Sôcôla",
+      "emoji": "🍫",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "toy-1",
+      "name": "Búp bê",
+      "emoji": "🎎",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "toy-2",
+      "name": "Con rối",
+      "emoji": "🎎",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "toy-3",
+      "name": "Khăn đỏ",
+      "emoji": "🧣",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "toy-4",
+      "name": "Gấu bông",
+      "emoji": "🧸",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "toy-5",
+      "name": "Điện thoại xoay",
+      "emoji": "☎️",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "toy-6",
+      "name": "Tivi",
+      "emoji": "📺",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "toy-7",
+      "name": "Radio",
+      "emoji": "📻",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "toy-8",
+      "name": "Máy ảnh",
+      "emoji": "📷",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "toy-9",
+      "name": "Phim",
+      "emoji": "🎬",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "toy-10",
+      "name": "Bộ phim",
+      "emoji": "🎞️",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "music-1",
+      "name": "Nốt nhạc",
+      "emoji": "🎵",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "music-2",
+      "name": "Bài hát",
+      "emoji": "🎶",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "music-3",
+      "name": "Guitar",
+      "emoji": "🎸",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "music-4",
+      "name": "Piano",
+      "emoji": "🎹",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "music-5",
+      "name": "Sáo",
+      "emoji": "🎺",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "music-6",
+      "name": "Violin",
+      "emoji": "🎻",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "music-7",
+      "name": "Kèn",
+      "emoji": "🎷",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "music-8",
+      "name": "Trống",
+      "emoji": "🥁",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "love-1",
+      "name": "Trái tim",
+      "emoji": "❤️",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "love-2",
+      "name": "Trái tim tím",
+      "emoji": "💜",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "love-3",
+      "name": "Trái tim xanh",
+      "emoji": "💚",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "love-4",
+      "name": "Trái tim cam",
+      "emoji": "🧡",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "love-5",
+      "name": "Trái tim vàng",
+      "emoji": "💛",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "love-6",
+      "name": "Trái tim bay",
+      "emoji": "💝",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "love-7",
+      "name": "Mũi tên",
+      "emoji": "💘",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "love-8",
+      "name": "Hôn",
+      "emoji": "💋",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crown-1",
+      "name": "Vương miện",
+      "emoji": "👑",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "crown-2",
+      "name": "Mũ vương",
+      "emoji": "🎩",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "crown-3",
+      "name": "Mũ tốt nghiệp",
+      "emoji": "🎓",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crown-4",
+      "name": "Mũ hoa",
+      "emoji": "👒",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crown-5",
+      "name": "Mũ bảo hộ",
+      "emoji": "⛑️",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crown-6",
+      "name": "Mùa hè",
+      "emoji": "🌻",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "special-1",
+      "name": "Trứng phục sinh",
+      "emoji": "🥚",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "special-2",
+      "name": "Con thỏ",
+      "emoji": "🐇",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "special-3",
+      "name": "Balloons",
+      "emoji": "🎈",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "special-4",
+      "name": "Quà",
+      "emoji": "🎁",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "special-5",
+      "name": "Tiệc",
+      "emoji": "🎉",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "special-6",
+      "name": "Pháo hoa",
+      "emoji": "🎆",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "special-7",
+      "name": "Bắn pháo hoa",
+      "emoji": "🎇",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "special-8",
+      "name": "Bảo hộ",
+      "emoji": "🛡️",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "special-9",
+      "name": "Dream",
+      "emoji": "💤",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "special-10",
+      "name": "Good job",
+      "emoji": "👍",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "special-11",
+      "name": "Clap",
+      "emoji": "👏",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "special-12",
+      "name": "Raise hand",
+      "emoji": "🙋",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "special-13",
+      "name": "Muscle",
+      "emoji": "💪",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "special-14",
+      "name": "Genius",
+      "emoji": "🤓",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "special-15",
+      "name": "Superhero",
+      "emoji": "🦸",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "special-16",
+      "name": "Fairy",
+      "emoji": "🧚",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "special-17",
+      "name": "Wizard",
+      "emoji": "🧙",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "special-18",
+      "name": "Ghost",
+      "emoji": "👻",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "special-19",
+      "name": "Pumpkin",
+      "emoji": "🎃",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "special-20",
+      "name": "Christmas",
+      "emoji": "🎄",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "special-21",
+      "name": "Santa",
+      "emoji": "🎅",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "special-22",
+      "name": "Snowman",
+      "emoji": "⛄",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "crystal-1",
+      "name": "Kim cương xanh",
+      "emoji": "💎",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "crystal-2",
+      "name": "Ngọc",
+      "emoji": "🔮",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "crystal-3",
+      "name": "Chìa khóa",
+      "emoji": "🔑",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crystal-4",
+      "name": "Rương",
+      "emoji": "🎁",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "crystal-5",
+      "name": "Hộp",
+      "emoji": "📦",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "crystal-6",
+      "name": "Túi",
+      "emoji": "💰",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crystal-7",
+      "name": "Vàng",
+      "emoji": "🪙",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crystal-8",
+      "name": "Money",
+      "emoji": "💴",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "crystal-9",
+      "name": "Thẻ",
+      "emoji": "💳",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "crystal-10",
+      "name": "Bút",
+      "emoji": "🖊️",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    }
+  ],
+  "rarity": {
+    "common": {
+      "label": "Phổ thông",
+      "color": "#9CA3AF",
+      "chance": 60
+    },
+    "rare": {
+      "label": "Hiếm",
+      "color": "#3B82F6",
+      "chance": 25
+    },
+    "epic": {
+      "label": "Sử thi",
+      "color": "#A855F7",
+      "chance": 12
+    },
+    "legendary": {
+      "label": "Huyền thoại",
+      "color": "#F59E0B",
+      "chance": 3
+    }
+  }
+}

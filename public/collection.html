@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bộ sưu tập Sticker - Toán lớp 1</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/collection.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📚 Bộ sưu tập Sticker</h1>
+      <p class="subtitle">Những sticker bé đã sưu tập được</p>
+    </div>
+
+    <div class="collection-stats">
+      <div class="stat-card">
+        <div class="stat-number" id="totalStickers">0</div>
+        <div class="stat-label">Tổng số sticker</div>
+      </div>
+      <div class="stat-card legendary">
+        <div class="stat-number" id="legendaryCount">0</div>
+        <div class="stat-label">Huyền thoại</div>
+      </div>
+      <div class="stat-card epic">
+        <div class="stat-number" id="epicCount">0</div>
+        <div class="stat-label">Sử thi</div>
+      </div>
+      <div class="stat-card rare">
+        <div class="stat-number" id="rareCount">0</div>
+        <div class="stat-label">Hiếm</div>
+      </div>
+      <div class="stat-card common">
+        <div class="stat-number" id="commonCount">0</div>
+        <div class="stat-label">Phổ thông</div>
+      </div>
+    </div>
+
+    <div class="collection-actions">
+      <button id="backHome" class="btn btn-secondary">
+        <span>🏠 Về trang chủ</span>
+      </button>
+      <button id="filterAll" class="btn btn-primary active">
+        <span>🌟 Tất cả</span>
+      </button>
+      <button id="filterLegendary" class="btn btn-filter legendary">
+        <span>👑 Huyền thoại</span>
+      </button>
+      <button id="filterEpic" class="btn btn-filter epic">
+        <span>💜 Sử thi</span>
+      </button>
+      <button id="filterRare" class="btn btn-filter rare">
+        <span>💙 Hiếm</span>
+      </button>
+      <button id="filterCommon" class="btn btn-filter common">
+        <span>💚 Phổ thông</span>
+      </button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">
+      <div class="spinner"></div>
+      <p>Đang tải bộ sưu tập...</p>
+    </div>
+
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <div class="empty-icon">📭</div>
+      <h2>Chưa có sticker nào</h2>
+      <p>Bé hãy làm bài thật tốt để nhận sticker nhé!</p>
+      <button id="startExam" class="btn btn-primary">
+        <span>✨ Làm bài ngay</span>
+      </button>
+    </div>
+
+    <div id="collectionGrid" class="collection-grid">
+      <!-- Stickers sẽ được hiển thị ở đây -->
+    </div>
+
+    <div id="stickerModal" class="sticker-modal" style="display: none;">
+      <div class="sticker-modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="sticker-detail"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/collection.js"></script>
+</body>
+</html>

@@ -1,0 +1,6491 @@
+{
+  "questions": [
+    {
+      "id": "add-001",
+      "type": "addition",
+      "question": "1 + 1 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-002",
+      "type": "addition",
+      "question": "2 + 3 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-003",
+      "type": "addition",
+      "question": "4 + 2 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-004",
+      "type": "addition",
+      "question": "3 + 5 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-005",
+      "type": "addition",
+      "question": "2 + 6 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-006",
+      "type": "addition",
+      "question": "5 + 3 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-007",
+      "type": "addition",
+      "question": "4 + 4 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-008",
+      "type": "addition",
+      "question": "1 + 7 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-009",
+      "type": "addition",
+      "question": "3 + 3 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-010",
+      "type": "addition",
+      "question": "5 + 5 = ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-011",
+      "type": "addition",
+      "question": "2 + 2 = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-012",
+      "type": "addition",
+      "question": "6 + 2 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-013",
+      "type": "addition",
+      "question": "1 + 4 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-014",
+      "type": "addition",
+      "question": "7 + 2 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-015",
+      "type": "addition",
+      "question": "3 + 4 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "add-016",
+      "type": "addition",
+      "question": "6 + 4 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-017",
+      "type": "addition",
+      "question": "8 + 5 = ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-018",
+      "type": "addition",
+      "question": "7 + 6 = ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-019",
+      "type": "addition",
+      "question": "9 + 3 = ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-020",
+      "type": "addition",
+      "question": "8 + 8 = ?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-021",
+      "type": "addition",
+      "question": "15 + 5 = ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-022",
+      "type": "addition",
+      "question": "12 + 8 = ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-023",
+      "type": "addition",
+      "question": "14 + 6 = ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-024",
+      "type": "addition",
+      "question": "11 + 9 = ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-025",
+      "type": "addition",
+      "question": "13 + 7 = ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "add-026",
+      "type": "addition",
+      "question": "25 + 15 = ?",
+      "options": [
+        "35",
+        "38",
+        "40",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-027",
+      "type": "addition",
+      "question": "32 + 28 = ?",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-028",
+      "type": "addition",
+      "question": "45 + 35 = ?",
+      "options": [
+        "70",
+        "75",
+        "80",
+        "85"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-029",
+      "type": "addition",
+      "question": "56 + 24 = ?",
+      "options": [
+        "78",
+        "79",
+        "80",
+        "81"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-030",
+      "type": "addition",
+      "question": "67 + 33 = ?",
+      "options": [
+        "98",
+        "99",
+        "100",
+        "101"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-031",
+      "type": "addition",
+      "question": "48 + 27 = ?",
+      "options": [
+        "73",
+        "74",
+        "75",
+        "76"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-032",
+      "type": "addition",
+      "question": "39 + 43 = ?",
+      "options": [
+        "80",
+        "81",
+        "82",
+        "83"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-033",
+      "type": "addition",
+      "question": "54 + 38 = ?",
+      "options": [
+        "90",
+        "91",
+        "92",
+        "93"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-034",
+      "type": "addition",
+      "question": "72 + 19 = ?",
+      "options": [
+        "89",
+        "90",
+        "91",
+        "92"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-035",
+      "type": "addition",
+      "question": "63 + 29 = ?",
+      "options": [
+        "90",
+        "91",
+        "92",
+        "93"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-036",
+      "type": "addition",
+      "question": "18 + 14 + 6 = ?",
+      "options": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-037",
+      "type": "addition",
+      "question": "25 + 15 + 30 = ?",
+      "options": [
+        "60",
+        "65",
+        "70",
+        "75"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-038",
+      "type": "addition",
+      "question": "12 + 18 + 25 = ?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-039",
+      "type": "addition",
+      "question": "22 + 16 + 14 = ?",
+      "options": [
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "add-040",
+      "type": "addition",
+      "question": "35 + 25 + 18 = ?",
+      "options": [
+        "76",
+        "77",
+        "78",
+        "79"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-001",
+      "type": "subtraction",
+      "question": "5 - 2 = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-002",
+      "type": "subtraction",
+      "question": "8 - 3 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-003",
+      "type": "subtraction",
+      "question": "7 - 4 = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-004",
+      "type": "subtraction",
+      "question": "9 - 5 = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-005",
+      "type": "subtraction",
+      "question": "6 - 3 = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-006",
+      "type": "subtraction",
+      "question": "10 - 4 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-007",
+      "type": "subtraction",
+      "question": "8 - 6 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-008",
+      "type": "subtraction",
+      "question": "9 - 7 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-009",
+      "type": "subtraction",
+      "question": "7 - 2 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-010",
+      "type": "subtraction",
+      "question": "6 - 4 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-011",
+      "type": "subtraction",
+      "question": "10 - 3 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-012",
+      "type": "subtraction",
+      "question": "5 - 1 = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-013",
+      "type": "subtraction",
+      "question": "8 - 2 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-014",
+      "type": "subtraction",
+      "question": "9 - 4 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-015",
+      "type": "subtraction",
+      "question": "7 - 5 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sub-016",
+      "type": "subtraction",
+      "question": "15 - 7 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-017",
+      "type": "subtraction",
+      "question": "14 - 8 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-018",
+      "type": "subtraction",
+      "question": "16 - 9 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-019",
+      "type": "subtraction",
+      "question": "13 - 6 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-020",
+      "type": "subtraction",
+      "question": "18 - 9 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-021",
+      "type": "subtraction",
+      "question": "20 - 12 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-022",
+      "type": "subtraction",
+      "question": "17 - 8 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-023",
+      "type": "subtraction",
+      "question": "19 - 11 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-024",
+      "type": "subtraction",
+      "question": "15 - 9 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-025",
+      "type": "subtraction",
+      "question": "12 - 7 = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sub-026",
+      "type": "subtraction",
+      "question": "50 - 25 = ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-027",
+      "type": "subtraction",
+      "question": "80 - 35 = ?",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-028",
+      "type": "subtraction",
+      "question": "72 - 38 = ?",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-029",
+      "type": "subtraction",
+      "question": "95 - 47 = ?",
+      "options": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-030",
+      "type": "subtraction",
+      "question": "63 - 29 = ?",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-031",
+      "type": "subtraction",
+      "question": "100 - 45 = ?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-032",
+      "type": "subtraction",
+      "question": "87 - 39 = ?",
+      "options": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-033",
+      "type": "subtraction",
+      "question": "54 - 28 = ?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-034",
+      "type": "subtraction",
+      "question": "76 - 48 = ?",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-035",
+      "type": "subtraction",
+      "question": "91 - 56 = ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-036",
+      "type": "subtraction",
+      "question": "45 - 12 - 8 = ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-037",
+      "type": "subtraction",
+      "question": "60 - 15 - 20 = ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-038",
+      "type": "subtraction",
+      "question": "75 - 25 - 18 = ?",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-039",
+      "type": "subtraction",
+      "question": "82 - 22 - 15 = ?",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sub-040",
+      "type": "subtraction",
+      "question": "90 - 30 - 25 = ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-001",
+      "type": "comparison",
+      "question": "5 ? 3",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-002",
+      "type": "comparison",
+      "question": "2 ? 7",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-003",
+      "type": "comparison",
+      "question": "4 ? 4",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-004",
+      "type": "comparison",
+      "question": "8 ? 6",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-005",
+      "type": "comparison",
+      "question": "1 ? 9",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-006",
+      "type": "comparison",
+      "question": "7 ? 5",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-007",
+      "type": "comparison",
+      "question": "3 ? 8",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-008",
+      "type": "comparison",
+      "question": "6 ? 6",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-009",
+      "type": "comparison",
+      "question": "9 ? 2",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-010",
+      "type": "comparison",
+      "question": "5 ? 7",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "comp-011",
+      "type": "comparison",
+      "question": "15 ? 12",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-012",
+      "type": "comparison",
+      "question": "8 ? 18",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-013",
+      "type": "comparison",
+      "question": "20 ? 20",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-014",
+      "type": "comparison",
+      "question": "25 ? 30",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-015",
+      "type": "comparison",
+      "question": "45 ? 40",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-016",
+      "type": "comparison",
+      "question": "60 ? 55",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-017",
+      "type": "comparison",
+      "question": "35 ? 45",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-018",
+      "type": "comparison",
+      "question": "70 ? 70",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-019",
+      "type": "comparison",
+      "question": "82 ? 78",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-020",
+      "type": "comparison",
+      "question": "95 ? 99",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "comp-021",
+      "type": "comparison",
+      "question": "15 + 5 ? 20",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-022",
+      "type": "comparison",
+      "question": "30 - 10 ? 25",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-023",
+      "type": "comparison",
+      "question": "40 + 20 ? 55",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-024",
+      "type": "comparison",
+      "question": "75 - 25 ? 60",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-025",
+      "type": "comparison",
+      "question": "50 + 30 ? 90",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-026",
+      "type": "comparison",
+      "question": "100 - 20 ? 85",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-027",
+      "type": "comparison",
+      "question": "45 + 35 ? 70",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-028",
+      "type": "comparison",
+      "question": "60 - 15 ? 50",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-029",
+      "type": "comparison",
+      "question": "25 + 25 + 10 ? 65",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "comp-030",
+      "type": "comparison",
+      "question": "80 - 30 - 20 ? 35",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "?"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-001",
+      "type": "fill-blank",
+      "question": "3 + ? = 7",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-002",
+      "type": "fill-blank",
+      "question": "? + 4 = 8",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-003",
+      "type": "fill-blank",
+      "question": "5 + ? = 9",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-004",
+      "type": "fill-blank",
+      "question": "? + 2 = 6",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-005",
+      "type": "fill-blank",
+      "question": "4 + ? = 10",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-006",
+      "type": "fill-blank",
+      "question": "8 - ? = 5",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-007",
+      "type": "fill-blank",
+      "question": "? - 3 = 4",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-008",
+      "type": "fill-blank",
+      "question": "9 - ? = 6",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-009",
+      "type": "fill-blank",
+      "question": "? - 2 = 7",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-010",
+      "type": "fill-blank",
+      "question": "10 - ? = 3",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fill-011",
+      "type": "fill-blank",
+      "question": "12 + ? = 20",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-012",
+      "type": "fill-blank",
+      "question": "? + 15 = 25",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-013",
+      "type": "fill-blank",
+      "question": "18 - ? = 9",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-014",
+      "type": "fill-blank",
+      "question": "? - 12 = 8",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-015",
+      "type": "fill-blank",
+      "question": "25 + ? = 40",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-016",
+      "type": "fill-blank",
+      "question": "? - 25 = 35",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-017",
+      "type": "fill-blank",
+      "question": "60 - ? = 35",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-018",
+      "type": "fill-blank",
+      "question": "? + 35 = 70",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-019",
+      "type": "fill-blank",
+      "question": "45 - ? = 28",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-020",
+      "type": "fill-blank",
+      "question": "? + 28 = 55",
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-021",
+      "type": "fill-blank",
+      "question": "? + 5 + 3 = 15",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-022",
+      "type": "fill-blank",
+      "question": "12 + ? + 8 = 30",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-023",
+      "type": "fill-blank",
+      "question": "25 - ? - 5 = 10",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-024",
+      "type": "fill-blank",
+      "question": "? - 15 - 10 = 25",
+      "options": [
+        "45",
+        "48",
+        "50",
+        "52"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fill-025",
+      "type": "fill-blank",
+      "question": "18 + 7 - ? = 15",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "order-001",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 5, 2, 8, 1",
+      "options": [
+        "1, 2, 5, 8",
+        "2, 5, 8, 1",
+        "5, 8, 2, 1",
+        "8, 5, 2, 1"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "order-002",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 7, 3, 9, 4",
+      "options": [
+        "3, 4, 7, 9",
+        "4, 7, 9, 3",
+        "7, 9, 4, 3",
+        "9, 7, 4, 3"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "order-003",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 6, 2, 9, 5",
+      "options": [
+        "2, 5, 6, 9",
+        "5, 6, 9, 2",
+        "6, 9, 5, 2",
+        "9, 6, 5, 2"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "order-004",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 10, 4, 1, 7",
+      "options": [
+        "1, 4, 7, 10",
+        "4, 7, 10, 1",
+        "7, 10, 4, 1",
+        "10, 7, 4, 1"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "order-005",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 8, 3, 6, 1",
+      "options": [
+        "1, 3, 6, 8",
+        "3, 6, 8, 1",
+        "6, 8, 3, 1",
+        "8, 6, 3, 1"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "order-006",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 15, 8, 20, 12",
+      "options": [
+        "8, 12, 15, 20",
+        "12, 15, 20, 8",
+        "15, 20, 12, 8",
+        "20, 15, 12, 8"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "hard"
+    },
+    {
+      "id": "order-007",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 25, 40, 15, 35",
+      "options": [
+        "15, 25, 35, 40",
+        "25, 35, 40, 15",
+        "35, 40, 25, 15",
+        "40, 35, 25, 15"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "order-008",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 50, 35, 70, 45",
+      "options": [
+        "35, 45, 50, 70",
+        "45, 50, 70, 35",
+        "50, 70, 45, 35",
+        "70, 50, 45, 35"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "hard"
+    },
+    {
+      "id": "order-009",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 60, 80, 55, 75",
+      "options": [
+        "55, 60, 75, 80",
+        "60, 75, 80, 55",
+        "75, 80, 60, 55",
+        "80, 75, 60, 55"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "order-010",
+      "type": "order",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 90, 65, 85, 70",
+      "options": [
+        "65, 70, 85, 90",
+        "70, 85, 90, 65",
+        "85, 90, 70, 65",
+        "90, 85, 70, 65"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo-001",
+      "type": "geometry",
+      "question": "Hình nào là hình tròn?",
+      "options": [
+        "Hình vuông",
+        "Hình tròn",
+        "Hình chữ nhật",
+        "Hình tam giác"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo-002",
+      "type": "geometry",
+      "question": "Hình nào có 4 cạnh bằng nhau?",
+      "options": [
+        "Hình tròn",
+        "Hình vuông",
+        "Hình tam giác",
+        "Hình chữ nhật"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo-003",
+      "type": "geometry",
+      "question": "Hình tam giác có mấy cạnh?",
+      "options": [
+        "2 cạnh",
+        "3 cạnh",
+        "4 cạnh",
+        "5 cạnh"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo-004",
+      "type": "geometry",
+      "question": "Hình nào có 4 góc vuông?",
+      "options": [
+        "Hình tròn",
+        "Hình vuông",
+        "Hình tam giác",
+        "Hình oval"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo-005",
+      "type": "geometry",
+      "question": "Hình chữ nhật có mấy góc?",
+      "options": [
+        "2 góc",
+        "3 góc",
+        "4 góc",
+        "5 góc"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo-006",
+      "type": "geometry",
+      "question": "Hình nào có tất cả các cạnh đều bằng nhau?",
+      "options": [
+        "Hình chữ nhật",
+        "Hình tam giác đều",
+        "Hình bình hành",
+        "Hình thang"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-007",
+      "type": "geometry",
+      "question": "Hình vuông có mấy đường chéo?",
+      "options": [
+        "1 đường",
+        "2 đường",
+        "3 đường",
+        "4 đường"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-008",
+      "type": "geometry",
+      "question": "Hình tròn có mấy góc?",
+      "options": [
+        "0 góc",
+        "1 góc",
+        "2 góc",
+        "4 góc"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-009",
+      "type": "geometry",
+      "question": "Hình nào có 2 cặp cạnh song song?",
+      "options": [
+        "Hình tam giác",
+        "Hình thang",
+        "Hình bình hành",
+        "Hình tròn"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-010",
+      "type": "geometry",
+      "question": "Hình chữ nhật có mấy cạnh?",
+      "options": [
+        "2 cạnh",
+        "3 cạnh",
+        "4 cạnh",
+        "6 cạnh"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-011",
+      "type": "geometry",
+      "question": "Hình nào có 3 đỉnh?",
+      "options": [
+        "Hình vuông",
+        "Hình tam giác",
+        "Hình chữ nhật",
+        "Hình tròn"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-012",
+      "type": "geometry",
+      "question": "Hình thang có mấy cạnh song song?",
+      "options": [
+        "0 cạnh",
+        "1 cặp cạnh",
+        "2 cặp cạnh",
+        "4 cạnh"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-013",
+      "type": "geometry",
+      "question": "Hình nào không có góc?",
+      "options": [
+        "Hình vuông",
+        "Hình tam giác",
+        "Hình tròn",
+        "Hình chữ nhật"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-014",
+      "type": "geometry",
+      "question": "Hình bình hành có mấy cặp cạnh bằng nhau?",
+      "options": [
+        "1 cặp",
+        "2 cặp",
+        "3 cặp",
+        "4 cặp"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo-015",
+      "type": "geometry",
+      "question": "Hình oval có mấy góc?",
+      "options": [
+        "0 góc",
+        "2 góc",
+        "4 góc",
+        "Nhiều góc"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-001",
+      "type": "word-problem",
+      "question": "Lan có 3 quả táo. Mẹ cho Lan thêm 2 quả táo. Lan có bao nhiêu quả táo?",
+      "options": [
+        "4 quả",
+        "5 quả",
+        "6 quả",
+        "7 quả"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-002",
+      "type": "word-problem",
+      "question": "Có 5 con chim đang đậu trên cành. 2 con chim bay đi. Còn lại bao nhiêu con chim?",
+      "options": [
+        "2 con",
+        "3 con",
+        "4 con",
+        "5 con"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-003",
+      "type": "word-problem",
+      "question": "Nam có 4 chiếc bút. Bạn cho Nam thêm 3 chiếc bút. Nam có bao nhiêu chiếc bút?",
+      "options": [
+        "5 chiếc",
+        "6 chiếc",
+        "7 chiếc",
+        "8 chiếc"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-004",
+      "type": "word-problem",
+      "question": "Mẹ mua 6 quả cam. Gia đình ăn đi 2 quả. Còn lại bao nhiêu quả cam?",
+      "options": [
+        "3 quả",
+        "4 quả",
+        "5 quả",
+        "6 quả"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-005",
+      "type": "word-problem",
+      "question": "Trong lồng có 8 con thỏ. Chạy đi 3 con. Còn lại bao nhiêu con thỏ?",
+      "options": [
+        "4 con",
+        "5 con",
+        "6 con",
+        "7 con"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-006",
+      "type": "word-problem",
+      "question": "Cô giáo có 9 quyển vở. Cô phát cho học sinh 4 quyển. Cô còn lại bao nhiêu quyển vở?",
+      "options": [
+        "4 quyển",
+        "5 quyển",
+        "6 quyển",
+        "7 quyển"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-007",
+      "type": "word-problem",
+      "question": "Bình có 2 chiếc kẹo. Bố cho Bình thêm 5 chiếc kẹo. Bình có bao nhiêu chiếc kẹo?",
+      "options": [
+        "5 chiếc",
+        "6 chiếc",
+        "7 chiếc",
+        "8 chiếc"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-008",
+      "type": "word-problem",
+      "question": "Có 10 con bò. 6 con bò đi uống nước. Còn lại bao nhiêu con bò?",
+      "options": [
+        "3 con",
+        "4 con",
+        "5 con",
+        "6 con"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-009",
+      "type": "word-problem",
+      "question": "Hoa có 5 hình sao. Mẹ cho Hoa thêm 4 hình sao. Hoa có bao nhiêu hình sao?",
+      "options": [
+        "7 hình",
+        "8 hình",
+        "9 hình",
+        "10 hình"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-010",
+      "type": "word-problem",
+      "question": "Bác nông dân có 7 con gà. Bán đi 3 con. Bác còn lại bao nhiêu con gà?",
+      "options": [
+        "3 con",
+        "4 con",
+        "5 con",
+        "6 con"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "word-011",
+      "type": "word-problem",
+      "question": "Lớp học có 15 học sinh. 7 học sinh về sớm. Hỏi còn lại bao nhiêu học sinh?",
+      "options": [
+        "6 học sinh",
+        "7 học sinh",
+        "8 học sinh",
+        "9 học sinh"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-012",
+      "type": "word-problem",
+      "question": "Cây có 20 quả táo. Hái được 12 quả. Còn lại bao nhiêu quả trên cây?",
+      "options": [
+        "6 quả",
+        "7 quả",
+        "8 quả",
+        "9 quả"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-013",
+      "type": "word-problem",
+      "question": "Tiệm tạp hóa có 25 gói kẹo. Đã bán được 15 gói. Còn lại bao nhiêu gói kẹo?",
+      "options": [
+        "8 gói",
+        "9 gói",
+        "10 gói",
+        "11 gói"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-014",
+      "type": "word-problem",
+      "question": "Xe buýt có 18 người. Xuống đi 7 người. Lên thêm 5 người. Xe có bao nhiêu người?",
+      "options": [
+        "14 người",
+        "15 người",
+        "16 người",
+        "17 người"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-015",
+      "type": "word-problem",
+      "question": "Kho có 30 thùng hàng. Đã chuyển đi 18 thẻ. Nhận thêm 12 thùng. Kho có bao nhiêu thùng?",
+      "options": [
+        "22 thùng",
+        "23 thùng",
+        "24 thùng",
+        "25 thùng"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-016",
+      "type": "word-problem",
+      "question": "Cây có 45 quả cam. Hái được 25 quả. Hôm sau hái thêm 10 quả. Còn lại bao nhiêu quả?",
+      "options": [
+        "8 quả",
+        "9 quả",
+        "10 quả",
+        "11 quả"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-017",
+      "type": "word-problem",
+      "question": "Thư viện có 50 cuốn sách. Mua thêm 20 cuốn. Học sinh mượn 15 cuốn. Còn lại bao nhiêu cuốn?",
+      "options": [
+        "53 cuốn",
+        "54 cuốn",
+        "55 cuốn",
+        "56 cuốn"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-018",
+      "type": "word-problem",
+      "question": "Bác trai trồng 30 cây cam. Năm sau trồng thêm 25 cây. Bán được 18 cây. Bác còn lại bao nhiêu cây?",
+      "options": [
+        "35 cây",
+        "36 cây",
+        "37 cây",
+        "38 cây"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-019",
+      "type": "word-problem",
+      "question": "Siêu thị có 60 hộp sữa. Sáng bán được 25 hộp. Chiều bán được 18 hộp. Còn lại bao nhiêu hộp?",
+      "options": [
+        "15 hộp",
+        "16 hộp",
+        "17 hộp",
+        "18 hộp"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "word-020",
+      "type": "word-problem",
+      "question": "Quỹ lớp có 100 đồng. Mua quà tặng 45 đồng. Mua kẹo 30 đồng. Còn lại bao nhiêu đồng?",
+      "options": [
+        "23 đồng",
+        "24 đồng",
+        "25 đồng",
+        "26 đồng"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-001",
+      "type": "multi-step",
+      "question": "2 + 3 + 1 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi-002",
+      "type": "multi-step",
+      "question": "5 + 2 + 2 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi-003",
+      "type": "multi-step",
+      "question": "8 - 3 - 2 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi-004",
+      "type": "multi-step",
+      "question": "10 - 4 - 3 = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi-005",
+      "type": "multi-step",
+      "question": "4 + 5 - 2 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "multi-006",
+      "type": "multi-step",
+      "question": "12 + 5 - 3 = ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-007",
+      "type": "multi-step",
+      "question": "18 - 6 + 4 = ?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-008",
+      "type": "multi-step",
+      "question": "25 + 15 - 10 = ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-009",
+      "type": "multi-step",
+      "question": "40 - 12 + 8 = ?",
+      "options": [
+        "34",
+        "35",
+        "36",
+        "37"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-010",
+      "type": "multi-step",
+      "question": "50 - 15 - 10 + 5 = ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-011",
+      "type": "multi-step",
+      "question": "35 + 25 - 18 + 8 = ?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-012",
+      "type": "multi-step",
+      "question": "60 - 20 + 15 - 10 = ?",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-013",
+      "type": "multi-step",
+      "question": "45 + 20 - 25 + 10 = ?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-014",
+      "type": "multi-step",
+      "question": "70 - 30 + 25 - 15 = ?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "multi-015",
+      "type": "multi-step",
+      "question": "55 + 15 - 20 + 8 = ?",
+      "options": [
+        "56",
+        "57",
+        "58",
+        "59"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "number-001",
+      "type": "number-sense",
+      "question": "Số nào lớn nhất?",
+      "options": [
+        "5",
+        "8",
+        "3",
+        "6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "number-002",
+      "type": "number-sense",
+      "question": "Số nào nhỏ nhất?",
+      "options": [
+        "9",
+        "4",
+        "7",
+        "2"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "number-003",
+      "type": "number-sense",
+      "question": "Số nào đứng giữa 4 và 8?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "number-004",
+      "type": "number-sense",
+      "question": "Số nào liền sau 12?",
+      "options": [
+        "10",
+        "11",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-005",
+      "type": "number-sense",
+      "question": "Số nào liền trước 18?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "19"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-006",
+      "type": "number-sense",
+      "question": "Số nào lớn nhất?",
+      "options": [
+        "25",
+        "32",
+        "18",
+        "40"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-007",
+      "type": "number-sense",
+      "question": "Số nào nhỏ nhất?",
+      "options": [
+        "45",
+        "38",
+        "52",
+        "29"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-008",
+      "type": "number-sense",
+      "question": "Số nào liền sau 45?",
+      "options": [
+        "43",
+        "44",
+        "46",
+        "47"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-009",
+      "type": "number-sense",
+      "question": "Số nào liền trước 70?",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "71"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-010",
+      "type": "number-sense",
+      "question": "Số nào đứng giữa 55 và 65?",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "number-011",
+      "type": "number-sense",
+      "question": "Số nào lớn nhất?",
+      "options": [
+        "75",
+        "82",
+        "68",
+        "90"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "number-012",
+      "type": "number-sense",
+      "question": "Số nào nhỏ nhất?",
+      "options": [
+        "95",
+        "88",
+        "100",
+        "77"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "number-013",
+      "type": "number-sense",
+      "question": "Số nào liền sau 88?",
+      "options": [
+        "86",
+        "87",
+        "89",
+        "90"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "number-014",
+      "type": "number-sense",
+      "question": "Số nào liền trước 100?",
+      "options": [
+        "97",
+        "98",
+        "99",
+        "101"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "number-015",
+      "type": "number-sense",
+      "question": "Số nào đứng giữa 72 và 82?",
+      "options": [
+        "75",
+        "76",
+        "77",
+        "78"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "time-001",
+      "type": "time",
+      "question": "Đồng hồ điểm 3 giờ. Rồi kim phút quay 1 vòng. Bây giờ là mấy giờ?",
+      "options": [
+        "2 giờ",
+        "3 giờ",
+        "4 giờ",
+        "5 giờ"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-002",
+      "type": "time",
+      "question": "Đồng hồ điểm 5 giờ. Rồi kim phút quay nửa vòng. Bây giờ là mấy giờ?",
+      "options": [
+        "5 giờ 30",
+        "6 giờ",
+        "6 giờ 30",
+        "7 giờ"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-003",
+      "type": "time",
+      "question": "Kim giờ chỉ vào số 4. Kim giờ chỉ vào số 8. Bây giờ là mấy giờ?",
+      "options": [
+        "4 giờ",
+        "6 giờ",
+        "8 giờ",
+        "12 giờ"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-004",
+      "type": "time",
+      "question": "1 giờ có bao nhiêu phút?",
+      "options": [
+        "30 phút",
+        "45 phút",
+        "60 phút",
+        "90 phút"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-005",
+      "type": "time",
+      "question": "Nửa giờ bằng bao nhiêu phút?",
+      "options": [
+        "15 phút",
+        "20 phút",
+        "30 phút",
+        "40 phút"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-006",
+      "type": "time",
+      "question": "Kim phút chỉ vào số 6. Bây giờ là bao nhiêu phút?",
+      "options": [
+        "15 phút",
+        "20 phút",
+        "30 phút",
+        "35 phút"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-007",
+      "type": "time",
+      "question": "Kim phút chỉ vào số 3. Bây giờ là bao nhiêu phút?",
+      "options": [
+        "10 phút",
+        "15 phút",
+        "20 phút",
+        "25 phút"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-008",
+      "type": "time",
+      "question": "Kim phút chỉ vào số 9. Bây giờ là bao nhiêu phút?",
+      "options": [
+        "35 phút",
+        "40 phút",
+        "45 phút",
+        "50 phút"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "time-009",
+      "type": "time",
+      "question": "Bây giờ là 7 giờ. 2 giờ nữa là mấy giờ?",
+      "options": [
+        "8 giờ",
+        "9 giờ",
+        "10 giờ",
+        "11 giờ"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "time-010",
+      "type": "time",
+      "question": "Bây giờ là 5 giờ. 3 giờ trước là mấy giờ?",
+      "options": [
+        "1 giờ",
+        "2 giờ",
+        "3 giờ",
+        "4 giờ"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pattern-001",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 2, 4, 6, 8, ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-002",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 1, 3, 5, 7, ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-003",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 5, 10, 15, 20, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-004",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 10, 20, 30, 40, ?",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-005",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 100, 90, 80, 70, ?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-006",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 3, 6, 9, 12, ?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-007",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 0, 5, 10, 15, ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-008",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 20, 18, 16, 14, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pattern-009",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 11, 22, 33, 44, ?",
+      "options": [
+        "50",
+        "52",
+        "54",
+        "55"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pattern-010",
+      "type": "pattern",
+      "question": "Tiếp tục dãy số: 5, 10, 20, 40, ?",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "money-001",
+      "type": "money",
+      "question": "1 đồng 5 hào + 2 đồng = ?",
+      "options": [
+        "3 đồng",
+        "3 đồng 5 hào",
+        "4 đồng",
+        "4 đồng 5 hào"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "money-002",
+      "type": "money",
+      "question": "5 đồng - 2 đồng = ?",
+      "options": [
+        "2 đồng",
+        "3 đồng",
+        "4 đồng",
+        "5 đồng"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "money-003",
+      "type": "money",
+      "question": "10 đồng mua 5 quả kẹo. 1 quả kẹo giá bao nhiêu?",
+      "options": [
+        "1 đồng",
+        "2 đồng",
+        "3 đồng",
+        "4 đồng"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "money-004",
+      "type": "money",
+      "question": "1 quyển vở giá 5 đồng. 3 quyển vở giá bao nhiêu?",
+      "options": [
+        "10 đồng",
+        "15 đồng",
+        "20 đồng",
+        "25 đồng"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "money-005",
+      "type": "money",
+      "question": "20 đồng mua 4 gói kẹo. 1 gói kẹo giá bao nhiêu?",
+      "options": [
+        "3 đồng",
+        "4 đồng",
+        "5 đồng",
+        "6 đồng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "money-006",
+      "type": "money",
+      "question": "Lan có 50 đồng. Mua 1 quyển sách 25 đồng. Còn lại bao nhiêu?",
+      "options": [
+        "23 đồng",
+        "24 đồng",
+        "25 đồng",
+        "26 đồng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "money-007",
+      "type": "money",
+      "question": "1 bút chì giá 8 đồng. 5 bút chì giá bao nhiêu?",
+      "options": [
+        "35 đồng",
+        "38 đồng",
+        "40 đồng",
+        "42 đồng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "money-008",
+      "type": "money",
+      "question": "Mẹ cho 30 đồng. Bố cho thêm 20 đồng. Bạn có bao nhiêu đồng?",
+      "options": [
+        "40 đồng",
+        "45 đồng",
+        "50 đồng",
+        "55 đồng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "money-009",
+      "type": "money",
+      "question": "Bạn có 45 đồng. Mua kẹo 15 đồng. Mua vở 20 đồng. Còn lại bao nhiêu?",
+      "options": [
+        "8 đồng",
+        "9 đồng",
+        "10 đồng",
+        "11 đồng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "money-010",
+      "type": "money",
+      "question": "1 gói bánh 12 đồng. 3 gói bánh giá bao nhiêu?",
+      "options": [
+        "34 đồng",
+        "35 đồng",
+        "36 đồng",
+        "38 đồng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "length-001",
+      "type": "length",
+      "question": "Cái thước dài 20cm. Cây bút dài 10cm. Cái thước dài hơn cây bút bao nhiêu?",
+      "options": [
+        "8cm",
+        "9cm",
+        "10cm",
+        "12cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "length-002",
+      "type": "length",
+      "question": "Bàn dài 50cm. Ghế dài 30cm. Bàn dài hơn ghế bao nhiêu?",
+      "options": [
+        "10cm",
+        "15cm",
+        "20cm",
+        "25cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "length-003",
+      "type": "length",
+      "question": "Sổ cao 15cm. Sổ cao 25cm. Sổ cao hơn sổ bao nhiêu?",
+      "options": [
+        "8cm",
+        "9cm",
+        "10cm",
+        "12cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "length-004",
+      "type": "length",
+      "question": "1 mét bằng bao nhiêu xen-ti-mét?",
+      "options": [
+        "10cm",
+        "50cm",
+        "100cm",
+        "1000cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "length-005",
+      "type": "length",
+      "question": "Cây cao 2 mét. Chiều cao của bạn khoảng 1 mét. Cây cao hơn bạn bao nhiêu?",
+      "options": [
+        "0.5m",
+        "1m",
+        "1.5m",
+        "2m"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "length-006",
+      "type": "length",
+      "question": "Bàn dài 80cm. Ghế dài 45cm. Bàn dài hơn ghế bao nhiêu?",
+      "options": [
+        "33cm",
+        "34cm",
+        "35cm",
+        "36cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "length-007",
+      "type": "length",
+      "question": "Thước dài 1m. Bút dài 15cm. Thước dài hơn bút bao nhiêu?",
+      "options": [
+        "80cm",
+        "85cm",
+        "90cm",
+        "95cm"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "length-008",
+      "type": "length",
+      "question": "Sách dày 5cm. 6 cuốn sách chồng lên nhau dày bao nhiêu?",
+      "options": [
+        "25cm",
+        "28cm",
+        "30cm",
+        "32cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "length-009",
+      "type": "length",
+      "question": "Bàn dài 70cm. Ghế dài 40cm. Bố dời ghế sát bàn. Bàn và ghế dài bao nhiêu?",
+      "options": [
+        "100cm",
+        "105cm",
+        "110cm",
+        "115cm"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "length-010",
+      "type": "length",
+      "question": "Cây cao 3m. Năm sau cao thêm 1m. Cây cao bao nhiêu?",
+      "options": [
+        "3m",
+        "4m",
+        "5m",
+        "6m"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fraction-001",
+      "type": "fraction",
+      "question": "Cắt cái bánh thành 4 phần bằng nhau. 1 phần gọi là gì?",
+      "options": [
+        "1 phần 2",
+        "1 phần 3",
+        "1 phần 4",
+        "1 phần 5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fraction-002",
+      "type": "fraction",
+      "question": "1 phần 2 lớn hơn 1 phần 4?",
+      "options": [
+        "Đúng",
+        "Sai",
+        "Bằng nhau",
+        "Không so sánh được"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fraction-003",
+      "type": "fraction",
+      "question": "Cắt dây thành 2 phần bằng nhau. Mỗi phần là?",
+      "options": [
+        "1 phần 2",
+        "1 phần 3",
+        "1 phần 4",
+        "1 phần 5"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fraction-004",
+      "type": "fraction",
+      "question": "Có 8 quả táo. Chia đều cho 4 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "1 quả",
+        "2 quả",
+        "3 quả",
+        "4 quả"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fraction-005",
+      "type": "fraction",
+      "question": "Có 10 quả cam. Chia đều cho 5 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "1 quả",
+        "2 quả",
+        "3 quả",
+        "4 quả"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fraction-006",
+      "type": "fraction",
+      "question": "12 cái kẹo chia đều cho 3 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "3 cái",
+        "4 cái",
+        "5 cái",
+        "6 cái"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fraction-007",
+      "type": "fraction",
+      "question": "20 hình sao chia đều cho 4 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "3 hình",
+        "4 hình",
+        "5 hình",
+        "6 hình"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fraction-008",
+      "type": "fraction",
+      "question": "15 quyển vở chia đều cho 3 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "4 quyển",
+        "5 quyển",
+        "6 quyển",
+        "7 quyển"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fraction-009",
+      "type": "fraction",
+      "question": "16 cái bút chia đều cho 4 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "2 cái",
+        "3 cái",
+        "4 cái",
+        "5 cái"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fraction-010",
+      "type": "fraction",
+      "question": "18 quả táo chia đều cho 3 bạn. Mỗi bạn được bao nhiêu?",
+      "options": [
+        "4 quả",
+        "5 quả",
+        "6 quả",
+        "7 quả"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "grouping-001",
+      "type": "grouping",
+      "question": "3 nhóm, mỗi nhóm 5 học sinh. Có tất cả bao nhiêu học sinh?",
+      "options": [
+        "12 học sinh",
+        "15 học sinh",
+        "18 học sinh",
+        "20 học sinh"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "grouping-002",
+      "type": "grouping",
+      "question": "4 đội, mỗi đội 3 người. Có tất cả bao nhiêu người?",
+      "options": [
+        "10 người",
+        "11 người",
+        "12 người",
+        "13 người"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "grouping-003",
+      "type": "grouping",
+      "question": "5 cái bàn, mỗi bàn 4 ghế. Có tất cả bao nhiêu ghế?",
+      "options": [
+        "18 ghế",
+        "19 ghế",
+        "20 ghế",
+        "22 ghế"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "grouping-004",
+      "type": "grouping",
+      "question": "6 hàng, mỗi hàng 5 cây. Có tất cả bao nhiêu cây?",
+      "options": [
+        "28 cây",
+        "29 cây",
+        "30 cây",
+        "31 cây"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "grouping-005",
+      "type": "grouping",
+      "question": "7 người, mỗi người 2 trái bóng. Có tất cả bao nhiêu trái bóng?",
+      "options": [
+        "12 bóng",
+        "13 bóng",
+        "14 bóng",
+        "15 bóng"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "grouping-006",
+      "type": "grouping",
+      "question": "8 nhóm, mỗi nhóm 5 học sinh. Có tất cả bao nhiêu học sinh?",
+      "options": [
+        "38 học sinh",
+        "39 học sinh",
+        "40 học sinh",
+        "42 học sinh"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "grouping-007",
+      "type": "grouping",
+      "question": "9 bàn, mỗi bàn 4 cốc. Có tất cả bao nhiêu cốc?",
+      "options": [
+        "34 cốc",
+        "35 cốc",
+        "36 cốc",
+        "38 cốc"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "grouping-008",
+      "type": "grouping",
+      "question": "10 người, mỗi người 6 quyển vở. Có tất cả bao nhiêu quyển vở?",
+      "options": [
+        "58 quyển",
+        "59 quyển",
+        "60 quyển",
+        "62 quyển"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "grouping-009",
+      "type": "grouping",
+      "question": "5 túi, mỗi túi 8 quả táo. Có tất cả bao nhiêu quả táo?",
+      "options": [
+        "38 quả",
+        "39 quả",
+        "40 quả",
+        "42 quả"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "grouping-010",
+      "type": "grouping",
+      "question": "6 hộp, mỗi hộp 9 bút màu. Có tất cả bao nhiêu bút màu?",
+      "options": [
+        "52 bút",
+        "53 bút",
+        "54 bút",
+        "56 bút"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "find-missing-001",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 2, ?, 6, 8",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "find-missing-002",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 10, ?, 30, 40",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "35"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "find-missing-003",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 5, 10, ?, 20",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "find-missing-004",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 50, ?, 70, 80",
+      "options": [
+        "55",
+        "58",
+        "60",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "find-missing-005",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 20, ?, 40, 50",
+      "options": [
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "find-missing-006",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 12, ?, 16, 18",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "17"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "find-missing-007",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 25, ?, 35, 40",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "32"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "find-missing-008",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 45, ?, 55, 60",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "52"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "find-missing-009",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 60, ?, 80, 90",
+      "options": [
+        "65",
+        "68",
+        "70",
+        "75"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "find-missing-010",
+      "type": "find-missing",
+      "question": "Số ? đứng ở đâu trong dãy: 75, ?, 85, 90",
+      "options": [
+        "78",
+        "79",
+        "80",
+        "82"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "estimate-001",
+      "type": "estimate",
+      "question": "18 + 23 khoảng bằng?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "estimate-002",
+      "type": "estimate",
+      "question": "47 - 19 khoảng bằng?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "estimate-003",
+      "type": "estimate",
+      "question": "32 + 28 khoảng bằng?",
+      "options": [
+        "55",
+        "58",
+        "60",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "estimate-004",
+      "type": "estimate",
+      "question": "75 - 36 khoảng bằng?",
+      "options": [
+        "35",
+        "38",
+        "40",
+        "45"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "estimate-005",
+      "type": "estimate",
+      "question": "51 + 39 khoảng bằng?",
+      "options": [
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "estimate-006",
+      "type": "estimate",
+      "question": "68 + 24 khoảng bằng?",
+      "options": [
+        "85",
+        "90",
+        "92",
+        "95"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "estimate-007",
+      "type": "estimate",
+      "question": "92 - 47 khoảng bằng?",
+      "options": [
+        "40",
+        "43",
+        "45",
+        "50"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "estimate-008",
+      "type": "estimate",
+      "question": "55 + 37 khoảng bằng?",
+      "options": [
+        "85",
+        "90",
+        "92",
+        "95"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "estimate-009",
+      "type": "estimate",
+      "question": "84 - 28 khoảng bằng?",
+      "options": [
+        "50",
+        "53",
+        "55",
+        "60"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "estimate-010",
+      "type": "estimate",
+      "question": "73 + 19 khoảng bằng?",
+      "options": [
+        "85",
+        "88",
+        "90",
+        "95"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "position-001",
+      "type": "position",
+      "question": "Trong dãy 3, 5, 7, 9. Số 7 đứng thứ mấy?",
+      "options": [
+        "thứ 1",
+        "thứ 2",
+        "thứ 3",
+        "thứ 4"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "position-002",
+      "type": "position",
+      "question": "Trong dãy 10, 20, 30, 40. Số 30 đứng thứ mấy?",
+      "options": [
+        "thứ 1",
+        "thứ 2",
+        "thứ 3",
+        "thứ 4"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "position-003",
+      "type": "position",
+      "question": "Trong dãy 5, 10, 15, 20, 25. Số 15 đứng thứ mấy?",
+      "options": [
+        "thứ 2",
+        "thứ 3",
+        "thứ 4",
+        "thứ 5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "position-004",
+      "type": "position",
+      "question": "Trong dãy 2, 4, 6, 8, 10. Số 8 đứng thứ mấy?",
+      "options": [
+        "thứ 2",
+        "thứ 3",
+        "thứ 4",
+        "thứ 5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "position-005",
+      "type": "position",
+      "question": "Trong dãy 1, 3, 5, 7, 9. Số 5 đứng thứ mấy?",
+      "options": [
+        "thứ 2",
+        "thứ 3",
+        "thứ 4",
+        "thứ 5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "position-006",
+      "type": "position",
+      "question": "Trong dãy 12, 15, 18, 21. Số 18 đứng thứ mấy?",
+      "options": [
+        "thứ 1",
+        "thứ 2",
+        "thứ 3",
+        "thứ 4"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "position-007",
+      "type": "position",
+      "question": "Trong dãy 25, 30, 35, 40, 45. Số 35 đứng thứ mấy?",
+      "options": [
+        "thứ 2",
+        "thứ 3",
+        "thứ 4",
+        "thứ 5"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "position-008",
+      "type": "position",
+      "question": "Trong dãy 50, 55, 60, 65, 70. Số 65 đứng thứ mấy?",
+      "options": [
+        "thứ 2",
+        "thứ 3",
+        "thứ 4",
+        "thứ 5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "position-009",
+      "type": "position",
+      "question": "Trong dãy 20, 25, 30, 35, 40, 45. Số 35 đứng thứ mấy?",
+      "options": [
+        "thứ 3",
+        "thứ 4",
+        "thứ 5",
+        "thứ 6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "position-010",
+      "type": "position",
+      "question": "Trong dãy 100, 90, 80, 70. Số 80 đứng thứ mấy?",
+      "options": [
+        "thứ 1",
+        "thứ 2",
+        "thứ 3",
+        "thứ 4"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-001",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 5, 8, 11, ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-002",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 6, 9, 12, ?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-003",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 4, 7, 10, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-004",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 10, 15, 20, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-005",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 20, 30, 40, ?",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-006",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 20, 25, 30, 35, ?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-007",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 50, 55, 60, 65, ?",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-008",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 40, 45, 50, 55, ?",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-009",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 4, 6, 8, ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-010",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 3, 5, 7, ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-011",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 12, 14, 16, ?",
+      "options": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-012",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 11, 13, 15, 17, ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-013",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 30, 32, 34, 36, ?",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-014",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 21, 23, 25, 27, ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-015",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 100, 90, 80, 70, ?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-016",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 50, 45, 40, 35, ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-017",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 20, 18, 16, 14, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-018",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 60, 55, 50, 45, ?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-019",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 70, 65, 60, 55, ?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "52"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-020",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 90, 85, 80, 75, ?",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "72"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-021",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 5, 2, 8, 3",
+      "options": [
+        "2, 3, 5, 8",
+        "2, 5, 8, 3",
+        "8, 5, 3, 2",
+        "3, 5, 8, 2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-022",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 7, 3, 9, 1",
+      "options": [
+        "1, 3, 7, 9",
+        "1, 7, 9, 3",
+        "9, 7, 3, 1",
+        "3, 7, 9, 1"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-023",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 6, 2, 9, 5",
+      "options": [
+        "2, 5, 6, 9",
+        "9, 6, 5, 2",
+        "9, 5, 6, 2",
+        "6, 9, 5, 2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-024",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 8, 4, 10, 3",
+      "options": [
+        "3, 4, 8, 10",
+        "10, 8, 4, 3",
+        "10, 4, 8, 3",
+        "8, 10, 4, 3"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-025",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 12, 14, 16, 18, ?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-026",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 25, 30, 35, 40, ?",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-027",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 15, 20, 25, 30, ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-028",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 35, 40, 45, 50, ?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-029",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 45, 50, 55, 60, ?",
+      "options": [
+        "63",
+        "64",
+        "65",
+        "66"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-030",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 80, 85, 90, 95, ?",
+      "options": [
+        "98",
+        "99",
+        "100",
+        "101"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-031",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 12, 8, 15, 5",
+      "options": [
+        "5, 8, 12, 15",
+        "5, 12, 15, 8",
+        "15, 12, 8, 5",
+        "8, 12, 15, 5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-032",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 18, 10, 22, 14",
+      "options": [
+        "10, 14, 18, 22",
+        "10, 18, 22, 14",
+        "22, 18, 14, 10",
+        "14, 18, 22, 10"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-033",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 4, 8, 12, 16, ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-034",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 6, 12, 18, 24, ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-035",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 9, 18, 27, 36, ?",
+      "options": [
+        "42",
+        "44",
+        "45",
+        "48"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-036",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 10, 15, 20, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-037",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 7, 14, 21, 28, ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-038",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 8, 16, 24, 32, ?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-039",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 11, 22, 33, 44, ?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-040",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 13, 26, 39, 52, ?",
+      "options": [
+        "63",
+        "64",
+        "65",
+        "67"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-041",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 25, 15, 35, 20",
+      "options": [
+        "15, 20, 25, 35",
+        "15, 25, 35, 20",
+        "35, 25, 20, 15",
+        "20, 25, 35, 15"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-042",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 42, 30, 55, 25",
+      "options": [
+        "25, 30, 42, 55",
+        "25, 42, 55, 30",
+        "55, 42, 30, 25",
+        "30, 42, 55, 25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-043",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 22, 25, 28, 31, ?",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-044",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 33, 36, 39, 42, ?",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-045",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 44, 47, 50, 53, ?",
+      "options": [
+        "54",
+        "55",
+        "56",
+        "57"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-046",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 55, 58, 61, 64, ?",
+      "options": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-047",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 66, 69, 72, 75, ?",
+      "options": [
+        "76",
+        "77",
+        "78",
+        "79"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-048",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 77, 80, 83, 86, ?",
+      "options": [
+        "87",
+        "88",
+        "89",
+        "90"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-049",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 88, 91, 94, 97, ?",
+      "options": [
+        "98",
+        "99",
+        "100",
+        "101"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-050",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 99, 96, 93, 90, ?",
+      "options": [
+        "85",
+        "86",
+        "87",
+        "88"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-051",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 82, 79, 76, 73, ?",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-052",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 75, 72, 69, 66, ?",
+      "options": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-053",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 68, 65, 62, 59, ?",
+      "options": [
+        "54",
+        "55",
+        "56",
+        "57"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-054",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 61, 58, 55, 52, ?",
+      "options": [
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-055",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 54, 51, 48, 45, ?",
+      "options": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-056",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 28, 35, 18, 42",
+      "options": [
+        "18, 28, 35, 42",
+        "42, 35, 28, 18",
+        "42, 28, 35, 18",
+        "35, 42, 28, 18"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-057",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 51, 36, 45, 28",
+      "options": [
+        "28, 36, 45, 51",
+        "51, 45, 36, 28",
+        "51, 36, 45, 28",
+        "45, 51, 36, 28"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-058",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 14, 17, 20, 23, ?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-059",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 16, 19, 22, 25, ?",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-060",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 18, 21, 24, 27, ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-061",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 17, 20, 23, 26, ?",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-062",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 19, 22, 25, 28, ?",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-063",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 13, 16, 19, 22, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-064",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 24, 27, 30, 33, ?",
+      "options": [
+        "34",
+        "35",
+        "36",
+        "37"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-065",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 26, 29, 32, 35, ?",
+      "options": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-066",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 28, 31, 34, 37, ?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-067",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 29, 32, 35, 38, ?",
+      "options": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-068",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 31, 34, 37, 40, ?",
+      "options": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-069",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 34, 37, 40, 43, ?",
+      "options": [
+        "44",
+        "45",
+        "46",
+        "47"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-070",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 37, 40, 43, 46, ?",
+      "options": [
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-071",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 38, 41, 44, 47, ?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-072",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 41, 44, 47, 50, ?",
+      "options": [
+        "51",
+        "52",
+        "53",
+        "54"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-073",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ bé đến lớn: 33, 25, 41, 18",
+      "options": [
+        "18, 25, 33, 41",
+        "18, 33, 41, 25",
+        "41, 33, 25, 18",
+        "25, 33, 41, 18"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-074",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 43, 46, 49, 52, ?",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-075",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 46, 49, 52, 55, ?",
+      "options": [
+        "56",
+        "57",
+        "58",
+        "59"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-076",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 47, 50, 53, 56, ?",
+      "options": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-077",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 48, 51, 54, 57, ?",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-078",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 51, 54, 57, 60, ?",
+      "options": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-079",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 52, 55, 58, 61, ?",
+      "options": [
+        "62",
+        "63",
+        "64",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-080",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 53, 56, 59, 62, ?",
+      "options": [
+        "63",
+        "64",
+        "65",
+        "66"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-081",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 56, 59, 62, 65, ?",
+      "options": [
+        "66",
+        "67",
+        "68",
+        "69"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-082",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 57, 60, 63, 66, ?",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "70"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-083",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 58, 61, 64, 67, ?",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-084",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 59, 62, 65, 68, ?",
+      "options": [
+        "69",
+        "70",
+        "71",
+        "72"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-085",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 62, 65, 68, 71, ?",
+      "options": [
+        "72",
+        "73",
+        "74",
+        "75"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-086",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 63, 66, 69, 72, ?",
+      "options": [
+        "73",
+        "74",
+        "75",
+        "76"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-087",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 64, 67, 70, 73, ?",
+      "options": [
+        "74",
+        "75",
+        "76",
+        "77"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-088",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 65, 68, 71, 74, ?",
+      "options": [
+        "75",
+        "76",
+        "77",
+        "78"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-089",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 67, 70, 73, 76, ?",
+      "options": [
+        "77",
+        "78",
+        "79",
+        "80"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-090",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 68, 71, 74, 77, ?",
+      "options": [
+        "78",
+        "79",
+        "80",
+        "81"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-091",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 69, 72, 75, 78, ?",
+      "options": [
+        "79",
+        "80",
+        "81",
+        "82"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-092",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 70, 73, 76, 79, ?",
+      "options": [
+        "80",
+        "81",
+        "82",
+        "83"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-093",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 71, 74, 77, 80, ?",
+      "options": [
+        "81",
+        "82",
+        "83",
+        "84"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-094",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 72, 75, 78, 81, ?",
+      "options": [
+        "82",
+        "83",
+        "84",
+        "85"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-095",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 73, 76, 79, 82, ?",
+      "options": [
+        "83",
+        "84",
+        "85",
+        "86"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-096",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo thứ tự từ lớn đến bé: 47, 62, 35, 58",
+      "options": [
+        "35, 47, 58, 62",
+        "62, 58, 47, 35",
+        "62, 47, 58, 35",
+        "58, 62, 47, 35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-097",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 74, 77, 80, 83, ?",
+      "options": [
+        "84",
+        "85",
+        "86",
+        "87"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-098",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 75, 78, 81, 84, ?",
+      "options": [
+        "85",
+        "86",
+        "87",
+        "88"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-099",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 76, 79, 82, 85, ?",
+      "options": [
+        "86",
+        "87",
+        "88",
+        "89"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-100",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 77, 80, 83, 86, ?",
+      "options": [
+        "87",
+        "88",
+        "89",
+        "90"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-101",
+      "type": "sequence",
+      "question": "Sắp xếp các số theo quy luật giảm dần: 8, 3, 6, 1, 9, 4",
+      "options": [
+        "1, 3, 4, 6, 8, 9",
+        "9, 8, 6, 4, 3, 1",
+        "9, 6, 8, 4, 3, 1",
+        "1, 4, 6, 8, 9, 3"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-003",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 3, 5, 7, ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-004",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 4, 6, 8, ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-005",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 20, 30, 40, ?",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-006",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 10, 15, 20, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-007",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 100, 90, 80, 70, ?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-008",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 20, 18, 16, 14, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-009",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 2, 2, 3, 3, 3, ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-010",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 4, 8, 16, ?",
+      "options": [
+        "24",
+        "30",
+        "32",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-011",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 4, 9, 16, ?",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "25"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-012",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 6, 9, 12, 15, ?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-013",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 0, 5, 10, 15, ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-014",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 50, 45, 40, 35, ?",
+      "options": [
+        "25",
+        "28",
+        "30",
+        "32"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-015",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 11, 22, 33, 44, ?",
+      "options": [
+        "50",
+        "52",
+        "54",
+        "55"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-016",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 1, 2, 3, 5, ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-017",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 6, 12, 20, ?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-018",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 4, 7, 10, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-019",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 100, 95, 90, 85, ?",
+      "options": [
+        "75",
+        "78",
+        "80",
+        "82"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-020",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 2, 10, 4, 15, ?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "20"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-021",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật: 15, 8, 20, 5, 25, 2",
+      "options": [
+        "2, 5, 8, 15, 20, 25",
+        "25, 20, 15, 8, 5, 2",
+        "15, 20, 25, 2, 5, 8",
+        "8, 15, 20, 25, 5, 2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-022",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật tăng dần: 35, 12, 48, 6, 25, 18",
+      "options": [
+        "6, 12, 18, 25, 35, 48",
+        "12, 18, 25, 35, 48, 6",
+        "48, 35, 25, 18, 12, 6",
+        "6, 18, 12, 25, 35, 48"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-023",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật giảm dần: 45, 72, 28, 60, 35, 50",
+      "options": [
+        "28, 35, 45, 50, 60, 72",
+        "72, 60, 50, 45, 35, 28",
+        "50, 60, 72, 28, 35, 45",
+        "72, 50, 60, 45, 35, 28"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-024",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 12, 14, 16, 18, ?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-025",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 25, 30, 35, 40, ?",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-026",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 60, 55, 50, 45, ?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-027",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 5, 9, 17, ?",
+      "options": [
+        "25",
+        "31",
+        "33",
+        "35"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-028",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 2, 4, 7, 11, ?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-029",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 5, 10, 17, ?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-030",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 11, 13, 16, 20, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-031",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật: 50, 15, 40, 25, 30, 35",
+      "options": [
+        "15, 25, 30, 35, 40, 50",
+        "50, 40, 35, 30, 25, 15",
+        "50, 40, 30, 35, 25, 15",
+        "30, 35, 40, 50, 15, 25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-032",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật: 70, 25, 55, 40, 45, 30",
+      "options": [
+        "25, 30, 40, 45, 55, 70",
+        "70, 55, 45, 40, 30, 25",
+        "55, 70, 45, 40, 30, 25",
+        "70, 55, 45, 40, 25, 30"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-033",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 6, 12, 18, 24, ?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-034",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 9, 18, 27, 36, ?",
+      "options": [
+        "42",
+        "44",
+        "45",
+        "48"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-035",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 4, 8, 16, 32, ?",
+      "options": [
+        "48",
+        "56",
+        "60",
+        "64"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-036",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 3, 6, 10, 15, ?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-037",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 4, 7, 11, 16, ?",
+      "options": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-038",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 9, 14, 20, 27, ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-039",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 7, 13, 21, 31, ?",
+      "options": [
+        "41",
+        "42",
+        "43",
+        "45"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-040",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 20, 35, 55, 80, ?",
+      "options": [
+        "105",
+        "110",
+        "115",
+        "120"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-041",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật: 18, 6, 24, 12, 30, 15",
+      "options": [
+        "6, 12, 15, 18, 24, 30",
+        "30, 24, 18, 15, 12, 6",
+        "18, 24, 30, 6, 12, 15",
+        "6, 15, 12, 18, 24, 30"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-042",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật: 42, 14, 35, 21, 28, 25",
+      "options": [
+        "14, 21, 25, 28, 35, 42",
+        "42, 35, 28, 25, 21, 14",
+        "42, 35, 28, 21, 25, 14",
+        "28, 35, 42, 14, 21, 25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-043",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 100, 50, 200, 25, 400, ?",
+      "options": [
+        "10",
+        "12",
+        "12.5",
+        "15"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-044",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 4, 9, 16, 25, ?",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-045",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "41",
+        "42",
+        "45"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-046",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 2, 6, 24, ?",
+      "options": [
+        "72",
+        "96",
+        "120",
+        "144"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-047",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 4, 7, 11, 18, ?",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-048",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 7, 11, 17, 25, ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "37"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-049",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 8, 10, 14, 20, 28, ?",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-050",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 6, 8, 12, 18, 26, ?",
+      "options": [
+        "34",
+        "35",
+        "36",
+        "38"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-051",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số đan xen: 1, 10, 2, 9, 3, ?",
+      "options": [
+        "4",
+        "7",
+        "8",
+        "11"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-052",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số đan xen: 5, 20, 10, 15, 15, ?",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-053",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số đan xen: 2, 12, 4, 10, 6, ?",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-054",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số đan xen: 3, 18, 6, 15, 9, ?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-055",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số đan xen: 1, 25, 5, 20, 10, ?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-056",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật chẵn - lẻ: 3, 6, 2, 7, 1, 8",
+      "options": [
+        "2, 6, 8, 1, 3, 7",
+        "1, 3, 7, 2, 6, 8",
+        "6, 2, 8, 7, 3, 1",
+        "8, 6, 2, 7, 3, 1"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-057",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật chẵn - lẻ: 5, 4, 9, 2, 7, 6",
+      "options": [
+        "2, 4, 6, 5, 7, 9",
+        "5, 7, 9, 2, 4, 6",
+        "4, 2, 6, 9, 5, 7",
+        "6, 4, 2, 9, 7, 5"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-058",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 2, 3, 5, 8, 13, ?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-059",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 3, 5, 8, 12, 17, ?",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-060",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 15, 25, 40, ?",
+      "options": [
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-061",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 7, 14, 21, 28, ?",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-062",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 8, 16, 24, 32, ?",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "42"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-063",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 9, 27, 45, 63, ?",
+      "options": [
+        "72",
+        "75",
+        "78",
+        "81"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-064",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 11, 22, 33, 44, 55, ?",
+      "options": [
+        "60",
+        "62",
+        "64",
+        "66"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-065",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 13, 26, 39, 52, ?",
+      "options": [
+        "61",
+        "63",
+        "65",
+        "67"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-066",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 15, 30, 45, 60, ?",
+      "options": [
+        "70",
+        "72",
+        "75",
+        "78"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-067",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 17, 34, 51, 68, ?",
+      "options": [
+        "75",
+        "78",
+        "82",
+        "85"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-068",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 19, 38, 57, 76, ?",
+      "options": [
+        "90",
+        "92",
+        "94",
+        "95"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-069",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 100, 80, 60, 40, ?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "seq-070",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 99, 88, 77, 66, ?",
+      "options": [
+        "44",
+        "50",
+        "55",
+        "60"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-071",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 90, 81, 72, 63, ?",
+      "options": [
+        "50",
+        "52",
+        "54",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-072",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 75, 60, 45, 30, ?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-073",
+      "type": "sequence",
+      "question": "Sắp xếp theo quy luật: 3, 6, 9, 2, 5, 8, 1, 4, 7",
+      "options": [
+        "1, 2, 3, 4, 5, 6, 7, 8, 9",
+        "9, 8, 7, 6, 5, 4, 3, 2, 1",
+        "3, 6, 9, 2, 5, 8, 1, 4, 7",
+        "1, 4, 7, 2, 5, 8, 3, 6, 9"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-074",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 7, 12, 17, ?",
+      "options": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-075",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 8, 13, 18, ?",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-076",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 11, 17, 23, ?",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-077",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 21, 32, 43, ?",
+      "options": [
+        "50",
+        "52",
+        "54",
+        "56"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-078",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 20, 31, 42, 53, ?",
+      "options": [
+        "60",
+        "62",
+        "64",
+        "66"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-079",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 4, 10, 16, 22, ?",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "30"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-080",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 6, 13, 20, 27, ?",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "36"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-081",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 5, 9, 13, ?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-082",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 2, 6, 10, 14, ?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "20"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-083",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 8, 12, 16, 20, ?",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "26"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-084",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 7, 11, 15, 19, ?",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-085",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 9, 13, 17, 21, ?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "27"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-086",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 50, 53, 56, 59, ?",
+      "options": [
+        "60",
+        "61",
+        "62",
+        "63"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-087",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 40, 44, 48, 52, ?",
+      "options": [
+        "54",
+        "55",
+        "56",
+        "58"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-088",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 30, 35, 40, 45, ?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "52"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-089",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 70, 74, 78, 82, ?",
+      "options": [
+        "84",
+        "85",
+        "86",
+        "88"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-090",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 60, 65, 70, 75, ?",
+      "options": [
+        "78",
+        "79",
+        "80",
+        "82"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-091",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 80, 76, 72, 68, ?",
+      "options": [
+        "62",
+        "63",
+        "64",
+        "66"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-092",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 90, 86, 82, 78, ?",
+      "options": [
+        "72",
+        "73",
+        "74",
+        "76"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-093",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 95, 91, 87, 83, ?",
+      "options": [
+        "77",
+        "78",
+        "79",
+        "81"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-094",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 85, 81, 77, 73, ?",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "71"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-095",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 75, 71, 67, 63, ?",
+      "options": [
+        "57",
+        "58",
+        "59",
+        "61"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "seq-096",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 1, 3, 2, 5, 4, 7, ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-097",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 10, 8, 12, 10, 14, ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "16"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-098",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 5, 4, 8, 7, 11, ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-099",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 20, 15, 25, 20, 30, ?",
+      "options": [
+        "20",
+        "25",
+        "35",
+        "40"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "seq-100",
+      "type": "sequence",
+      "question": "Tiếp tục dãy số: 3, 7, 6, 10, 9, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đề thi Toán lớp 1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📚 Đề thi Toán lớp 1</h1>
+      <p class="subtitle">Luyện tập và kiểm tra kiến thức toán học</p>
+    </div>
+
+    <div class="header-actions">
+      <button id="viewCollection" class="btn btn-secondary">
+        <span>📚 Bộ sưu tập</span>
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Tạo đề thi mới</h2>
+
+      <form id="examForm">
+        <div class="form-group">
+          <label for="questionCount">Số lượng câu hỏi:</label>
+          <select id="questionCount" name="questionCount" required>
+            <option value="5">5 câu</option>
+            <option value="10" selected>10 câu</option>
+            <option value="15">15 câu</option>
+            <option value="20">20 câu</option>
+            <option value="30">30 câu</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Chọn loại câu hỏi:</label>
+          <div class="checkbox-group" id="typeCheckboxes">
+            <label class="checkbox-item">
+              <input type="checkbox" value="addition" checked>
+              <span>➕ Phép cộng</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="subtraction" checked>
+              <span>➖ Phép trừ</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="comparison" checked>
+              <span>🔍 So sánh</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="fill-blank">
+              <span>❓ Điền số còn thiếu</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="order">
+              <span>🔢 Sắp xếp</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="geometry">
+              <span>📐 Hình học</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="word-problem">
+              <span>📖 Giải toán</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="multi-step">
+              <span>🔢 Phép tính nhiều bước</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="number-sense">
+              <span>🔢 Nhận biết số</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="time">
+              <span>🕐 Đọc giờ</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="pattern">
+              <span>🔢 Dãy số</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="money">
+              <span>💰 Tiền</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="length">
+              <span>📏 Đo độ dài</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="fraction">
+              <span>➗ Phân số đơn giản</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="grouping">
+              <span>👥 Nhóm/Lớp</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="find-missing">
+              <span>🔍 Tìm số còn thiếu</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="estimate">
+              <span>📊 Ước lượng</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="position">
+              <span>📍 Vị trí thứ tự</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="sequence">
+              <span>🔢 Sắp xếp dãy số theo quy luật</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="difficulty">Độ khó:</label>
+          <select id="difficulty" name="difficulty">
+            <option value="">Tất cả</option>
+            <option value="easy">Dễ</option>
+            <option value="medium">Trung bình</option>
+            <option value="hard">Khó</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <span>✨ Tạo đề thi</span>
+        </button>
+      </form>
+    </div>
+
+    <div class="info-section">
+      <h3>💡 Hướng dẫn</h3>
+      <ul>
+        <li>Chọn số lượng câu hỏi bạn muốn làm</li>
+        <li>Chọn các loại câu hỏi muốn luyện tập</li>
+        <li>Chọn độ khó phù hợp với trình độ</li>
+        <li>Làm đúng trên 80% để nhận sticker 🎁</li>
+        <li>Nhấn "Tạo đề thi" để bắt đầu</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script>
+    // Xử lý nút xem bộ sưu tập
+    document.getElementById('viewCollection').addEventListener('click', function() {
+      window.location.href = '/collection.html';
+    });
+  </script>
+</body>
+</html>
