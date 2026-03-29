@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thời Trang Avatar - Toán Lớp 1</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/avatar.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Avatar Header -->
+    <div class="avatar-header">
+      <h1>👗 Thời Trang Avatar</h1>
+      <p>Mua sắm và trang điểm avatar bằng gold!</p>
+
+      <div class="player-gold">
+        <div class="gold-emoji">💰</div>
+        <div class="gold-amount" id="goldAmount">0</div>
+        <div class="gold-label">Gold</div>
+      </div>
+    </div>
+
+    <!-- Avatar Preview -->
+    <div class="avatar-preview-section">
+      <div class="avatar-display">
+        <div class="avatar-base">
+          <div class="avatar-face">😊</div>
+        </div>
+
+        <div class="avatar-items">
+          <div class="avatar-item-slot" id="slot-hat" data-category="hat">
+            <div class="slot-label">🎩 Nón</div>
+            <div class="slot-content" id="equipped-hat">—</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-glasses" data-category="glasses">
+            <div class="slot-label">🤓 Kính</div>
+            <div class="slot-content" id="equipped-glasses">—</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-hair" data-category="hair">
+            <div class="slot-label">💇 Tóc</div>
+            <div class="slot-content" id="equipped-hair">👱</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-jewelry" data-category="jewelry">
+            <div class="slot-label">💎 Trang sức</div>
+            <div class="slot-content" id="equipped-jewelry">—</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-top" data-category="top">
+            <div class="slot-label">👕 Áo</div>
+            <div class="slot-content" id="equipped-top">👕</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-accessory" data-category="accessory">
+            <div class="slot-label">🎀 Phụ kiện</div>
+            <div class="slot-content" id="equipped-accessory">—</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-bottom" data-category="bottom">
+            <div class="slot-label">👖 Quần</div>
+            <div class="slot-content" id="equipped-bottom">👖</div>
+          </div>
+
+          <div class="avatar-item-slot" id="slot-shoes" data-category="shoes">
+            <div class="slot-label">👟 Giày</div>
+            <div class="slot-content" id="equipped-shoes">👟</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avatar Stats -->
+      <div class="avatar-stats">
+        <div class="stat-item">
+          <div class="stat-value" id="ownedCount">0</div>
+          <div class="stat-label">Đã mua</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="totalValue">0</div>
+          <div class="stat-label">Giá trị</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="shop-section">
+      <h2>🛍️ Cửa Hàng</h2>
+
+      <!-- Category Tabs -->
+      <div class="category-tabs" id="categoryTabs">
+        <button class="tab-btn active" data-category="hair">💇 Tóc</button>
+        <button class="tab-btn" data-category="top">👕 Áo</button>
+        <button class="tab-btn" data-category="bottom">👖 Quần</button>
+        <button class="tab-btn" data-category="shoes">👟 Giày</button>
+        <button class="tab-btn" data-category="accessory">🎀 Phụ kiện</button>
+        <button class="tab-btn" data-category="hat">🎩 Nón</button>
+        <button class="tab-btn" data-category="glasses">🤓 Kính</button>
+        <button class="tab-btn" data-category="jewelry">💎 Trang sức</button>
+      </div>
+
+      <!-- Items Grid -->
+      <div class="items-grid" id="itemsGrid"></div>
+    </div>
+
+    <!-- Owned Items -->
+    <div class="owned-section">
+      <h2>🎒 Tủ Đồ Của Bạn</h2>
+
+      <div class="category-tabs" id="ownedTabs">
+        <button class="tab-btn active" data-category="all">🎁 Tất cả</button>
+        <button class="tab-btn" data-category="hair">💇 Tóc</button>
+        <button class="tab-btn" data-category="top">👕 Áo</button>
+        <button class="tab-btn" data-category="bottom">👖 Quần</button>
+        <button class="tab-btn" data-category="shoes">👟 Giày</button>
+        <button class="tab-btn" data-category="accessory">🎀 Phụ kiện</button>
+        <button class="tab-btn" data-category="hat">🎩 Nón</button>
+        <button class="tab-btn" data-category="glasses">🤓 Kính</button>
+        <button class="tab-btn" data-category="jewelry">💎 Trang sức</button>
+      </div>
+
+      <div class="items-grid" id="ownedGrid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="exam-actions">
+      <button class="btn btn-secondary" onclick="window.location.href='/'">
+        <span>🏠 Trang chủ</span>
+      </button>
+      <button class="btn btn-secondary" onclick="window.location.href='/pet.html'">
+        <span>🏠 Nhà Pet</span>
+      </button>
+      <button class="btn btn-secondary" onclick="window.location.href='/collection.html'">
+        <span>📚 Stickers</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/sound-effects.js"></script>
+  <script src="js/pet-system.js"></script>
+  <script src="js/avatar-system.js"></script>
+  <script>
+    let currentCategory = 'hair';
+    let currentOwnedCategory = 'all';
+
+    document.addEventListener('DOMContentLoaded', async function() {
+      await loadAvatarData();
+      setupEventListeners();
+      renderShop();
+      renderOwnedItems();
+      updateStats();
+    });
+
+    async function loadAvatarData() {
+      await avatarSystem.loadItems();
+
+      // Đồng bộ gold từ pet system
+      if (typeof petSystem !== 'undefined') {
+        avatarSystem.updateGold(petSystem.getGold());
+      }
+
+      updateGoldDisplay();
+    }
+
+    function setupEventListeners() {
+      // Category tabs for shop
+      document.querySelectorAll('#categoryTabs .tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('#categoryTabs .tab-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentCategory = this.dataset.category;
+          renderShop();
+        });
+      });
+
+      // Category tabs for owned items
+      document.querySelectorAll('#ownedTabs .tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('#ownedTabs .tab-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentOwnedCategory = this.dataset.category;
+          renderOwnedItems();
+        });
+      });
+    }
+
+    function renderShop() {
+      const grid = document.getElementById('itemsGrid');
+      grid.innerHTML = '';
+
+      const items = avatarSystem.getItemsByCategory(currentCategory);
+
+      items.forEach(item => {
+        const isOwned = avatarSystem.isOwned(item.id);
+
+        const card = document.createElement('div');
+        card.className = `shop-item ${isOwned ? 'owned' : ''} ${item.rarity}`;
+
+        card.innerHTML = `
+          <div class="item-emoji">${item.emoji}</div>
+          <div class="item-name">${item.name}</div>
+          <div class="item-price">
+            ${isOwned ? '✅ Đã mua' : `💰 ${item.price}`}
+          </div>
+          ${isOwned ? `
+            <button class="btn btn-equip" onclick="equipItem('${item.id}')">
+              ${avatarSystem.isEquipped(item.id) ? '✅ Đang mặc' : '👔 Mặc'}
+            </button>
+          ` : `
+            <button class="btn btn-buy" onclick="buyItem('${item.id}')" ${avatarSystem.gold < item.price ? 'disabled' : ''}>
+              🛒 Mua
+            </button>
+          `}
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+
+    function renderOwnedItems() {
+      const grid = document.getElementById('ownedGrid');
+      grid.innerHTML = '';
+
+      let items;
+      if (currentOwnedCategory === 'all') {
+        items = avatarSystem.ownedItems.map(itemId =>
+          avatarSystem.items.find(i => i.id === itemId)
+        ).filter(Boolean);
+      } else {
+        items = avatarSystem.getOwnedItemsByCategory(currentOwnedCategory);
+      }
+
+      if (items.length === 0) {
+        grid.innerHTML = '<p style="text-align: center; color: #999;">Chưa có item nào!</p>';
+        return;
+      }
+
+      items.forEach(item => {
+        const isEquipped = avatarSystem.isEquipped(item.id);
+
+        const card = document.createElement('div');
+        card.className = `owned-item ${item.rarity} ${isEquipped ? 'equipped' : ''}`;
+
+        card.innerHTML = `
+          <div class="item-emoji">${item.emoji}</div>
+          <div class="item-name">${item.name}</div>
+          ${isEquipped ? '<div class="equipped-badge">✅ Đang mặc</div>' : ''}
+          <button class="btn btn-equip" onclick="equipItem('${item.id}')">
+            ${isEquipped ? '👔 Tháo' : '👔 Mặc'}
+          </button>
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+
+    async function buyItem(itemId) {
+      const result = await avatarSystem.buyItem(itemId);
+
+      if (result.success) {
+        if (typeof soundManager !== 'undefined') {
+          soundManager.playClick();
+        }
+
+        showMessage(result.message, 'success');
+
+        // Cập nhật gold ở pet system
+        if (typeof petSystem !== 'undefined') {
+          petSystem.gold = avatarSystem.getGold();
+          petSystem.savePetData();
+        }
+
+        updateGoldDisplay();
+        renderShop();
+        updateStats();
+      } else {
+        showMessage(result.message, 'error');
+      }
+    }
+
+    function equipItem(itemId) {
+      const item = avatarSystem.items.find(i => i.id === itemId);
+      const isEquipped = avatarSystem.isEquipped(itemId);
+
+      if (isEquipped) {
+        // Tháo gỡ
+        const result = avatarSystem.unequipItem(item.category);
+        if (result.success) {
+          showMessage(result.message, 'success');
+        }
+      } else {
+        // Trang bị
+        const result = avatarSystem.equipItem(itemId);
+        if (result.success) {
+          showMessage(result.message, 'success');
+        }
+      }
+
+      updateEquippedDisplay();
+      renderShop();
+      renderOwnedItems();
+    }
+
+    function updateGoldDisplay() {
+      document.getElementById('goldAmount').textContent = avatarSystem.getGold();
+    }
+
+    function updateEquippedDisplay() {
+      const categories = ['hat', 'glasses', 'hair', 'jewelry', 'top', 'accessory', 'bottom', 'shoes'];
+
+      categories.forEach(category => {
+        const item = avatarSystem.getEquippedItem(category);
+        const slot = document.getElementById(`equipped-${category}`);
+
+        if (item) {
+          slot.textContent = item.emoji;
+          slot.style.fontSize = '24px';
+        } else {
+          slot.textContent = '—';
+          slot.style.fontSize = '18px';
+        }
+      });
+    }
+
+    function updateStats() {
+      document.getElementById('ownedCount').textContent = avatarSystem.ownedItems.length;
+      document.getElementById('totalValue').textContent = avatarSystem.getTotalValue();
+    }
+
+    function showMessage(message, type) {
+      const toast = document.createElement('div');
+      toast.className = `toast toast-${type}`;
+      toast.textContent = message;
+      toast.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        z-index: 1000;
+        animation: slideIn 0.3s ease;
+      `;
+
+      if (type === 'success') {
+        toast.style.background = 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)';
+        toast.style.color = 'white';
+      } else {
+        toast.style.background = '#FF6B6B';
+        toast.style.color = 'white';
+      }
+
+      document.body.appendChild(toast);
+
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }
+  </script>
+</body>
+</html>

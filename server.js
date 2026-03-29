@@ -42,6 +42,11 @@ app.get('/pet', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'pet.html'));
 });
 
+// Serve trang avatar
+app.get('/avatar.html', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'avatar.html'));
+});
+
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({

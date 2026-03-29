@@ -80,3 +80,8 @@ document.getElementById('viewCollection').addEventListener('click', function() {
 document.getElementById('viewPet').addEventListener('click', function() {
   window.location.href = '/pet';
 });
+
+// Xử lý nút xem avatar
+document.getElementById('viewAvatar').addEventListener('click', function() {
+  window.location.href = '/avatar.html';
+});

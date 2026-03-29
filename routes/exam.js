@@ -286,6 +286,25 @@ router.get('/pets', (req, res) => {
   }
 });
 
+// GET /api/avatar-items - Lấy danh sách items thời trang
+router.get('/avatar-items', (req, res) => {
+  try {
+    const avatarItemsData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/avatar-items.json'), 'utf8'));
+    res.json({
+      success: true,
+      items: avatarItemsData.items,
+      categories: avatarItemsData.categories,
+      rarities: avatarItemsData.rarities
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Lỗi khi lấy dữ liệu items',
+      error: error.message
+    });
+  }
+});
+
 // GET /api/stickers/my-collection - Lấy bộ sưu tập sticker của người dùng (từ localStorage, không cần API này)
 // Frontend sẽ tự lưu vào localStorage
 

@@ -1,0 +1,425 @@
+{
+  "categories": {
+    "hair": {
+      "label": "Tóc",
+      "emoji": "💇"
+    },
+    "top": {
+      "label": "Áo",
+      "emoji": "👕"
+    },
+    "bottom": {
+      "label": "Quần",
+      "emoji": "👖"
+    },
+    "shoes": {
+      "label": "Giày",
+      "emoji": "👟"
+    },
+    "accessory": {
+      "label": "Phụ kiện",
+      "emoji": "🎀"
+    },
+    "hat": {
+      "label": "Nón",
+      "emoji": "🎩"
+    },
+    "glasses": {
+      "label": "Kính",
+      "emoji": "🤓"
+    },
+    "jewelry": {
+      "label": "Trang sức",
+      "emoji": "💎"
+    }
+  },
+  "items": [
+    {
+      "id": "hair-1",
+      "name": "Tóc ngắn",
+      "category": "hair",
+      "emoji": "👱",
+      "color": "#4A3728",
+      "price": 0,
+      "rarity": "common"
+    },
+    {
+      "id": "hair-2",
+      "name": "Tóc dài",
+      "category": "hair",
+      "emoji": "👱‍♀️",
+      "color": "#4A3728",
+      "price": 50,
+      "rarity": "common"
+    },
+    {
+      "id": "hair-3",
+      "name": "Tóc vàng",
+      "category": "hair",
+      "emoji": "💇‍♀️",
+      "color": "#FFD700",
+      "price": 100,
+      "rarity": "rare"
+    },
+    {
+      "id": "hair-4",
+      "name": "Tóc hồng",
+      "category": "hair",
+      "emoji": "💁‍♀️",
+      "color": "#FF69B4",
+      "price": 150,
+      "rarity": "rare"
+    },
+    {
+      "id": "hair-5",
+      "name": "Tóc xanh",
+      "category": "hair",
+      "emoji": "🦹‍♀️",
+      "color": "#00CED1",
+      "price": 200,
+      "rarity": "epic"
+    },
+    {
+      "id": "top-1",
+      "name": "Áo thun trắng",
+      "category": "top",
+      "emoji": "👕",
+      "color": "#FFFFFF",
+      "price": 0,
+      "rarity": "common"
+    },
+    {
+      "id": "top-2",
+      "name": "Áo thun đỏ",
+      "category": "top",
+      "emoji": "👕",
+      "color": "#FF6B6B",
+      "price": 30,
+      "rarity": "common"
+    },
+    {
+      "id": "top-3",
+      "name": "Áo thun xanh",
+      "category": "top",
+      "emoji": "👕",
+      "color": "#4ECDC4",
+      "price": 30,
+      "rarity": "common"
+    },
+    {
+      "id": "top-4",
+      "name": "Áo thun vàng",
+      "category": "top",
+      "emoji": "👕",
+      "color": "#FFE66D",
+      "price": 30,
+      "rarity": "common"
+    },
+    {
+      "id": "top-5",
+      "name": "Áo hồng",
+      "category": "top",
+      "emoji": "👚",
+      "color": "#FF69B4",
+      "price": 80,
+      "rarity": "rare"
+    },
+    {
+      "id": "top-6",
+      "name": "Áo tím",
+      "category": "top",
+      "emoji": "👚",
+      "color": "#9B59B6",
+      "price": 80,
+      "rarity": "rare"
+    },
+    {
+      "id": "top-7",
+      "name": "Áo hoàng tử",
+      "category": "top",
+      "emoji": "👘",
+      "color": "#E74C3C",
+      "price": 200,
+      "rarity": "epic"
+    },
+    {
+      "id": "top-8",
+      "name": "Áo công chúa",
+      "category": "top",
+      "emoji": "👗",
+      "color": "#FFB6C1",
+      "price": 250,
+      "rarity": "epic"
+    },
+    {
+      "id": "bottom-1",
+      "name": "Quần jean xanh",
+      "category": "bottom",
+      "emoji": "👖",
+      "color": "#4169E1",
+      "price": 0,
+      "rarity": "common"
+    },
+    {
+      "id": "bottom-2",
+      "name": "Quần short",
+      "category": "bottom",
+      "emoji": "🩳",
+      "color": "#87CEEB",
+      "price": 40,
+      "rarity": "common"
+    },
+    {
+      "id": "bottom-3",
+      "name": "Váy màu",
+      "category": "bottom",
+      "emoji": "👗",
+      "color": "#FF69B4",
+      "price": 60,
+      "rarity": "rare"
+    },
+    {
+      "id": "bottom-4",
+      "name": "Chân váy",
+      "category": "bottom",
+      "emoji": "👗",
+      "color": "#DDA0DD",
+      "price": 100,
+      "rarity": "rare"
+    },
+    {
+      "id": "bottom-5",
+      "name": "Quần lụa",
+      "category": "bottom",
+      "emoji": "👘",
+      "color": "#FFD700",
+      "price": 200,
+      "rarity": "epic"
+    },
+    {
+      "id": "shoes-1",
+      "name": "Giày thể thao",
+      "category": "shoes",
+      "emoji": "👟",
+      "color": "#FFFFFF",
+      "price": 0,
+      "rarity": "common"
+    },
+    {
+      "id": "shoes-2",
+      "name": "Giày đỏ",
+      "category": "shoes",
+      "emoji": "👞",
+      "color": "#FF6B6B",
+      "price": 50,
+      "rarity": "common"
+    },
+    {
+      "id": "shoes-3",
+      "name": "Giày hồng",
+      "category": "shoes",
+      "emoji": "👠",
+      "color": "#FF69B4",
+      "price": 80,
+      "rarity": "rare"
+    },
+    {
+      "id": "shoes-4",
+      "name": "Giày cao gót",
+      "category": "shoes",
+      "emoji": "👠",
+      "color": "#DC143C",
+      "price": 150,
+      "rarity": "rare"
+    },
+    {
+      "id": "shoes-5",
+      "name": "Giày bay",
+      "category": "shoes",
+      "emoji": "👢",
+      "color": "#9B59B6",
+      "price": 300,
+      "rarity": "epic"
+    },
+    {
+      "id": "accessory-1",
+      "name": "Nơ đỏ",
+      "category": "accessory",
+      "emoji": "🎀",
+      "color": "#FF6B6B",
+      "price": 20,
+      "rarity": "common"
+    },
+    {
+      "id": "accessory-2",
+      "name": "Nơ hồng",
+      "category": "accessory",
+      "emoji": "🎀",
+      "color": "#FF69B4",
+      "price": 20,
+      "rarity": "common"
+    },
+    {
+      "id": "accessory-3",
+      "name": "Nơ vàng",
+      "category": "accessory",
+      "emoji": "🎀",
+      "color": "#FFD700",
+      "price": 100,
+      "rarity": "rare"
+    },
+    {
+      "id": "accessory-4",
+      "name": "Hoa cài tóc",
+      "category": "accessory",
+      "emoji": "💐",
+      "color": "#FF69B4",
+      "price": 80,
+      "rarity": "rare"
+    },
+    {
+      "id": "accessory-5",
+      "name": "Bờm",
+      "category": "accessory",
+      "emoji": "👑",
+      "color": "#FFD700",
+      "price": 200,
+      "rarity": "epic"
+    },
+    {
+      "id": "hat-1",
+      "name": "Nón lá",
+      "category": "hat",
+      "emoji": "👒",
+      "color": "#90EE90",
+      "price": 30,
+      "rarity": "common"
+    },
+    {
+      "id": "hat-2",
+      "name": "Mũ len",
+      "category": "hat",
+      "emoji": "🧢",
+      "color": "#4169E1",
+      "price": 50,
+      "rarity": "common"
+    },
+    {
+      "id": "hat-3",
+      "name": "Vương miện",
+      "category": "hat",
+      "emoji": "👑",
+      "color": "#FFD700",
+      "price": 300,
+      "rarity": "epic"
+    },
+    {
+      "id": "hat-4",
+      "name": "Mũ phù thủy",
+      "category": "hat",
+      "emoji": "🎩",
+      "color": "#483D8B",
+      "price": 250,
+      "rarity": "epic"
+    },
+    {
+      "id": "glasses-1",
+      "name": "Kính mắt",
+      "category": "glasses",
+      "emoji": "🤓",
+      "color": "#000000",
+      "price": 40,
+      "rarity": "common"
+    },
+    {
+      "id": "glasses-2",
+      "name": "Kính râm",
+      "category": "glasses",
+      "emoji": "🕶️",
+      "color": "#000000",
+      "price": 60,
+      "rarity": "common"
+    },
+    {
+      "id": "glasses-3",
+      "name": "Kính hồng",
+      "category": "glasses",
+      "emoji": "🧐",
+      "color": "#FF69B4",
+      "price": 100,
+      "rarity": "rare"
+    },
+    {
+      "id": "glasses-4",
+      "name": "Kính thần",
+      "category": "glasses",
+      "emoji": "🔮",
+      "color": "#9B59B6",
+      "price": 200,
+      "rarity": "epic"
+    },
+    {
+      "id": "jewelry-1",
+      "name": "Dây chuyền bạc",
+      "category": "jewelry",
+      "emoji": "📿",
+      "color": "#C0C0C0",
+      "price": 50,
+      "rarity": "common"
+    },
+    {
+      "id": "jewelry-2",
+      "name": "Dây chuyền vàng",
+      "category": "jewelry",
+      "emoji": "📿",
+      "color": "#FFD700",
+      "price": 150,
+      "rarity": "rare"
+    },
+    {
+      "id": "jewelry-3",
+      "name": "Lắc tay",
+      "category": "jewelry",
+      "emoji": "⌚",
+      "color": "#FFD700",
+      "price": 120,
+      "rarity": "rare"
+    },
+    {
+      "id": "jewelry-4",
+      "name": "Nhẫn kim cương",
+      "category": "jewelry",
+      "emoji": "💍",
+      "color": "#B9F2FF",
+      "price": 300,
+      "rarity": "epic"
+    },
+    {
+      "id": "jewelry-5",
+      "name": "Bộ trang sức hoàng gia",
+      "category": "jewelry",
+      "emoji": "👑",
+      "color": "#FFD700",
+      "price": 500,
+      "rarity": "legendary"
+    }
+  ],
+  "rarities": {
+    "common": {
+      "label": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    "rare": {
+      "label": "Hiếm",
+      "color": "#3B82F6"
+    },
+    "epic": {
+      "label": "Sử thi",
+      "color": "#A855F7"
+    },
+    "legendary": {
+      "label": "Huyền thoại",
+      "color": "#F59E0B"
+    }
+  }
+}
