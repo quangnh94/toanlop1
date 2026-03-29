@@ -50,32 +50,188 @@
 
 .avatar-display {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.avatar-base {
+/* Mannequin Avatar */
+.mannequin-container {
+  flex: 0 0 auto;
+}
+
+.mannequin {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-glow {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle, rgba(240, 147, 251, 0.3) 0%, rgba(245, 87, 108, 0.1) 70%, transparent 100%);
+  border-radius: 50%;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.mannequin-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  border-radius: 50%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.avatar-face {
+.mannequin-face {
+  font-size: 100px;
+  z-index: 1;
+  position: relative;
+}
+
+/* Layer System for Clothing */
+.mannequin-layer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.layer-item {
+  font-size: 24px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Hair Layer - Behind face */
+.hair-layer {
+  z-index: 0;
+  top: 5%;
+}
+
+.hair-layer .layer-item {
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+/* Hat Layer - On top */
+.hat-layer {
+  z-index: 10;
+  top: -5%;
+}
+
+.hat-layer .layer-item {
+  font-size: 50px;
+}
+
+/* Glasses Layer - On face */
+.glasses-layer {
+  z-index: 5;
+  top: 25%;
+}
+
+.glasses-layer .layer-item {
+  font-size: 40px;
+}
+
+/* Jewelry Layer - Neck area */
+.jewelry-layer {
+  z-index: 6;
+  top: 45%;
+}
+
+.jewelry-layer .layer-item {
+  font-size: 35px;
+}
+
+/* Top Layer - Body */
+.top-layer {
+  z-index: 2;
+  top: 40%;
+}
+
+.top-layer .layer-item {
   font-size: 80px;
 }
 
-.avatar-items {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+/* Accessory Layer */
+.accessory-layer {
+  z-index: 7;
+  top: 35%;
+}
+
+.accessory-layer .layer-item {
+  font-size: 30px;
+}
+
+/* Bottom Layer - Lower body */
+.bottom-layer {
+  z-index: 3;
+  top: 60%;
+}
+
+.bottom-layer .layer-item {
+  font-size: 70px;
+}
+
+/* Shoes Layer - Bottom */
+.shoes-layer {
+  z-index: 4;
+  top: 85%;
+}
+
+.shoes-layer .layer-item {
+  font-size: 50px;
+}
+
+.avatar-name {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f5576c;
+}
+
+/* Empty layer styling */
+.mannequin-layer:empty,
+.mannequin-layer .layer-item:empty {
+  display: none;
+}
+
+/* Animation when equipping items */
+.mannequin-layer .layer-item {
+  animation: itemPop 0.3s ease;
+}
+
+@keyframes itemPop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .avatar-item-slot {

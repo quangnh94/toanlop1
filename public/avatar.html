@@ -24,10 +24,64 @@
     <!-- Avatar Preview -->
     <div class="avatar-preview-section">
       <div class="avatar-display">
-        <div class="avatar-base">
-          <div class="avatar-face">😊</div>
+        <!-- Mannequin Avatar -->
+        <div class="mannequin-container">
+          <div class="mannequin">
+            <!-- Background glow -->
+            <div class="avatar-glow"></div>
+
+            <!-- Body layers -->
+            <div class="mannequin-body">
+              <!-- Face -->
+              <div class="mannequin-face">😊</div>
+
+              <!-- Hair Layer -->
+              <div class="mannequin-layer hair-layer" id="mannequin-hair">
+                <div class="layer-item">👱</div>
+              </div>
+
+              <!-- Hat Layer -->
+              <div class="mannequin-layer hat-layer" id="mannequin-hat">
+                <div class="layer-item"></div>
+              </div>
+
+              <!-- Glasses Layer -->
+              <div class="mannequin-layer glasses-layer" id="mannequin-glasses">
+                <div class="layer-item"></div>
+              </div>
+
+              <!-- Jewelry Layer -->
+              <div class="mannequin-layer jewelry-layer" id="mannequin-jewelry">
+                <div class="layer-item"></div>
+              </div>
+
+              <!-- Top Layer -->
+              <div class="mannequin-layer top-layer" id="mannequin-top">
+                <div class="layer-item">👕</div>
+              </div>
+
+              <!-- Accessory Layer -->
+              <div class="mannequin-layer accessory-layer" id="mannequin-accessory">
+                <div class="layer-item"></div>
+              </div>
+
+              <!-- Bottom Layer -->
+              <div class="mannequin-layer bottom-layer" id="mannequin-bottom">
+                <div class="layer-item">👖</div>
+              </div>
+
+              <!-- Shoes Layer -->
+              <div class="mannequin-layer shoes-layer" id="mannequin-shoes">
+                <div class="layer-item">👟</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avatar Name -->
+          <div class="avatar-name">Avatar của bé</div>
         </div>
 
+        <!-- Item Slots (Side Panel) -->
         <div class="avatar-items">
           <div class="avatar-item-slot" id="slot-hat" data-category="hat">
             <div class="slot-label">🎩 Nón</div>
@@ -311,14 +365,75 @@
 
       categories.forEach(category => {
         const item = avatarSystem.getEquippedItem(category);
-        const slot = document.getElementById(`equipped-${category}`);
 
+        // Update slot display
+        const slot = document.getElementById(`equipped-${category}`);
         if (item) {
           slot.textContent = item.emoji;
           slot.style.fontSize = '24px';
         } else {
           slot.textContent = '—';
           slot.style.fontSize = '18px';
+        }
+
+        // Update mannequin display
+        const mannequinLayer = document.getElementById(`mannequin-${category}`);
+        const layerItem = mannequinLayer?.querySelector('.layer-item');
+
+        if (mannequinLayer && layerItem) {
+          if (item) {
+            layerItem.textContent = item.emoji;
+            mannequinLayer.style.display = 'flex';
+
+            // Special styling based on category
+            switch(category) {
+              case 'hair':
+                layerItem.style.fontSize = '60px';
+                break;
+              case 'hat':
+                layerItem.style.fontSize = '50px';
+                break;
+              case 'glasses':
+                layerItem.style.fontSize = '40px';
+                break;
+              case 'jewelry':
+                layerItem.style.fontSize = '35px';
+                break;
+              case 'top':
+                layerItem.style.fontSize = '80px';
+                break;
+              case 'accessory':
+                layerItem.style.fontSize = '30px';
+                break;
+              case 'bottom':
+                layerItem.style.fontSize = '70px';
+                break;
+              case 'shoes':
+                layerItem.style.fontSize = '50px';
+                break;
+            }
+          } else {
+            // Show default items for essential categories
+            if (category === 'hair') {
+              layerItem.textContent = '👱';
+              layerItem.style.fontSize = '60px';
+              mannequinLayer.style.display = 'flex';
+            } else if (category === 'top') {
+              layerItem.textContent = '👕';
+              layerItem.style.fontSize = '80px';
+              mannequinLayer.style.display = 'flex';
+            } else if (category === 'bottom') {
+              layerItem.textContent = '👖';
+              layerItem.style.fontSize = '70px';
+              mannequinLayer.style.display = 'flex';
+            } else if (category === 'shoes') {
+              layerItem.textContent = '👟';
+              layerItem.style.fontSize = '50px';
+              mannequinLayer.style.display = 'flex';
+            } else {
+              mannequinLayer.style.display = 'none';
+            }
+          }
         }
       });
     }
