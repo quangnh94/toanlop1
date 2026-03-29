@@ -173,6 +173,9 @@
       <button class="btn btn-secondary" onclick="window.location.href='/collection.html'">
         <span>📚 Stickers</span>
       </button>
+      <button class="btn btn-warning" onclick="resetPetData()">
+        <span>🔄 Reset Pet</span>
+      </button>
     </div>
   </div>
 
@@ -186,14 +189,18 @@
     });
 
     function checkPetStatus() {
+      console.log('Checking pet status...');
       const activePet = petSystem.getActivePet();
+      console.log('Active pet:', activePet);
 
       if (!activePet) {
         // Chưa có pet, hiển thị lựa chọn
+        console.log('No active pet, showing starter selection');
         document.getElementById('starterSelection').style.display = 'block';
         document.getElementById('petDisplay').style.display = 'none';
       } else {
         // Đã có pet
+        console.log('Has active pet, showing pet display');
         document.getElementById('starterSelection').style.display = 'none';
         document.getElementById('petDisplay').style.display = 'block';
         updatePetDisplay();
@@ -202,8 +209,10 @@
       updatePlayerStats();
     }
 
-    function chooseStarter(petId) {
-      const result = petSystem.chooseStarterPet(petId);
+    async function chooseStarter(petId) {
+      console.log('Choosing starter pet:', petId);
+      const result = await petSystem.chooseStarterPet(petId);
+      console.log('Result:', result);
 
       if (result.success) {
         // Phát âm thanh
@@ -216,6 +225,9 @@
         document.getElementById('petDisplay').style.display = 'block';
         updatePetDisplay();
         loadPetCollection();
+        showMessage(`Chúc mừng! Bạn đã chọn ${result.pet.name}!`, 'success');
+      } else {
+        showMessage(result.message, 'error');
       }
     }
 
@@ -369,6 +381,13 @@
 
     function showShop() {
       showMessage('Cửa hàng sẽ có sớm!', 'success');
+    }
+
+    function resetPetData() {
+      if (confirm('Bạn có chắc muốn xóa toàn bộ dữ liệu pet? Hành động này không thể hoàn tác!')) {
+        localStorage.removeItem('petData');
+        location.reload();
+      }
     }
 
     // Lắng nghe sự kiện level up

@@ -43,7 +43,7 @@ class PetSystem {
   }
 
   // Chọn pet ban đầu
-  chooseStarterPet(petId) {
+  async chooseStarterPet(petId) {
     const starterPets = ['cat-white', 'dog-golden', 'rabbit-pink'];
 
     if (!starterPets.includes(petId)) {
@@ -51,7 +51,7 @@ class PetSystem {
     }
 
     // Tạo pet mới
-    this.activePet = this.createPet(petId);
+    this.activePet = await this.createPet(petId);
     this.petCollection.push(this.activePet);
     this.savePetData();
 
@@ -59,8 +59,8 @@ class PetSystem {
   }
 
   // Tạo pet mới
-  createPet(petId) {
-    const petsData = this.getPetsData();
+  async createPet(petId) {
+    const petsData = await this.getPetsData();
     const petTemplate = petsData.pets.find(p => p.id === petId);
 
     if (!petTemplate) {
@@ -187,61 +187,55 @@ class PetSystem {
   }
 
   // Kiểm tra và thực hiện evolution
-  checkEvolution() {
-    const petsData = this.getPetsData();
+  async checkEvolution() {
+    const petsData = await this.getPetsData();
+    const petTemplate = petsData.pets.find(p => p.id === this.activePet.id);
+    if (!petTemplate || !petTemplate.evolution) return;
 
-    petsData.then(data => {
-      const petTemplate = data.pets.find(p => p.id === this.activePet.id);
-      if (!petTemplate || !petTemplate.evolution) return;
+    const level = this.activePet.level;
 
-      const level = this.activePet.level;
-
-      // Kiểm tra evolution level 5
-      if (level === 5 && petTemplate.evolution.level5) {
-        this.evolvePet(petTemplate.evolution.level5);
-      }
-      // Kiểm tra evolution level 10
-      else if (level === 10 && petTemplate.evolution.level10) {
-        this.evolvePet(petTemplate.evolution.level10);
-      }
-      // Kiểm tra evolution level 15
-      else if (level === 15 && petTemplate.evolution.level15) {
-        this.evolvePet(petTemplate.evolution.level15);
-      }
-      // Kiểm tra evolution level 20
-      else if (level === 20 && petTemplate.evolution.level20) {
-        this.evolvePet(petTemplate.evolution.level20);
-      }
-    });
+    // Kiểm tra evolution level 5
+    if (level === 5 && petTemplate.evolution.level5) {
+      await this.evolvePet(petTemplate.evolution.level5);
+    }
+    // Kiểm tra evolution level 10
+    else if (level === 10 && petTemplate.evolution.level10) {
+      await this.evolvePet(petTemplate.evolution.level10);
+    }
+    // Kiểm tra evolution level 15
+    else if (level === 15 && petTemplate.evolution.level15) {
+      await this.evolvePet(petTemplate.evolution.level15);
+    }
+    // Kiểm tra evolution level 20
+    else if (level === 20 && petTemplate.evolution.level20) {
+      await this.evolvePet(petTemplate.evolution.level20);
+    }
   }
 
   // Tiến hóa pet
-  evolvePet(newPetId) {
-    const petsData = this.getPetsData();
+  async evolvePet(newPetId) {
+    const petsData = await this.getPetsData();
+    const newPetTemplate = petsData.pets.find(p => p.id === newPetId);
 
-    petsData.then(data => {
-      const newPetTemplate = data.pets.find(p => p.id === newPetId);
+    if (!newPetTemplate) return;
 
-      if (!newPetTemplate) return;
+    // Giữ lại level và XP
+    const oldLevel = this.activePet.level;
+    const oldXP = this.activePet.xp;
 
-      // Giữ lại level và XP
-      const oldLevel = this.activePet.level;
-      const oldXP = this.activePet.xp;
+    // Cập nhật pet
+    this.activePet = await this.createPet(newPetId);
+    this.activePet.level = oldLevel;
+    this.activePet.xp = oldXP;
 
-      // Cập nhật pet
-      this.activePet = this.createPet(newPetId);
-      this.activePet.level = oldLevel;
-      this.activePet.xp = oldXP;
+    // Thông báo evolution (sẽ được xử lý ở UI)
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('petEvolved', {
+        detail: { oldPet: this.activePet, newPet: newPetTemplate }
+      }));
+    }
 
-      // Thông báo evolution (sẽ được xử lý ở UI)
-      if (typeof window !== 'undefined') {
-        window.dispatchEvent(new CustomEvent('petEvolved', {
-          detail: { oldPet: this.activePet, newPet: newPetTemplate }
-        }));
-      }
-
-      this.savePetData();
-    });
+    this.savePetData();
   }
 
   // Thêm XP từ làm bài
@@ -326,7 +320,7 @@ class PetSystem {
   }
 
   // Unlock pet mới
-  unlockPet(petId) {
+  async unlockPet(petId) {
     // Kiểm tra đã unlock chưa
     const alreadyUnlocked = this.petCollection.find(p => p.id === petId);
 
@@ -334,7 +328,7 @@ class PetSystem {
       return { success: false, message: 'Pet đã được unlock rồi!' };
     }
 
-    const newPet = this.createPet(petId);
+    const newPet = await this.createPet(petId);
 
     if (!newPet) {
       return { success: false, message: 'Không tìm thấy pet!' };
