@@ -266,12 +266,19 @@ class PetSystem {
     // Thêm XP cho pet
     this.addPetXP(correctCount * 10);
 
-    // Thưởng gold từ làm bài
-    this.gold += score;
+    // Thưởng gold từ làm bài - điểm càng cao, càng nhiều gold
+    // Điểm >= 60: thưởng thêm bonus gold
+    let examGold = score;
+    if (score >= 60) {
+      const bonusGold = Math.floor((score - 60) * 0.5); // 10% bonus cho điểm trên 60
+      examGold = score + bonusGold;
+    }
+
+    this.gold += examGold;
 
     this.savePetData();
 
-    return { level: this.level, xp: this.xp, gold: this.gold };
+    return { level: this.level, xp: this.xp, gold: this.gold, examGold: examGold };
   }
 
   // Mua accessory

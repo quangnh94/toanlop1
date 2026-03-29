@@ -243,10 +243,27 @@ function displayResult(result) {
     const playerLevel = document.getElementById('playerLevel');
     const playerXP = document.getElementById('playerXP');
     const playerGold = document.getElementById('playerGold');
+    const goldAmount = document.getElementById('goldAmount');
+    const goldReward = document.getElementById('goldReward');
 
     if (playerLevel) playerLevel.textContent = petResult.level;
     if (playerXP) playerXP.textContent = petResult.xp;
     if (playerGold) playerGold.textContent = petResult.gold;
+    if (goldAmount) goldAmount.textContent = petResult.examGold || petResult.gold;
+
+    // Hiển thị/ẩn gold reward dựa trên điểm số
+    if (goldReward) {
+      if (result.score >= 60) {
+        goldReward.style.display = 'block';
+        goldReward.style.background = 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';
+        goldReward.style.color = 'white';
+        goldReward.style.padding = '10px 20px';
+        goldReward.style.borderRadius = '10px';
+        goldReward.style.fontWeight = 'bold';
+      } else {
+        goldReward.style.display = 'none';
+      }
+    }
   }
 
   // Ẩn đề thi, hiển thị kết quả

@@ -367,6 +367,9 @@
       if (type === 'success') {
         toast.style.background = 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)';
         toast.style.color = 'white';
+      } else if (type === 'warning') {
+        toast.style.background = 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';
+        toast.style.color = 'white';
       } else {
         toast.style.background = '#FF6B6B';
         toast.style.color = 'white';
@@ -416,15 +419,44 @@
       petSystem.savePetData();
     }, 60000);
 
-    // Tự động giảm stats theo thời gian
+    // Tự động giảm stats theo thời gian - Cập nhật mỗi 30 giây
     setInterval(() => {
       const pet = petSystem.getActivePet();
       if (pet) {
-        pet.hunger = Math.max(0, pet.hunger - 1);
-        pet.happiness = Math.max(0, pet.happiness - 0.5);
+        // Giảm stats
+        pet.hunger = Math.max(0, pet.hunger - 2);  // Giảm đói nhanh hơn
+        pet.happiness = Math.max(0, pet.happiness - 1);  // Giảm vui vẻ
+        pet.energy = Math.max(0, pet.energy - 1.5);  // Giảm năng lượng
+
         updatePetStats(pet);
+
+        // Cảnh báo khi stats quá thấp
+        if (pet.hunger < 20) {
+          showMessage('⚠️ Pet của bạn đang rất đói! Hãy cho ăn ngay!', 'warning');
+        }
+        if (pet.happiness < 20) {
+          showMessage('😢 Pet đang buồn! Hãy chơi với pet!', 'warning');
+        }
+        if (pet.energy < 20) {
+          showMessage('💤 Pet đang mệt! Hãy để pet nghỉ ngơi!', 'warning');
+        }
+
+        // Lưu dữ liệu
+        petSystem.savePetData();
       }
     }, 30000); // Cập nhật mỗi 30 giây
+
+    // Cập nhật real-time mỗi giây để hiển thị mượt hơn
+    setInterval(() => {
+      const pet = petSystem.getActivePet();
+      if (pet) {
+        // Giảm nhẹ hơn để hiển thị mượt
+        pet.hunger = Math.max(0, pet.hunger - 0.1);
+        pet.happiness = Math.max(0, pet.happiness - 0.05);
+        pet.energy = Math.max(0, pet.energy - 0.08);
+        updatePetStats(pet);
+      }
+    }, 5000); // Cập nhật mỗi 5 giây
   </script>
 </body>
 </html>
