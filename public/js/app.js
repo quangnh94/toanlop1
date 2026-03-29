@@ -80,8 +80,3 @@ document.getElementById('viewCollection').addEventListener('click', function() {
 document.getElementById('viewPet').addEventListener('click', function() {
   window.location.href = '/pet';
 });
-
-// Xử lý nút xem bản đồ
-document.getElementById('viewWorldMap').addEventListener('click', function() {
-  window.location.href = '/world-map';
-});

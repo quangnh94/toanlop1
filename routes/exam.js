@@ -286,24 +286,6 @@ router.get('/pets', (req, res) => {
   }
 });
 
-// GET /api/world-map - Lấy dữ liệu bản đồ
-router.get('/world-map', (req, res) => {
-  try {
-    const worldMapData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/world-map.json'), 'utf8'));
-    res.json({
-      success: true,
-      worlds: worldMapData.worlds,
-      connections: worldMapData.connections
-    });
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: 'Lỗi khi lấy dữ liệu bản đồ',
-      error: error.message
-    });
-  }
-});
-
 // GET /api/stickers/my-collection - Lấy bộ sưu tập sticker của người dùng (từ localStorage, không cần API này)
 // Frontend sẽ tự lưu vào localStorage
 

@@ -42,11 +42,6 @@ app.get('/pet', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'pet.html'));
 });
 
-// Serve trang bản đồ
-app.get('/world-map', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'world-map.html'));
-});
-
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({
