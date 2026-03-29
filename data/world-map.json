@@ -1,0 +1,195 @@
+{
+  "worlds": [
+    {
+      "id": "starter-village",
+      "name": "Làng Khởi Đầu",
+      "emoji": "🏡",
+      "description": "Nơi bắt đầu hành trình toán học.",
+      "backgroundColor": "#90EE90",
+      "unlockLevel": 1,
+      "position": { "x": 50, "y": 80 },
+      "stickers": ["cat-white", "dog-golden", "rabbit-pink"],
+      "rewards": {
+        "xp": 50,
+        "gold": 100
+      },
+      "boss": null
+    },
+    {
+      "id": "cinnamoroll-garden",
+      "name": "Vườn Cinnamoroll",
+      "emoji": "☁️",
+      "description": "Khu vườn trên mây với những chú chó dễ thương.",
+      "backgroundColor": "#FFB6C1",
+      "unlockLevel": 3,
+      "position": { "x": 20, "y": 60 },
+      "stickers": ["cinnamoroll-1", "cinnamoroll-2", "mochi-1", "mochi-2"],
+      "rewards": {
+        "xp": 100,
+        "gold": 200,
+        "pet": "cinnamoroll"
+      },
+      "boss": null,
+      "parent": "starter-village"
+    },
+    {
+      "id": "pokemon-forest",
+      "name": "Rừng Pokemon",
+      "emoji": "🌲",
+      "description": "Rừng sâu với nhiều Pokemon bí ẩn.",
+      "backgroundColor": "#228B22",
+      "unlockLevel": 5,
+      "position": { "x": 35, "y": 40 },
+      "stickers": ["pikachu-1", "eevee-1", "snorlax-1", "vaporeon-1", "jolteon-1"],
+      "rewards": {
+        "xp": 150,
+        "gold": 300,
+        "pet": "pikachu"
+      },
+      "boss": {
+        "id": "mewtwo-boss",
+        "name": "Mewtwo",
+        "emoji": "🔮",
+        "level": 10
+      },
+      "parent": "cinnamoroll-garden"
+    },
+    {
+      "id": "spongebob-sea",
+      "name": "Biển SpongeBob",
+      "emoji": "🌊",
+      "description": "Thành phố dưới đáy biển vui nhộn.",
+      "backgroundColor": "#00CED1",
+      "unlockLevel": 7,
+      "position": { "x": 65, "y": 40 },
+      "stickers": ["spongebob-1", "patrick-1", "gary-1", "squidward-1", "sandy-1"],
+      "rewards": {
+        "xp": 150,
+        "gold": 300,
+        "pet": "gary"
+      },
+      "boss": {
+        "id": "plankton-boss",
+        "name": "Plankton",
+        "emoji": "🦠",
+        "level": 12
+      },
+      "parent": "starter-village"
+    },
+    {
+      "id": "disney-castle",
+      "name": "Lâu đài Disney",
+      "emoji": "🏰",
+      "description": "Lâu đài phép thuật với những nhân vật huyền thoại.",
+      "backgroundColor": "#DDA0DD",
+      "unlockLevel": 10,
+      "position": { "x": 50, "y": 20 },
+      "stickers": ["mickey-1", "minnie-1", "donald-1", "daisy-1", "goofy-1"],
+      "rewards": {
+        "xp": 200,
+        "gold": 500,
+        "pet": "mouse-magical"
+      },
+      "boss": {
+        "id": "pete-boss",
+        "name": "Pete",
+        "emoji": "😈",
+        "level": 15
+      },
+      "parent": "pokemon-forest"
+    },
+    {
+      "id": "tom-jerry-town",
+      "name": "Thị trấn Tom & Jerry",
+      "emoji": "🏘️",
+      "description": "Thị trấn với những cuộc rượt đuổi vui nhộn.",
+      "backgroundColor": "#F4A460",
+      "unlockLevel": 5,
+      "position": { "x": 80, "y": 60 },
+      "stickers": ["tom-1", "jerry-1", "tom-jerry-1", "spike-1"],
+      "rewards": {
+        "xp": 100,
+        "gold": 200
+      },
+      "boss": null,
+      "parent": "starter-village"
+    },
+    {
+      "id": "sanrio-kingdom",
+      "name": "Vương quốc Sanrio",
+      "emoji": "🎀",
+      "description": "Vương quốc của những nhân vật dễ thương.",
+      "backgroundColor": "#FFE4E1",
+      "unlockLevel": 8,
+      "position": { "x": 20, "y": 20 },
+      "stickers": ["hellokitty-1", "hellokitty-2", "kuromi-1", "mymelody-1", "pompurin-1"],
+      "rewards": {
+        "xp": 200,
+        "gold": 400,
+        "pet": "hellokitty"
+      },
+      "boss": {
+        "id": "kurumi-boss",
+        "name": "Kurumi",
+        "emoji": "👧",
+        "level": 20
+      },
+      "parent": "cinnamoroll-garden"
+    },
+    {
+      "id": "dragon-mountain",
+      "name": "Núi Rồng",
+      "emoji": "🐉",
+      "description": "Ngọn núi cao nơi những chú rồng sinh sống.",
+      "backgroundColor": "#8B0000",
+      "unlockLevel": 15,
+      "position": { "x": 80, "y": 20 },
+      "stickers": ["charizard-1", "mewtwo-1", "dragonite-1", "rayquaza-1"],
+      "rewards": {
+        "xp": 300,
+        "gold": 750,
+        "pet": "dragon-baby"
+      },
+      "boss": {
+        "id": "arceus-boss",
+        "name": "Arceus",
+        "emoji": "⭐",
+        "level": 25
+      },
+      "parent": "disney-castle"
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Cung điện Pha lê",
+      "emoji": "💎",
+      "description": "Cung điện nơi những pet hiếm nhất sinh sống.",
+      "backgroundColor": "#E6E6FA",
+      "unlockLevel": 20,
+      "position": { "x": 50, "y": 5 },
+      "stickers": ["unicorn", "legendary-bird", "moltres", "articuno", "zapdos"],
+      "rewards": {
+        "xp": 500,
+        "gold": 1000,
+        "pet": "unicorn"
+      },
+      "boss": {
+        "id": "shadow-boss",
+        "name": "Shadow Lugia",
+        "emoji": "🌑",
+        "level": 30
+      },
+      "parent": "dragon-mountain"
+    }
+  ],
+  "connections": [
+    { "from": "starter-village", "to": "cinnamoroll-garden" },
+    { "from": "starter-village", "to": "spongebob-sea" },
+    { "from": "starter-village", "to": "tom-jerry-town" },
+    { "from": "cinnamoroll-garden", "to": "pokemon-forest" },
+    { "from": "pokemon-forest", "to": "disney-castle" },
+    { "from": "pokemon-forest", "to": "sanrio-kingdom" },
+    { "from": "disney-castle", "to": "dragon-mountain" },
+    { "from": "dragon-mountain", "to": "crystal-palace" },
+    { "from": "spongebob-sea", "to": "disney-castle" }
+  ]
+}

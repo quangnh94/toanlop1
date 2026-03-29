@@ -70,3 +70,18 @@ function updateStickerCount() {
 
 // Cập nhật số lượng sticker khi tải trang
 updateStickerCount();
+
+// Xử lý nút xem bộ sưu tập
+document.getElementById('viewCollection').addEventListener('click', function() {
+  window.location.href = '/collection.html';
+});
+
+// Xử lý nút xem pet
+document.getElementById('viewPet').addEventListener('click', function() {
+  window.location.href = '/pet';
+});
+
+// Xử lý nút xem bản đồ
+document.getElementById('viewWorldMap').addEventListener('click', function() {
+  window.location.href = '/world-map';
+});

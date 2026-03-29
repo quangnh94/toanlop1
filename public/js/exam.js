@@ -235,6 +235,20 @@ function displayResult(result) {
     soundManager.playHighScore(result.score);
   }
 
+  // Thêm XP vào pet system
+  if (typeof petSystem !== 'undefined') {
+    const petResult = petSystem.addExamXP(result.score, result.correctCount);
+
+    // Cập nhật player stats trên UI (nếu có)
+    const playerLevel = document.getElementById('playerLevel');
+    const playerXP = document.getElementById('playerXP');
+    const playerGold = document.getElementById('playerGold');
+
+    if (playerLevel) playerLevel.textContent = petResult.level;
+    if (playerXP) playerXP.textContent = petResult.xp;
+    if (playerGold) playerGold.textContent = petResult.gold;
+  }
+
   // Ẩn đề thi, hiển thị kết quả
   document.getElementById('examContainer').style.display = 'none';
   document.getElementById('resultContainer').style.display = 'block';

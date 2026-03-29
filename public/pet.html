@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhà Pet - Toán Lớp 1</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pet.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Pet Header -->
+    <div class="pet-header">
+      <h1>🏠 Nhà Pet</h1>
+      <p>Chăm sóc pet bằng cách làm bài tập toán!</p>
+
+      <div class="player-stats">
+        <div class="stat-item">
+          <div class="stat-label">Level</div>
+          <div class="stat-value" id="playerLevel">1</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">XP</div>
+          <div class="stat-value" id="playerXP">0</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">Gold</div>
+          <div class="stat-value" id="playerGold">100</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Starter Selection -->
+    <div id="starterSelection" class="starter-selection" style="display: none;">
+      <h2>🎉 Chọn Pet đầu tiên!</h2>
+      <p>Hãy chọn một người bạn đồng hành để bắt đầu hành trình toán học!</p>
+
+      <div class="starter-pets">
+        <div class="starter-pet-card" data-pet="cat-white" onclick="chooseStarter('cat-white')">
+          <div class="starter-pet-emoji">🐱</div>
+          <div class="starter-pet-name">Mèo Trắng</div>
+          <div class="starter-pet-description">Tình cảm và dễ thương</div>
+        </div>
+
+        <div class="starter-pet-card" data-pet="dog-golden" onclick="chooseStarter('dog-golden')">
+          <div class="starter-pet-emoji">🐕</div>
+          <div class="starter-pet-name">Chó Vàng</div>
+          <div class="starter-pet-description">Trung thành và vui vẻ</div>
+        </div>
+
+        <div class="starter-pet-card" data-pet="rabbit-pink" onclick="chooseStarter('rabbit-pink')">
+          <div class="starter-pet-emoji">🐰</div>
+          <div class="starter-pet-name">Thỏ Hồng</div>
+          <div class="starter-pet-description">Nhanh nhẹ và đáng yêu</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pet Display -->
+    <div id="petDisplay" style="display: none;">
+      <div class="pet-display">
+        <div class="pet-main">
+          <div class="pet-emoji" id="petEmoji">🐱</div>
+        </div>
+        <div class="pet-name" id="petName">Mèo Trắng</div>
+        <div class="pet-level">Level <span id="petLevel">1</span></div>
+
+        <div class="pet-stats">
+          <div class="stat-bar-container">
+            <div class="stat-bar-label">
+              <span>🍖️ Đói</span>
+              <span id="hungerValue">80/100</span>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-fill hunger" id="hungerBar" style="width: 80%;">
+                <span class="stat-bar-text" id="hungerBarText">80</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-bar-container">
+            <div class="stat-bar-label">
+              <span>😊 Vui vẻ</span>
+              <span id="happinessValue">90/100</span>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-fill happiness" id="happinessBar" style="width: 90%;">
+                <span class="stat-bar-text" id="happinessBarText">90</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-bar-container">
+            <div class="stat-bar-label">
+              <span>⚡ Năng lượng</span>
+              <span id="energyValue">75/100</span>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-fill energy" id="energyBar" style="width: 75%;">
+                <span class="stat-bar-text" id="energyBarText">75</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-bar-container">
+            <div class="stat-bar-label">
+              <span>⭐ Pet XP</span>
+              <span id="petXPValue">20/50</span>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-fill xp" id="petXPBar" style="width: 40%;">
+                <span class="stat-bar-text" id="petXPBarText">20</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pet Actions -->
+      <div class="pet-actions">
+        <button class="action-btn" onclick="feedPet('fish')">
+          <div class="action-emoji">🐟</div>
+          <div class="action-label">Cho ăn cá</div>
+          <div class="action-cost">10 Gold</div>
+        </button>
+
+        <button class="action-btn" onclick="feedPet('bone')">
+          <div class="action-emoji">🦴</div>
+          <div class="action-label">Cho ăn xương</div>
+          <div class="action-cost">5 Gold</div>
+        </button>
+
+        <button class="action-btn" onclick="feedPet('carrot')">
+          <div class="action-emoji">🥕</div>
+          <div class="action-label">Cho ăn cà rốt</div>
+          <div class="action-cost">5 Gold</div>
+        </button>
+
+        <button class="action-btn" onclick="playWithPet('ball')">
+          <div class="action-emoji">⚽</div>
+          <div class="action-label">Chơi bóng</div>
+          <div class="action-cost">20 Gold</div>
+        </button>
+
+        <button class="action-btn" onclick="playWithPet('yarn')">
+          <div class="action-emoji">🧶</div>
+          <div class="action-label">Chơi len</div>
+          <div class="action-cost">15 Gold</div>
+        </button>
+
+        <button class="action-btn" onclick="showShop()">
+          <div class="action-emoji">🏪</div>
+          <div class="action-label">Cửa hàng</div>
+          <div class="action-cost">—</div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Pet Collection -->
+    <div class="pet-collection">
+      <h3>🐣 Bộ sưu tập Pet</h3>
+      <div class="pet-grid" id="petGrid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="exam-actions">
+      <button class="btn btn-secondary" onclick="window.location.href='/'">
+        <span>🏠 Về trang chủ</span>
+      </button>
+      <button class="btn btn-secondary" onclick="window.location.href='/world-map'">
+        <span>🗺️ Bản đồ</span>
+      </button>
+      <button class="btn btn-secondary" onclick="window.location.href='/collection.html'">
+        <span>📚 Stickers</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/sound-effects.js"></script>
+  <script src="js/pet-system.js"></script>
+  <script>
+    // Kiểm tra đã có pet chưa
+    document.addEventListener('DOMContentLoaded', function() {
+      checkPetStatus();
+      loadPetCollection();
+    });
+
+    function checkPetStatus() {
+      const activePet = petSystem.getActivePet();
+
+      if (!activePet) {
+        // Chưa có pet, hiển thị lựa chọn
+        document.getElementById('starterSelection').style.display = 'block';
+        document.getElementById('petDisplay').style.display = 'none';
+      } else {
+        // Đã có pet
+        document.getElementById('starterSelection').style.display = 'none';
+        document.getElementById('petDisplay').style.display = 'block';
+        updatePetDisplay();
+      }
+
+      updatePlayerStats();
+    }
+
+    function chooseStarter(petId) {
+      const result = petSystem.chooseStarterPet(petId);
+
+      if (result.success) {
+        // Phát âm thanh
+        if (typeof soundManager !== 'undefined') {
+          soundManager.playCorrect();
+        }
+
+        // Hiển thị pet
+        document.getElementById('starterSelection').style.display = 'none';
+        document.getElementById('petDisplay').style.display = 'block';
+        updatePetDisplay();
+        loadPetCollection();
+      }
+    }
+
+    function updatePetDisplay() {
+      const pet = petSystem.getActivePet();
+
+      if (!pet) return;
+
+      document.getElementById('petEmoji').textContent = pet.emoji;
+      document.getElementById('petName').textContent = pet.name;
+      document.getElementById('petLevel').textContent = pet.level;
+
+      updatePetStats(pet);
+    }
+
+    function updatePetStats(pet = petSystem.getActivePet()) {
+      if (!pet) return;
+
+      // Update stat bars
+      updateStatBar('hunger', pet.hunger, pet.maxHunger);
+      updateStatBar('happiness', pet.happiness, pet.maxHappiness);
+      updateStatBar('energy', pet.energy, pet.maxEnergy);
+      updatePetXPBar(pet.xp, pet.xpToNextLevel);
+    }
+
+    function updateStatBar(stat, value, max) {
+      const percentage = Math.round((value / max) * 100);
+      document.getElementById(`${stat}Bar`).style.width = percentage + '%';
+      document.getElementById(`${stat}BarText`).textContent = value;
+      document.getElementById(`${stat}Value`).textContent = `${value}/${max}`;
+    }
+
+    function updatePetXPBar(xp, xpToNext) {
+      const percentage = Math.round((xp / xpToNext) * 100);
+      document.getElementById('petXPBar').style.width = percentage + '%';
+      document.getElementById('petXPBarText').textContent = xp;
+      document.getElementById('petXPValue').textContent = `${xp}/${xpToNext}`;
+    }
+
+    function updatePlayerStats() {
+      document.getElementById('playerLevel').textContent = petSystem.getLevel();
+      document.getElementById('playerXP').textContent = petSystem.getXP();
+      document.getElementById('playerGold').textContent = petSystem.getGold();
+    }
+
+    async function feedPet(foodId) {
+      const result = await petSystem.feedPet(foodId);
+
+      if (result.success) {
+        if (typeof soundManager !== 'undefined') {
+          soundManager.playClick();
+        }
+
+        updatePetDisplay();
+        updatePlayerStats();
+        showMessage(result.message, 'success');
+      } else {
+        showMessage(result.message, 'error');
+      }
+    }
+
+    async function playWithPet(toyId) {
+      const result = await petSystem.playWithPet(toyId);
+
+      if (result.success) {
+        if (typeof soundManager !== 'undefined') {
+          soundManager.playCheer();
+        }
+
+        updatePetDisplay();
+        updatePlayerStats();
+        showMessage(result.message, 'success');
+      } else {
+        showMessage(result.message, 'error');
+      }
+    }
+
+    function loadPetCollection() {
+      const collection = petSystem.getPetCollection();
+      const grid = document.getElementById('petGrid');
+      grid.innerHTML = '';
+
+      collection.forEach(pet => {
+        const isActive = petSystem.getActivePet()?.id === pet.id;
+
+        const card = document.createElement('div');
+        card.className = `pet-card ${isActive ? 'active' : ''}`;
+        card.onclick = () => switchPet(pet.id);
+
+        card.innerHTML = `
+          <div class="pet-emoji">${pet.emoji}</div>
+          <div class="pet-name-small">${pet.name}</div>
+          <div class="pet-level-small">Level ${pet.level}</div>
+          <div class="pet-rarity ${pet.rarity}">${getRarityLabel(pet.rarity)}</div>
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+
+    function switchPet(petId) {
+      const result = petSystem.switchActivePet(petId);
+
+      if (result.success) {
+        updatePetDisplay();
+        loadPetCollection();
+        showMessage(`Đã chuyển sang ${result.pet.name}!`, 'success');
+      }
+    }
+
+    function getRarityLabel(rarity) {
+      const labels = {
+        common: 'Phổ thông',
+        rare: 'Hiếm',
+        epic: 'Sử thi',
+        legendary: 'Huyền thoại'
+      };
+      return labels[rarity] || rarity;
+    }
+
+    function showMessage(message, type) {
+      // Tạo toast message
+      const toast = document.createElement('div');
+      toast.className = `toast toast-${type}`;
+      toast.textContent = message;
+      toast.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        z-index: 1000;
+        animation: slideIn 0.3s ease;
+      `;
+
+      if (type === 'success') {
+        toast.style.background = 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)';
+        toast.style.color = 'white';
+      } else {
+        toast.style.background = '#FF6B6B';
+        toast.style.color = 'white';
+      }
+
+      document.body.appendChild(toast);
+
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }
+
+    function showShop() {
+      showMessage('Cửa hàng sẽ có sớm!', 'success');
+    }
+
+    // Lắng nghe sự kiện level up
+    window.addEventListener('levelUp', (e) => {
+      updatePlayerStats();
+      showMessage(`Level Up! Level ${e.detail.level} +${e.detail.reward} Gold`, 'success');
+
+      if (typeof soundManager !== 'undefined') {
+        soundManager.playLevelUp(e.detail.level);
+      }
+    });
+
+    // Lắng nghe sự kiện pet evolution
+    window.addEventListener('petEvolved', (e) => {
+      updatePetDisplay();
+      loadPetCollection();
+      showMessage(`${e.detail.oldPet.name} đã tiến hóa thành ${e.detail.newPet.name}!`, 'success');
+
+      if (typeof soundManager !== 'undefined') {
+        soundManager.playFanfare();
+      }
+    });
+
+    // Auto-save pet stats mỗi phút
+    setInterval(() => {
+      petSystem.savePetData();
+    }, 60000);
+
+    // Tự động giảm stats theo thời gian
+    setInterval(() => {
+      const pet = petSystem.getActivePet();
+      if (pet) {
+        pet.hunger = Math.max(0, pet.hunger - 1);
+        pet.happiness = Math.max(0, pet.happiness - 0.5);
+        updatePetStats(pet);
+      }
+    }, 30000); // Cập nhật mỗi 30 giây
+  </script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+{
+  "pets": [
+    {
+      "id": "cat-white",
+      "name": "Mèo Trắng",
+      "emoji": "🐱",
+      "rarity": "common",
+      "starter": true,
+      "description": "Một bé mèo dễ thương và tình cảm.",
+      "baseStats": {
+        "hunger": 100,
+        "happiness": 100,
+        "energy": 100
+      },
+      "evolution": {
+        "level5": "cat-orange",
+        "level10": "cat-rare"
+      }
+    },
+    {
+      "id": "dog-golden",
+      "name": "Chó Vàng",
+      "emoji": "🐕",
+      "rarity": "common",
+      "starter": true,
+      "description": "Một chú chó trung thành và vui vẻ.",
+      "baseStats": {
+        "hunger": 100,
+        "happiness": 100,
+        "energy": 100
+      },
+      "evolution": {
+        "level5": "dog-husky",
+        "level10": "dog-legendary"
+      }
+    },
+    {
+      "id": "rabbit-pink",
+      "name": "Thỏ Hồng",
+      "emoji": "🐰",
+      "rarity": "common",
+      "starter": true,
+      "description": "Một bé thỏ nhanh nhẹn và đáng yêu.",
+      "baseStats": {
+        "hunger": 100,
+        "happiness": 100,
+        "energy": 100
+      },
+      "evolution": {
+        "level5": "rabbit-white",
+        "level10": "rabbit-crystal"
+      }
+    },
+    {
+      "id": "cat-orange",
+      "name": "Mèo Cam",
+      "emoji": "🐈",
+      "rarity": "rare",
+      "starter": false,
+      "description": "Mèo cam với tính cách hoạt bát.",
+      "baseStats": {
+        "hunger": 90,
+        "happiness": 110,
+        "energy": 100
+      },
+      "evolution": {
+        "level10": "cat-rare"
+      }
+    },
+    {
+      "id": "dog-husky",
+      "name": "Chó Husky",
+      "emoji": "🐕‍🦺",
+      "rarity": "rare",
+      "starter": false,
+      "description": "Chó Husky đẹp và mạnh mẽ.",
+      "baseStats": {
+        "hunger": 100,
+        "happiness": 90,
+        "energy": 110
+      },
+      "evolution": {
+        "level10": "dog-legendary"
+      }
+    },
+    {
+      "id": "cinnamoroll",
+      "name": "Cinnamoroll",
+      "emoji": "☁️",
+      "rarity": "epic",
+      "starter": false,
+      "description": "Pet thần tiên có thể bay lơ lửng.",
+      "baseStats": {
+        "hunger": 80,
+        "happiness": 120,
+        "energy": 100
+      },
+      "evolution": {
+        "level15": "cinnamoroll-angel"
+      }
+    },
+    {
+      "id": "pikachu",
+      "name": "Pikachu",
+      "emoji": "⚡",
+      "rarity": "epic",
+      "starter": false,
+      "description": "Pokemon điện với sức mạnh tuyệt vời.",
+      "baseStats": {
+        "hunger": 90,
+        "happiness": 100,
+        "energy": 110
+      },
+      "evolution": {
+        "level15": "pikachu-giga"
+      }
+    },
+    {
+      "id": "dragon-baby",
+      "name": "Rồng Con",
+      "emoji": "🐲",
+      "rarity": "legendary",
+      "starter": false,
+      "description": "Rồng con với tiềm năng vô hạn.",
+      "baseStats": {
+        "hunger": 100,
+        "happiness": 100,
+        "energy": 100
+      },
+      "evolution": {
+        "level20": "dragon-ancient"
+      }
+    },
+    {
+      "id": "unicorn",
+      "name": "Kỳ Lân",
+      "emoji": "🦄",
+      "rarity": "legendary",
+      "starter": false,
+      "description": "Sin vật thần thoại may mắn.",
+      "baseStats": {
+        "hunger": 100,
+        "happiness": 110,
+        "energy": 90
+      },
+      "evolution": {
+        "level20": "unicorn-celestial"
+      }
+    }
+  ],
+  "food": [
+    {
+      "id": "fish",
+      "name": "Cá",
+      "emoji": "🐟",
+      "hunger": 20,
+      "happiness": 5,
+      "cost": 10
+    },
+    {
+      "id": "bone",
+      "name": "Xương",
+      "emoji": "🦴",
+      "hunger": 15,
+      "happiness": 10,
+      "cost": 5
+    },
+    {
+      "id": "carrot",
+      "name": "Cà rốt",
+      "emoji": "🥕",
+      "hunger": 15,
+      "happiness": 8,
+      "cost": 5
+    },
+    {
+      "id": "cake",
+      "name": "Bánh ngọt",
+      "emoji": "🎂",
+      "hunger": 30,
+      "happiness": 20,
+      "cost": 25
+    },
+    {
+      "id": "golden-fish",
+      "name": "Cá vàng",
+      "emoji": "🎏",
+      "hunger": 40,
+      "happiness": 30,
+      "cost": 50
+    },
+    {
+      "id": "rainbow-cake",
+      "name": "Bánh cầu vồng",
+      "emoji": "🌈",
+      "hunger": 50,
+      "happiness": 50,
+      "cost": 100
+    }
+  ],
+  "toys": [
+    {
+      "id": "ball",
+      "name": "Bóng",
+      "emoji": "⚽",
+      "happiness": 15,
+      "energy": 10,
+      "cost": 20
+    },
+    {
+      "id": "yarn",
+      "name": "Len món",
+      "emoji": "🧶",
+      "happiness": 20,
+      "energy": 5,
+      "cost": 15
+    },
+    {
+      "id": "frizbee",
+      "name": "Đĩa bay",
+      "emoji": "🥏",
+      "happiness": 25,
+      "energy": 15,
+      "cost": 30
+    },
+    {
+      "id": "magic-wand",
+      "name": "Đũa thần",
+      "emoji": "🪄",
+      "happiness": 40,
+      "energy": 20,
+      "cost": 75
+    }
+  ],
+  "accessories": [
+    {
+      "id": "ribbon-red",
+      "name": "Nơ Đỏ",
+      "emoji": "🎀",
+      "type": "head",
+      "cost": 50,
+      "rarity": "common"
+    },
+    {
+      "id": "hat-party",
+      "name": "Mũ tiệc",
+      "emoji": "🎉",
+      "type": "head",
+      "cost": 75,
+      "rarity": "rare"
+    },
+    {
+      "id": "crown-gold",
+      "name": "Vương miện vàng",
+      "emoji": "👑",
+      "type": "head",
+      "cost": 200,
+      "rarity": "legendary"
+    },
+    {
+      "id": "scarf-blue",
+      "name": "Khăn choàng xanh",
+      "emoji": "🧣",
+      "type": "neck",
+      "cost": 60,
+      "rarity": "common"
+    },
+    {
+      "id": "glasses-cool",
+      "name": "Kính ngầu",
+      "emoji": "😎",
+      "type": "face",
+      "cost": 80,
+      "rarity": "rare"
+    }
+  ]
+}
