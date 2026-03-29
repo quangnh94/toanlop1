@@ -659,36 +659,130 @@
 
 /* Responsive */
 @media (max-width: 900px) {
-  .changing-room {
-    grid-template-columns: 1fr;
+  .avatar-header h1 {
+    font-size: 1.6rem;
   }
 
-  .avatar-canvas {
-    max-width: 280px;
+  .player-gold {
+    padding: 10px 20px;
   }
 
-  .doll-body {
-    transform: scale(0.85);
-  }
-
-  .wardrobe-items {
-    grid-template-columns: repeat(3, 1fr);
+  .gold-emoji,
+  .gold-amount {
+    font-size: 1.4rem;
   }
 }
 
-@media (max-width: 600px) {
-  .wardrobe-tabs {
-    justify-content: center;
+@media (max-width: 768px) {
+  /* Stack avatar and wardrobe on mobile */
+  .changing-room {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .wardrobe-items {
-    grid-template-columns: repeat(2, 1fr);
-    max-height: 400px;
+  /* Resize avatar canvas for mobile */
+  .avatar-canvas {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1.2;
+  }
+
+  /* Scale down doll body */
+  .doll-body {
+    transform: scale(0.75);
+    transform-origin: center center;
+  }
+
+  /* Adjust wardrobe panel */
+  .wardrobe-panel {
+    padding: 20px;
+  }
+
+  .wardrobe-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
   }
 
   .tab-btn {
-    min-width: 60px;
-    padding: 10px 5px;
+    padding: 8px 4px;
+    min-width: auto;
+  }
+
+  .tab-icon {
+    font-size: 1.3rem;
+  }
+
+  .tab-text {
+    font-size: 0.6rem;
+  }
+
+  /* Items grid on mobile */
+  .wardrobe-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-height: 350px;
+  }
+
+  .item-emoji {
+    font-size: 2.5rem;
+  }
+
+  .item-name {
+    font-size: 0.75rem;
+  }
+
+  .item-price {
+    font-size: 0.8rem;
+  }
+
+  .btn-buy,
+  .btn-equip {
+    font-size: 0.75rem;
+    padding: 8px 6px;
+  }
+
+  /* Quick actions */
+  .quick-actions {
+    flex-wrap: wrap;
+  }
+
+  .action-btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Header adjustments */
+  .avatar-header {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .avatar-header h1 {
+    font-size: 1.3rem;
+  }
+
+  /* Smaller avatar on small phones */
+  .avatar-canvas {
+    max-width: 100%;
+  }
+
+  .doll-body {
+    transform: scale(0.65);
+    transform-origin: center center;
+  }
+
+  /* Category tabs - 3 per row */
+  .wardrobe-tabs {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .tab-btn {
+    padding: 10px 2px;
+    border-radius: 10px;
   }
 
   .tab-icon {
@@ -696,7 +790,114 @@
   }
 
   .tab-text {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
+  }
+
+  /* Items grid */
+  .wardrobe-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-height: 300px;
+    padding: 3px;
+  }
+
+  .wardrobe-item {
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .item-emoji {
+    font-size: 2rem;
+  }
+
+  .item-name {
+    font-size: 0.7rem;
+  }
+
+  .item-price {
+    font-size: 0.75rem;
+  }
+
+  .equipped-badge,
+  .owned-badge {
+    font-size: 0.6rem;
+    padding: 3px 6px;
+  }
+
+  .item-actions {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .btn-buy,
+  .btn-equip {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  /* Owned toggle */
+  .owned-toggle {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .toggle-btn {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  /* Quick actions */
+  .quick-actions {
+    gap: 10px;
+  }
+
+  .action-btn {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.85rem;
+    padding: 10px 15px;
+  }
+}
+
+/* Ensure touch targets are large enough */
+@media (max-width: 480px) {
+  .wardrobe-item,
+  .tab-btn,
+  .toggle-btn,
+  .action-btn {
+    min-height: 44px;
+  }
+}
+
+/* Fix iPad and tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .changing-room {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .avatar-canvas {
+    max-width: 300px;
+  }
+
+  .doll-body {
+    transform: scale(0.9);
+  }
+
+  .wardrobe-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small mobile fixes */
+@media (max-width: 360px) {
+  .doll-body {
+    transform: scale(0.55);
+    transform-origin: center center;
+  }
+
+  .wardrobe-tabs {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
