@@ -11,8 +11,8 @@
   <div class="container">
     <!-- Avatar Header -->
     <div class="avatar-header">
-      <h1>👗 Thời Trang Avatar</h1>
-      <p>Mua sắm và trang điểm avatar bằng gold!</p>
+      <h1>👗 Phòng Thay Đồ</h1>
+      <p>Trang điểm cho bé của bạn!</p>
 
       <div class="player-gold">
         <div class="gold-emoji">💰</div>
@@ -21,160 +21,157 @@
       </div>
     </div>
 
-    <!-- Avatar Preview -->
-    <div class="avatar-preview-section">
-      <div class="avatar-display">
-        <!-- Mannequin Avatar -->
-        <div class="mannequin-container">
-          <div class="mannequin">
-            <!-- Background glow -->
-            <div class="avatar-glow"></div>
+    <!-- Main Content -->
+    <div class="changing-room">
+      <!-- Avatar Display -->
+      <div class="avatar-showcase">
+        <div class="avatar-title">✨ Bé của bạn ✨</div>
 
-            <!-- Body layers -->
-            <div class="mannequin-body">
-              <!-- Face -->
-              <div class="mannequin-face">😊</div>
+        <div class="avatar-canvas">
+          <!-- Background -->
+          <div class="avatar-background">
+            <div class="bg-pattern"></div>
+          </div>
 
-              <!-- Hair Layer -->
-              <div class="mannequin-layer hair-layer" id="mannequin-hair">
-                <div class="layer-item">👱</div>
+          <!-- Avatar Base - Cute Cartoon Character -->
+          <div class="doll-avatar">
+            <!-- Hair Back -->
+            <div class="avatar-part hair-back" id="avatar-hair-back"></div>
+
+            <!-- Body -->
+            <div class="avatar-part body">
+              <div class="doll-neck"></div>
+              <div class="doll-face">
+                <div class="doll-head">
+                  <div class="doll-face-shape">
+                    <div class="doll-eye left-eye">
+                      <div class="eye-pupil"></div>
+                    </div>
+                    <div class="doll-eye right-eye">
+                      <div class="eye-pupil"></div>
+                    </div>
+                    <div class="doll-blush left-blush"></div>
+                    <div class="doll-blush right-blush"></div>
+                    <div class="doll-mouth">😊</div>
+                  </div>
+                </div>
               </div>
 
-              <!-- Hat Layer -->
-              <div class="mannequin-layer hat-layer" id="mannequin-hat">
-                <div class="layer-item"></div>
+              <!-- Torso with clothes -->
+              <div class="doll-torso" id="avatar-top">
+                <div class="default-top">👕</div>
               </div>
 
-              <!-- Glasses Layer -->
-              <div class="mannequin-layer glasses-layer" id="mannequin-glasses">
-                <div class="layer-item"></div>
+              <!-- Arms -->
+              <div class="doll-arm left-arm">
+                <div class="doll-hand">👋</div>
+              </div>
+              <div class="doll-arm right-arm">
+                <div class="doll-hand">✌</div>
               </div>
 
-              <!-- Jewelry Layer -->
-              <div class="mannequin-layer jewelry-layer" id="mannequin-jewelry">
-                <div class="layer-item"></div>
+              <!-- Legs -->
+              <div class="doll-legs">
+                <div class="doll-leg left-leg" id="avatar-bottom-left">
+                  <div class="default-bottom">👖</div>
+                </div>
+                <div class="doll-leg right-leg" id="avatar-bottom-right">
+                  <div class="default-bottom">👖</div>
+                </div>
               </div>
 
-              <!-- Top Layer -->
-              <div class="mannequin-layer top-layer" id="mannequin-top">
-                <div class="layer-item">👕</div>
+              <!-- Shoes -->
+              <div class="doll-shoe left-shoe" id="avatar-shoe-left">
+                <div class="default-shoe">👟</div>
               </div>
-
-              <!-- Accessory Layer -->
-              <div class="mannequin-layer accessory-layer" id="mannequin-accessory">
-                <div class="layer-item"></div>
-              </div>
-
-              <!-- Bottom Layer -->
-              <div class="mannequin-layer bottom-layer" id="mannequin-bottom">
-                <div class="layer-item">👖</div>
-              </div>
-
-              <!-- Shoes Layer -->
-              <div class="mannequin-layer shoes-layer" id="mannequin-shoes">
-                <div class="layer-item">👟</div>
+              <div class="doll-shoe right-shoe" id="avatar-shoe-right">
+                <div class="default-shoe">👟</div>
               </div>
             </div>
-          </div>
 
-          <!-- Avatar Name -->
-          <div class="avatar-name">Avatar của bé</div>
+            <!-- Hair Front -->
+            <div class="avatar-part hair-front" id="avatar-hair-front">
+              <div class="default-hair">💁</div>
+            </div>
+
+            <!-- Hat -->
+            <div class="avatar-part hat" id="avatar-hat">
+              <div class="default-hat"></div>
+            </div>
+
+            <!-- Glasses -->
+            <div class="avatar-part glasses" id="avatar-glasses">
+              <div class="default-glasses"></div>
+            </div>
+
+            <!-- Jewelry/Necklace -->
+            <div class="avatar-part jewelry" id="avatar-jewelry">
+              <div class="default-jewelry"></div>
+            </div>
+
+            <!-- Accessory (Bow, etc) -->
+            <div class="avatar-part accessory" id="avatar-accessory">
+              <div class="default-accessory"></div>
+            </div>
+          </div>
         </div>
 
-        <!-- Item Slots (Side Panel) -->
-        <div class="avatar-items">
-          <div class="avatar-item-slot" id="slot-hat" data-category="hat">
-            <div class="slot-label">🎩 Nón</div>
-            <div class="slot-content" id="equipped-hat">—</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-glasses" data-category="glasses">
-            <div class="slot-label">🤓 Kính</div>
-            <div class="slot-content" id="equipped-glasses">—</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-hair" data-category="hair">
-            <div class="slot-label">💇 Tóc</div>
-            <div class="slot-content" id="equipped-hair">👱</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-jewelry" data-category="jewelry">
-            <div class="slot-label">💎 Trang sức</div>
-            <div class="slot-content" id="equipped-jewelry">—</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-top" data-category="top">
-            <div class="slot-label">👕 Áo</div>
-            <div class="slot-content" id="equipped-top">👕</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-accessory" data-category="accessory">
-            <div class="slot-label">🎀 Phụ kiện</div>
-            <div class="slot-content" id="equipped-accessory">—</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-bottom" data-category="bottom">
-            <div class="slot-label">👖 Quần</div>
-            <div class="slot-content" id="equipped-bottom">👖</div>
-          </div>
-
-          <div class="avatar-item-slot" id="slot-shoes" data-category="shoes">
-            <div class="slot-label">👟 Giày</div>
-            <div class="slot-content" id="equipped-shoes">👟</div>
-          </div>
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+          <button class="action-btn" onclick="randomizeAvatar()">🎲 Random</button>
+          <button class="action-btn" onclick="resetAvatar()">🔄 Reset</button>
         </div>
       </div>
 
-      <!-- Avatar Stats -->
-      <div class="avatar-stats">
-        <div class="stat-item">
-          <div class="stat-value" id="ownedCount">0</div>
-          <div class="stat-label">Đã mua</div>
+      <!-- Wardrobe Panel -->
+      <div class="wardrobe-panel">
+        <!-- Category Tabs -->
+        <div class="wardrobe-tabs" id="wardrobeTabs">
+          <button class="tab-btn active" data-category="hair">
+            <span class="tab-icon">💇</span>
+            <span class="tab-text">Tóc</span>
+          </button>
+          <button class="tab-btn" data-category="top">
+            <span class="tab-icon">👕</span>
+            <span class="tab-text">Áo</span>
+          </button>
+          <button class="tab-btn" data-category="bottom">
+            <span class="tab-icon">👖</span>
+            <span class="tab-text">Quần</span>
+          </button>
+          <button class="tab-btn" data-category="shoes">
+            <span class="tab-icon">👟</span>
+            <span class="tab-text">Giày</span>
+          </button>
+          <button class="tab-btn" data-category="accessory">
+            <span class="tab-icon">🎀</span>
+            <span class="tab-text">Phụ kiện</span>
+          </button>
+          <button class="tab-btn" data-category="hat">
+            <span class="tab-icon">🎩</span>
+            <span class="tab-text">Nón</span>
+          </button>
+          <button class="tab-btn" data-category="glasses">
+            <span class="tab-icon">🤓</span>
+            <span class="tab-text">Kính</span>
+          </button>
+          <button class="tab-btn" data-category="jewelry">
+            <span class="tab-icon">💎</span>
+            <span class="tab-text">Trang sức</span>
+          </button>
         </div>
-        <div class="stat-item">
-          <div class="stat-value" id="totalValue">0</div>
-          <div class="stat-label">Giá trị</div>
+
+        <!-- Items Display -->
+        <div class="wardrobe-items" id="wardrobeItems">
+          <!-- Items will be loaded here -->
+        </div>
+
+        <!-- Owned Items Toggle -->
+        <div class="owned-toggle">
+          <button class="toggle-btn active" id="showAllBtn" onclick="showAllItems()">🛍️ Tất cả</button>
+          <button class="toggle-btn" id="showOwnedBtn" onclick="showOwnedItems()">🎒 Tủ đồ</button>
         </div>
       </div>
-    </div>
-
-    <!-- Shop -->
-    <div class="shop-section">
-      <h2>🛍️ Cửa Hàng</h2>
-
-      <!-- Category Tabs -->
-      <div class="category-tabs" id="categoryTabs">
-        <button class="tab-btn active" data-category="hair">💇 Tóc</button>
-        <button class="tab-btn" data-category="top">👕 Áo</button>
-        <button class="tab-btn" data-category="bottom">👖 Quần</button>
-        <button class="tab-btn" data-category="shoes">👟 Giày</button>
-        <button class="tab-btn" data-category="accessory">🎀 Phụ kiện</button>
-        <button class="tab-btn" data-category="hat">🎩 Nón</button>
-        <button class="tab-btn" data-category="glasses">🤓 Kính</button>
-        <button class="tab-btn" data-category="jewelry">💎 Trang sức</button>
-      </div>
-
-      <!-- Items Grid -->
-      <div class="items-grid" id="itemsGrid"></div>
-    </div>
-
-    <!-- Owned Items -->
-    <div class="owned-section">
-      <h2>🎒 Tủ Đồ Của Bạn</h2>
-
-      <div class="category-tabs" id="ownedTabs">
-        <button class="tab-btn active" data-category="all">🎁 Tất cả</button>
-        <button class="tab-btn" data-category="hair">💇 Tóc</button>
-        <button class="tab-btn" data-category="top">👕 Áo</button>
-        <button class="tab-btn" data-category="bottom">👖 Quần</button>
-        <button class="tab-btn" data-category="shoes">👟 Giày</button>
-        <button class="tab-btn" data-category="accessory">🎀 Phụ kiện</button>
-        <button class="tab-btn" data-category="hat">🎩 Nón</button>
-        <button class="tab-btn" data-category="glasses">🤓 Kính</button>
-        <button class="tab-btn" data-category="jewelry">💎 Trang sức</button>
-      </div>
-
-      <div class="items-grid" id="ownedGrid"></div>
     </div>
 
     <!-- Navigation -->
@@ -196,14 +193,12 @@
   <script src="js/avatar-system.js"></script>
   <script>
     let currentCategory = 'hair';
-    let currentOwnedCategory = 'all';
+    let showOwnedOnly = false;
 
     document.addEventListener('DOMContentLoaded', async function() {
       await loadAvatarData();
       setupEventListeners();
-      renderShop();
-      renderOwnedItems();
-      updateStats();
+      renderItems();
     });
 
     async function loadAvatarData() {
@@ -215,97 +210,68 @@
       }
 
       updateGoldDisplay();
+      updateAvatarDisplay();
     }
 
     function setupEventListeners() {
-      // Category tabs for shop
-      document.querySelectorAll('#categoryTabs .tab-btn').forEach(btn => {
+      // Category tabs
+      document.querySelectorAll('#wardrobeTabs .tab-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-          document.querySelectorAll('#categoryTabs .tab-btn').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('#wardrobeTabs .tab-btn').forEach(b => b.classList.remove('active'));
           this.classList.add('active');
           currentCategory = this.dataset.category;
-          renderShop();
-        });
-      });
-
-      // Category tabs for owned items
-      document.querySelectorAll('#ownedTabs .tab-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-          document.querySelectorAll('#ownedTabs .tab-btn').forEach(b => b.classList.remove('active'));
-          this.classList.add('active');
-          currentOwnedCategory = this.dataset.category;
-          renderOwnedItems();
+          renderItems();
         });
       });
     }
 
-    function renderShop() {
-      const grid = document.getElementById('itemsGrid');
-      grid.innerHTML = '';
-
-      const items = avatarSystem.getItemsByCategory(currentCategory);
-
-      items.forEach(item => {
-        const isOwned = avatarSystem.isOwned(item.id);
-
-        const card = document.createElement('div');
-        card.className = `shop-item ${isOwned ? 'owned' : ''} ${item.rarity}`;
-
-        card.innerHTML = `
-          <div class="item-emoji">${item.emoji}</div>
-          <div class="item-name">${item.name}</div>
-          <div class="item-price">
-            ${isOwned ? '✅ Đã mua' : `💰 ${item.price}`}
-          </div>
-          ${isOwned ? `
-            <button class="btn btn-equip" onclick="equipItem('${item.id}')">
-              ${avatarSystem.isEquipped(item.id) ? '✅ Đang mặc' : '👔 Mặc'}
-            </button>
-          ` : `
-            <button class="btn btn-buy" onclick="buyItem('${item.id}')" ${avatarSystem.gold < item.price ? 'disabled' : ''}>
-              🛒 Mua
-            </button>
-          `}
-        `;
-
-        grid.appendChild(card);
-      });
-    }
-
-    function renderOwnedItems() {
-      const grid = document.getElementById('ownedGrid');
-      grid.innerHTML = '';
+    function renderItems() {
+      const container = document.getElementById('wardrobeItems');
+      container.innerHTML = '';
 
       let items;
-      if (currentOwnedCategory === 'all') {
-        items = avatarSystem.ownedItems.map(itemId =>
-          avatarSystem.items.find(i => i.id === itemId)
-        ).filter(Boolean);
+      if (showOwnedOnly) {
+        items = avatarSystem.getOwnedItemsByCategory(currentCategory);
       } else {
-        items = avatarSystem.getOwnedItemsByCategory(currentOwnedCategory);
+        items = avatarSystem.getItemsByCategory(currentCategory);
       }
 
       if (items.length === 0) {
-        grid.innerHTML = '<p style="text-align: center; color: #999;">Chưa có item nào!</p>';
+        container.innerHTML = '<div class="empty-message">Chưa có item nào! Hãy mua sắm nhé! 🛒</div>';
         return;
       }
 
       items.forEach(item => {
+        const isOwned = avatarSystem.isOwned(item.id);
         const isEquipped = avatarSystem.isEquipped(item.id);
 
-        const card = document.createElement('div');
-        card.className = `owned-item ${item.rarity} ${isEquipped ? 'equipped' : ''}`;
+        const itemCard = document.createElement('div');
+        itemCard.className = `wardrobe-item ${item.rarity} ${isEquipped ? 'equipped' : ''}`;
 
-        card.innerHTML = `
-          <div class="item-emoji">${item.emoji}</div>
-          <div class="item-name">${item.name}</div>
-          ${isEquipped ? '<div class="equipped-badge">✅ Đang mặc</div>' : ''}
-          <button class="btn btn-equip" onclick="equipItem('${item.id}')">
-            ${isEquipped ? '👔 Tháo' : '👔 Mặc'}
-          </button>
+        itemCard.innerHTML = `
+          <div class="item-preview">
+            <div class="item-emoji">${item.emoji}</div>
+            ${isEquipped ? '<div class="equipped-badge">✅</div>' : ''}
+            ${isOwned && !isEquipped ? '<div class="owned-badge">🎒</div>' : ''}
+          </div>
+          <div class="item-info">
+            <div class="item-name">${item.name}</div>
+            <div class="item-price">${isOwned ? 'Đã mua' : `💰 ${item.price}`}</div>
+          </div>
+          <div class="item-actions">
+            ${!isOwned ? `
+              <button class="btn-buy" onclick="buyItem('${item.id}')" ${avatarSystem.gold < item.price ? 'disabled' : ''}>
+                🛒 Mua
+              </button>
+            ` : `
+              <button class="btn-equip" onclick="equipItem('${item.id}')">
+                ${isEquipped ? '👔 Tháo' : '👔 Mặc'}
+              </button>
+            `}
+          </div>
         `;
 
-        grid.appendChild(card);
+        container.appendChild(itemCard);
       });
     }
 
@@ -317,7 +283,7 @@
           soundManager.playClick();
         }
 
-        showMessage(result.message, 'success');
+        showMessage(`Đã mua ${result.item.name}! 🎉`, 'success');
 
         // Cập nhật gold ở pet system
         if (typeof petSystem !== 'undefined') {
@@ -326,8 +292,7 @@
         }
 
         updateGoldDisplay();
-        renderShop();
-        updateStats();
+        renderItems();
       } else {
         showMessage(result.message, 'error');
       }
@@ -341,106 +306,131 @@
         // Tháo gỡ
         const result = avatarSystem.unequipItem(item.category);
         if (result.success) {
-          showMessage(result.message, 'success');
+          showMessage(`Đã tháo ${item.name}`, 'success');
         }
       } else {
         // Trang bị
         const result = avatarSystem.equipItem(itemId);
         if (result.success) {
-          showMessage(result.message, 'success');
+          if (typeof soundManager !== 'undefined') {
+            soundManager.playCorrect();
+          }
+          showMessage(`Đã mặc ${item.name}! ✨`, 'success');
         }
       }
 
-      updateEquippedDisplay();
-      renderShop();
-      renderOwnedItems();
+      updateAvatarDisplay();
+      renderItems();
+    }
+
+    function updateAvatarDisplay() {
+      const categories = ['hat', 'glasses', 'hair', 'jewelry', 'top', 'accessory', 'bottom', 'shoes'];
+
+      // Reset all to default
+      document.querySelectorAll('[id^="avatar-"]').forEach(el => {
+        const defaultEl = el.querySelector('.default-' + el.id.split('-')[1]);
+        if (defaultEl) {
+          defaultEl.style.display = 'block';
+        }
+        el.style.background = '';
+        el.querySelector('.avatar-content')?.remove();
+      });
+
+      // Update with equipped items
+      categories.forEach(category => {
+        const item = avatarSystem.getEquippedItem(category);
+
+        if (item) {
+          const avatarPart = document.getElementById(`avatar-${category}`);
+          if (avatarPart) {
+            // Hide default
+            const defaultEl = avatarPart.querySelector('.default-' + category);
+            if (defaultEl) {
+              defaultEl.style.display = 'none';
+            }
+
+            // Show equipped item
+            avatarPart.style.background = item.color || '#f5f5f5';
+            avatarPart.style.boxShadow = `0 0 20px ${item.color}40`;
+
+            if (!avatarPart.querySelector('.avatar-content')) {
+              const content = document.createElement('div');
+              content.className = 'avatar-content';
+              content.style.cssText = `
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 40px;
+                font-weight: bold;
+                color: ${item.color || '#333'};
+                text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+              `;
+              content.textContent = item.emoji;
+              avatarPart.appendChild(content);
+            }
+
+            avatarPart.querySelector('.avatar-content').textContent = item.emoji;
+          }
+        }
+      });
     }
 
     function updateGoldDisplay() {
       document.getElementById('goldAmount').textContent = avatarSystem.getGold();
     }
 
-    function updateEquippedDisplay() {
-      const categories = ['hat', 'glasses', 'hair', 'jewelry', 'top', 'accessory', 'bottom', 'shoes'];
-
-      categories.forEach(category => {
-        const item = avatarSystem.getEquippedItem(category);
-
-        // Update slot display
-        const slot = document.getElementById(`equipped-${category}`);
-        if (item) {
-          slot.textContent = item.emoji;
-          slot.style.fontSize = '24px';
-        } else {
-          slot.textContent = '—';
-          slot.style.fontSize = '18px';
-        }
-
-        // Update mannequin display
-        const mannequinLayer = document.getElementById(`mannequin-${category}`);
-        const layerItem = mannequinLayer?.querySelector('.layer-item');
-
-        if (mannequinLayer && layerItem) {
-          if (item) {
-            layerItem.textContent = item.emoji;
-            mannequinLayer.style.display = 'flex';
-
-            // Special styling based on category
-            switch(category) {
-              case 'hair':
-                layerItem.style.fontSize = '60px';
-                break;
-              case 'hat':
-                layerItem.style.fontSize = '50px';
-                break;
-              case 'glasses':
-                layerItem.style.fontSize = '40px';
-                break;
-              case 'jewelry':
-                layerItem.style.fontSize = '35px';
-                break;
-              case 'top':
-                layerItem.style.fontSize = '80px';
-                break;
-              case 'accessory':
-                layerItem.style.fontSize = '30px';
-                break;
-              case 'bottom':
-                layerItem.style.fontSize = '70px';
-                break;
-              case 'shoes':
-                layerItem.style.fontSize = '50px';
-                break;
-            }
-          } else {
-            // Show default items for essential categories
-            if (category === 'hair') {
-              layerItem.textContent = '👱';
-              layerItem.style.fontSize = '60px';
-              mannequinLayer.style.display = 'flex';
-            } else if (category === 'top') {
-              layerItem.textContent = '👕';
-              layerItem.style.fontSize = '80px';
-              mannequinLayer.style.display = 'flex';
-            } else if (category === 'bottom') {
-              layerItem.textContent = '👖';
-              layerItem.style.fontSize = '70px';
-              mannequinLayer.style.display = 'flex';
-            } else if (category === 'shoes') {
-              layerItem.textContent = '👟';
-              layerItem.style.fontSize = '50px';
-              mannequinLayer.style.display = 'flex';
-            } else {
-              mannequinLayer.style.display = 'none';
-            }
-          }
-        }
-      });
+    function showAllItems() {
+      showOwnedOnly = false;
+      document.getElementById('showAllBtn').classList.add('active');
+      document.getElementById('showOwnedBtn').classList.remove('active');
+      renderItems();
     }
 
-    function updateStats() {
-      document.getElementById('ownedCount').textContent = avatarSystem.ownedItems.length;
-      document.getElementById('totalValue').textContent = avatarSystem.getTotalValue();
+    function showOwnedItems() {
+      showOwnedOnly = true;
+      document.getElementById('showAllBtn').classList.remove('active');
+      document.getElementById('showOwnedBtn').classList.add('active');
+      renderItems();
+    }
+
+    function randomizeAvatar() {
+      const categories = ['hair', 'top', 'bottom', 'shoes', 'accessory', 'hat', 'glasses', 'jewelry'];
+
+      categories.forEach(category => {
+        const ownedItems = avatarSystem.getOwnedItemsByCategory(category);
+        if (ownedItems.length > 0) {
+          const randomItem = ownedItems[Math.floor(Math.random() * ownedItems.length)];
+          avatarSystem.equipItem(randomItem.id);
+        }
+      });
+
+      updateAvatarDisplay();
+      renderItems();
+      showMessage('🎲 Đổi trang phục ngẫu nhiên!', 'success');
+    }
+
+    function resetAvatar() {
+      const categories = ['hat', 'glasses', 'hair', 'jewelry', 'top', 'accessory', 'bottom', 'shoes'];
+
+      // Reset to defaults
+      avatarSystem.equippedItems = {
+        hair: null,
+        top: null,
+        bottom: null,
+        shoes: null,
+        accessory: null,
+        hat: null,
+        glasses: null,
+        jewelry: null
+      };
+      avatarSystem.saveAvatarData();
+
+      updateAvatarDisplay();
+      renderItems();
+      showMessage('🔄 Đã reset về mặc định!', 'success');
     }
 
     function showMessage(message, type) {
@@ -451,8 +441,8 @@
         position: fixed;
         top: 20px;
         right: 20px;
-        padding: 15px 20px;
-        border-radius: 10px;
+        padding: 15px 25px;
+        border-radius: 50px;
         font-weight: bold;
         z-index: 1000;
         animation: slideIn 0.3s ease;

@@ -1,96 +1,98 @@
-/* Avatar System Styles */
+/* Avatar System Styles - Cute Doll Design */
 
 .avatar-header {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  color: white;
-  border-radius: 20px;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  color: #333;
+  border-radius: 30px;
   padding: 30px;
   text-align: center;
   margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
 .avatar-header h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
+  color: #d63384;
 }
 
 .player-gold {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 15px 30px;
+  gap: 12px;
+  background: white;
+  padding: 12px 30px;
   border-radius: 50px;
   margin-top: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .gold-emoji {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .gold-amount {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  color: #f59e0b;
 }
 
 .gold-label {
-  font-size: 1rem;
-  opacity: 0.9;
+  font-size: 0.95rem;
+  color: #666;
 }
 
-/* Avatar Preview */
-.avatar-preview-section {
-  background: white;
-  border-radius: 25px;
-  padding: 30px;
+/* Changing Room Layout */
+.changing-room {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
   margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.avatar-display {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  margin-bottom: 20px;
+/* Avatar Showcase */
+.avatar-showcase {
+  background: white;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* Mannequin Avatar */
-.mannequin-container {
-  flex: 0 0 auto;
+.avatar-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #d63384;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
-.mannequin {
+/* Avatar Canvas */
+.avatar-canvas {
   position: relative;
-  width: 250px;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  aspect-ratio: 3/4;
 }
 
-.avatar-glow {
+.avatar-background {
   position: absolute;
-  width: 220px;
-  height: 220px;
-  background: radial-gradient(circle, rgba(240, 147, 251, 0.3) 0%, rgba(245, 87, 108, 0.1) 70%, transparent 100%);
-  border-radius: 50%;
-  animation: pulse 3s ease-in-out infinite;
+  inset: 0;
+  background: linear-gradient(180deg, #e0f7fa 0%, #fff 50%, #fce4ec 100%);
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-    opacity: 0.8;
-  }
-  50% {
-    transform: scale(1.1);
-    opacity: 1;
-  }
+.bg-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255, 182, 193, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(179, 229, 252, 0.3) 0%, transparent 50%);
 }
 
-.mannequin-body {
+/* Cute Doll Avatar */
+.doll-avatar {
   position: relative;
   width: 100%;
   height: 100%;
@@ -99,228 +101,387 @@
   justify-content: center;
 }
 
-.mannequin-face {
-  font-size: 100px;
-  z-index: 1;
+.avatar-part {
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+/* Doll Body Parts */
+.doll-body {
+  position: relative;
+  width: 200px;
+  height: 300px;
+}
+
+.doll-neck {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  background: #ffdbac;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+}
+
+.doll-face {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.doll-head {
   position: relative;
 }
 
-/* Layer System for Clothing */
-.mannequin-layer {
+.doll-face-shape {
+  width: 120px;
+  height: 130px;
+  background: linear-gradient(180deg, #ffdbac 0%, #f5c6a5 100%);
+  border-radius: 50% 50% 45% 45%;
+  position: relative;
+  box-shadow: inset 0 -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Eyes */
+.doll-eye {
   position: absolute;
+  width: 28px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  top: 50px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-eye {
+  left: 25px;
+}
+
+.right-eye {
+  right: 25px;
+}
+
+.eye-pupil {
+  width: 14px;
+  height: 16px;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eye-pupil::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  top: 3px;
+  left: 3px;
+}
+
+/* Blush */
+.doll-blush {
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  background: rgba(255, 150, 150, 0.5);
+  border-radius: 50%;
+  top: 70px;
+}
+
+.left-blush {
+  left: 15px;
+}
+
+.right-blush {
+  right: 15px;
+}
+
+/* Mouth */
+.doll-mouth {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+
+/* Torso */
+.doll-torso {
+  position: absolute;
+  width: 100px;
+  height: 110px;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.default-top {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
-  pointer-events: none;
-}
-
-.layer-item {
-  font-size: 24px;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-}
-
-/* Hair Layer - Behind face */
-.hair-layer {
-  z-index: 0;
-  top: 5%;
-}
-
-.hair-layer .layer-item {
-  font-size: 60px;
-  margin-top: -20px;
-}
-
-/* Hat Layer - On top */
-.hat-layer {
-  z-index: 10;
-  top: -5%;
-}
-
-.hat-layer .layer-item {
   font-size: 50px;
 }
 
-/* Glasses Layer - On face */
-.glasses-layer {
-  z-index: 5;
-  top: 25%;
+/* Arms */
+.doll-arm {
+  position: absolute;
+  width: 30px;
+  height: 90px;
+  top: 120px;
+  z-index: 4;
 }
 
-.glasses-layer .layer-item {
+.left-arm {
+  left: 20px;
+  transform: rotate(15deg);
+}
+
+.right-arm {
+  right: 20px;
+  transform: rotate(-15deg);
+}
+
+.doll-hand {
+  position: absolute;
+  bottom: 0;
+  font-size: 24px;
+}
+
+.left-arm .doll-hand {
+  left: 0;
+}
+
+.right-arm .doll-hand {
+  right: 0;
+}
+
+/* Legs */
+.doll-legs {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  z-index: 3;
+}
+
+.doll-leg {
+  width: 35px;
+  height: 80px;
+  position: relative;
+}
+
+.default-bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 40px;
 }
 
-/* Jewelry Layer - Neck area */
-.jewelry-layer {
-  z-index: 6;
-  top: 45%;
-}
-
-.jewelry-layer .layer-item {
-  font-size: 35px;
-}
-
-/* Top Layer - Body */
-.top-layer {
-  z-index: 2;
-  top: 40%;
-}
-
-.top-layer .layer-item {
-  font-size: 80px;
-}
-
-/* Accessory Layer */
-.accessory-layer {
-  z-index: 7;
-  top: 35%;
-}
-
-.accessory-layer .layer-item {
-  font-size: 30px;
-}
-
-/* Bottom Layer - Lower body */
-.bottom-layer {
-  z-index: 3;
-  top: 60%;
-}
-
-.bottom-layer .layer-item {
-  font-size: 70px;
-}
-
-/* Shoes Layer - Bottom */
-.shoes-layer {
+/* Shoes */
+.doll-shoe {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  bottom: -5px;
   z-index: 4;
-  top: 85%;
 }
 
-.shoes-layer .layer-item {
-  font-size: 50px;
-}
-
-.avatar-name {
-  text-align: center;
-  margin-top: 15px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #f5576c;
-}
-
-/* Empty layer styling */
-.mannequin-layer:empty,
-.mannequin-layer .layer-item:empty {
-  display: none;
-}
-
-/* Animation when equipping items */
-.mannequin-layer .layer-item {
-  animation: itemPop 0.3s ease;
-}
-
-@keyframes itemPop {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.avatar-item-slot {
-  background: #f8f9fa;
-  border: 2px solid #e0e0e0;
-  border-radius: 15px;
-  padding: 15px;
-  text-align: center;
-  transition: all 0.3s;
-}
-
-.avatar-item-slot:hover {
-  border-color: #f5576c;
-  background: #fff5f7;
-}
-
-.slot-label {
-  font-size: 0.8rem;
-  color: #666;
-  margin-bottom: 8px;
-}
-
-.slot-content {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.avatar-stats {
+.default-shoe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 50px;
-  padding-top: 20px;
-  border-top: 2px solid #f0f0f0;
+  font-size: 25px;
 }
 
-.stat-item {
-  text-align: center;
+.left-shoe {
+  left: 65px;
 }
 
-.stat-value {
-  font-size: 2rem;
+.right-shoe {
+  right: 65px;
+}
+
+/* Hair Layers */
+.hair-back {
+  width: 140px;
+  height: 150px;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 70px 70px 20px 20px;
+}
+
+.hair-front {
+  width: 130px;
+  height: 80px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+  border-radius: 65px 65px 0 0;
+}
+
+.default-hair {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+/* Hat */
+.hat {
+  width: 140px;
+  height: 60px;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.default-hat {
+  width: 100%;
+  height: 100%;
+}
+
+/* Glasses */
+.glasses {
+  width: 120px;
+  height: 40px;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 16;
+}
+
+.default-glasses {
+  width: 100%;
+  height: 100%;
+}
+
+/* Jewelry */
+.jewelry {
+  width: 80px;
+  height: 30px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+}
+
+.default-jewelry {
+  width: 100%;
+  height: 100%;
+}
+
+/* Accessory */
+.accessory {
+  width: 60px;
+  height: 40px;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 17;
+}
+
+.default-accessory {
+  width: 100%;
+  height: 100%;
+}
+
+/* Quick Actions */
+.quick-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.action-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 1rem;
   font-weight: bold;
-  color: #f5576c;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
 }
 
-.stat-label {
-  font-size: 0.9rem;
-  color: #666;
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
 }
 
-/* Shop Section */
-.shop-section,
-.owned-section {
+/* Wardrobe Panel */
+.wardrobe-panel {
   background: white;
-  border-radius: 25px;
+  border-radius: 30px;
   padding: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
-.shop-section h2,
-.owned-section h2 {
-  color: #f5576c;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-}
-
-.category-tabs {
+/* Category Tabs */
+.wardrobe-tabs {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
-  justify-content: center;
 }
 
 .tab-btn {
+  flex: 1;
+  min-width: 80px;
   background: #f8f9fa;
   border: 2px solid #e0e0e0;
-  padding: 10px 20px;
-  border-radius: 50px;
+  padding: 12px 10px;
+  border-radius: 15px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 500;
   transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.tab-icon {
+  font-size: 1.5rem;
+}
+
+.tab-text {
+  font-size: 0.75rem;
 }
 
 .tab-btn:hover {
-  border-color: #f5576c;
+  border-color: #f093fb;
   background: #fff5f7;
 }
 
@@ -330,76 +491,110 @@
   border-color: #f5576c;
 }
 
-.items-grid {
+/* Items Grid */
+.wardrobe-items {
+  flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  overflow-y: auto;
+  max-height: 500px;
+  padding: 5px;
 }
 
-/* Shop Items */
-.shop-item {
+.wardrobe-item {
   background: #f8f9fa;
   border: 3px solid #e0e0e0;
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   transition: all 0.3s;
   position: relative;
 }
 
-.shop-item:hover:not(.owned) {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+.wardrobe-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.shop-item.owned {
-  opacity: 0.7;
-  border-color: #11998e;
-}
-
-.shop-item.common {
+.wardrobe-item.common {
   border-color: #9CA3AF;
 }
 
-.shop-item.rare {
+.wardrobe-item.rare {
   border-color: #3B82F6;
 }
 
-.shop-item.epic {
+.wardrobe-item.epic {
   border-color: #A855F7;
 }
 
-.shop-item.legendary {
+.wardrobe-item.legendary {
   border-color: #F59E0B;
   border-width: 4px;
 }
 
+.wardrobe-item.equipped {
+  background: linear-gradient(135deg, #11998e15 0%, #38ef7d15 100%);
+  border-color: #11998e;
+}
+
+.item-preview {
+  position: relative;
+  margin-bottom: 10px;
+}
+
 .item-emoji {
   font-size: 4rem;
+}
+
+.equipped-badge,
+.owned-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #11998e;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.owned-badge {
+  background: #9333ea;
+}
+
+.item-info {
   margin-bottom: 10px;
 }
 
 .item-name {
   font-weight: bold;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 0.9rem;
 }
 
 .item-price {
   color: #f5576c;
   font-weight: bold;
-  margin-bottom: 15px;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
+}
+
+.item-actions {
+  display: flex;
+  gap: 8px;
 }
 
 .btn-buy,
 .btn-equip {
-  width: 100%;
-  padding: 10px;
+  flex: 1;
+  padding: 8px;
   border: none;
   border-radius: 10px;
   font-weight: bold;
+  font-size: 0.85rem;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -410,13 +605,13 @@
 }
 
 .btn-buy:hover:not(:disabled) {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(17, 153, 142, 0.4);
+  transform: scale(1.05);
 }
 
 .btn-buy:disabled {
   background: #ccc;
   cursor: not-allowed;
+  opacity: 0.7;
 }
 
 .btn-equip {
@@ -425,58 +620,83 @@
 }
 
 .btn-equip:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  transform: scale(1.05);
 }
 
-/* Owned Items */
-.owned-item {
+/* Owned Toggle */
+.owned-toggle {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.toggle-btn {
+  flex: 1;
+  padding: 12px;
   background: #f8f9fa;
-  border: 3px solid #e0e0e0;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
   transition: all 0.3s;
 }
 
-.owned-item.equipped {
-  border-color: #11998e;
-  background: linear-gradient(135deg, #11998e15 0%, #38ef7d15 100%);
+.toggle-btn.active {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border-color: #f5576c;
 }
 
-.equipped-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #11998e;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 0.7rem;
-  font-weight: bold;
+.empty-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 1rem;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .avatar-display {
-    flex-direction: column;
+@media (max-width: 900px) {
+  .changing-room {
+    grid-template-columns: 1fr;
   }
 
-  .avatar-items {
+  .avatar-canvas {
+    max-width: 280px;
+  }
+
+  .doll-body {
+    transform: scale(0.85);
+  }
+
+  .wardrobe-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .wardrobe-tabs {
+    justify-content: center;
+  }
+
+  .wardrobe-items {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .items-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  }
-
-  .category-tabs {
-    justify-content: flex-start;
+    max-height: 400px;
   }
 
   .tab-btn {
-    font-size: 0.8rem;
-    padding: 8px 15px;
+    min-width: 60px;
+    padding: 10px 5px;
+  }
+
+  .tab-icon {
+    font-size: 1.2rem;
+  }
+
+  .tab-text {
+    font-size: 0.65rem;
   }
 }
 
@@ -489,5 +709,21 @@
   to {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+/* Avatar content display */
+.avatar-content {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
