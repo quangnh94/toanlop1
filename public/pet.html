@@ -255,9 +255,10 @@
 
     function updateStatBar(stat, value, max) {
       const percentage = Math.round((value / max) * 100);
+      const roundedValue = Math.round(value);
       document.getElementById(`${stat}Bar`).style.width = percentage + '%';
-      document.getElementById(`${stat}BarText`).textContent = value;
-      document.getElementById(`${stat}Value`).textContent = `${value}/${max}`;
+      document.getElementById(`${stat}BarText`).textContent = roundedValue;
+      document.getElementById(`${stat}Value`).textContent = `${roundedValue}/${max}`;
     }
 
     function updatePetXPBar(xp, xpToNext) {
@@ -419,14 +420,14 @@
       petSystem.savePetData();
     }, 60000);
 
-    // Tự động giảm stats theo thời gian - Cập nhật mỗi 30 giây
+    // Tự động giảm stats theo thời gian - Giảm từ từ mỗi phút
     setInterval(() => {
       const pet = petSystem.getActivePet();
       if (pet) {
-        // Giảm stats
-        pet.hunger = Math.max(0, pet.hunger - 2);  // Giảm đói nhanh hơn
-        pet.happiness = Math.max(0, pet.happiness - 1);  // Giảm vui vẻ
-        pet.energy = Math.max(0, pet.energy - 1.5);  // Giảm năng lượng
+        // Giảm stats chậm hơn
+        pet.hunger = Math.max(0, pet.hunger - 1);  // Giảm 1 điểm mỗi phút
+        pet.happiness = Math.max(0, pet.happiness - 0.5);  // Giảm 0.5 điểm mỗi phút
+        pet.energy = Math.max(0, pet.energy - 0.8);  // Giảm 0.8 điểm mỗi phút
 
         updatePetStats(pet);
 
@@ -444,19 +445,25 @@
         // Lưu dữ liệu
         petSystem.savePetData();
       }
-    }, 30000); // Cập nhật mỗi 30 giây
+    }, 60000); // Cập nhật mỗi phút
 
-    // Cập nhật real-time mỗi giây để hiển thị mượt hơn
+    // Cập nhật UI mỗi 10 giây để hiển thị mượt (không giảm stats thực)
+    let lastUpdateTime = Date.now();
     setInterval(() => {
       const pet = petSystem.getActivePet();
       if (pet) {
-        // Giảm nhẹ hơn để hiển thị mượt
-        pet.hunger = Math.max(0, pet.hunger - 0.1);
-        pet.happiness = Math.max(0, pet.happiness - 0.05);
-        pet.energy = Math.max(0, pet.energy - 0.08);
+        const now = Date.now();
+        const elapsedMinutes = (now - lastUpdateTime) / 60000;
+
+        // Chỉ giảm stats thực sự theo thời gian đã trôi qua
+        pet.hunger = Math.max(0, pet.hunger - (elapsedMinutes * 1));
+        pet.happiness = Math.max(0, pet.happiness - (elapsedMinutes * 0.5));
+        pet.energy = Math.max(0, pet.energy - (elapsedMinutes * 0.8));
+
+        lastUpdateTime = now;
         updatePetStats(pet);
       }
-    }, 5000); // Cập nhật mỗi 5 giây
+    }, 10000); // Cập nhật UI mỗi 10 giây
   </script>
 </body>
 </html>
