@@ -97,9 +97,11 @@ function createStickerCard(sticker) {
   card.className = `sticker-card ${sticker.rarity}`;
   card.style.background = `linear-gradient(135deg, ${sticker.color}22 0%, ${sticker.color}44 100%)`;
 
+  const imageHtml = sticker.image ? `<img src="${sticker.image}" alt="${sticker.name}" class="sticker-image" onerror="this.parentElement.innerHTML='<div class=\\'sticker-emoji\\'>${sticker.emoji}</div>'">` : `<div class="sticker-emoji">${sticker.emoji}</div>`;
+
   card.innerHTML = `
     <div class="sticker-count">${sticker.count}x</div>
-    <div class="sticker-emoji">${sticker.emoji}</div>
+    <div class="sticker-image-container">${imageHtml}</div>
     <div class="sticker-info">
       <div class="sticker-name">${sticker.name}</div>
       <div class="sticker-rarity" style="color: ${sticker.color};">${sticker.rarityLabel}</div>
@@ -118,9 +120,11 @@ function showStickerDetail(sticker) {
 
   const latestDate = new Date(Math.max(...sticker.collectedAt.map(d => new Date(d).getTime())));
 
+  const detailImageHtml = sticker.image ? `<img src="${sticker.image}" alt="${sticker.name}" class="sticker-detail-image" onerror="this.replaceWith(document.createElement('div')).className='sticker-detail-emoji';this.textContent='${sticker.emoji}'">` : `<div class="sticker-detail-emoji">${sticker.emoji}</div>`;
+
   detail.innerHTML = `
     <div class="sticker-detail-display" style="background: linear-gradient(135deg, ${sticker.color}22 0%, ${sticker.color}44 100%);">
-      <div class="sticker-detail-emoji">${sticker.emoji}</div>
+      ${detailImageHtml}
       <div class="sticker-detail-name">${sticker.name}</div>
       <div class="sticker-detail-rarity" style="color: ${sticker.color};">${sticker.rarityLabel}</div>
     </div>

@@ -243,6 +243,8 @@ function displayResult(result) {
 
 // Hiển thị sticker thưởng
 function showRewardSticker(sticker) {
+  const imageHtml = sticker.image ? `<img src="${sticker.image}" alt="${sticker.name}" class="sticker-reward-image" onerror="this.replaceWith(document.createElement('div')).className='sticker-emoji';this.style.fontSize='80px';this.textContent='${sticker.emoji}'">` : `<div class="sticker-emoji" style="font-size: 80px;">${sticker.emoji}</div>`;
+
   // Tạo modal hiển thị sticker
   const modal = document.createElement('div');
   modal.className = 'sticker-reward-modal';
@@ -253,7 +255,7 @@ function showRewardSticker(sticker) {
         <p>Bạn đã được tặng một sticker!</p>
       </div>
       <div class="sticker-display" style="background: linear-gradient(135deg, ${sticker.color}22 0%, ${sticker.color}44 100%);">
-        <div class="sticker-emoji" style="font-size: 80px;">${sticker.emoji}</div>
+        ${imageHtml}
         <div class="sticker-name">${sticker.name}</div>
         <div class="sticker-rarity" style="color: ${sticker.color};">${sticker.rarityLabel}</div>
       </div>

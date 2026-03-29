@@ -160,6 +160,22 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.sticker-image-container {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticker-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: float 3s ease-in-out infinite;
+}
+
 .sticker-emoji {
   font-size: 50px;
   margin-bottom: 10px;
@@ -274,6 +290,13 @@
   margin-bottom: 20px;
 }
 
+.sticker-detail-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
 .sticker-detail-emoji {
   font-size: 80px;
   margin-bottom: 15px;
@@ -372,6 +395,14 @@
   margin-bottom: 30px;
   backdrop-filter: blur(10px);
   border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.sticker-display .sticker-reward-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  animation: pulse 1.5s ease-in-out infinite;
 }
 
 .sticker-display .sticker-emoji {

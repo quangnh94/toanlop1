@@ -1,1371 +1,191 @@
 {
   "stickers": [
     {
-      "id": "tom-jerry-1",
-      "name": "Tom Mèo",
-      "emoji": "🐱",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-2",
-      "name": "Jerry Chuột",
-      "emoji": "🐭",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-3",
-      "name": "Spike Chó",
-      "emoji": "🐕",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-4",
-      "name": "Tuffy Chuột con",
-      "emoji": "🐁",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-5",
-      "name": "Tom Buồn ngủ",
-      "emoji": "😴",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-6",
-      "name": "Jerry Ăn phô mai",
-      "emoji": "🧀",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-7",
-      "name": "Tom Đuổi Jerry",
-      "emoji": "💨",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "tom-jerry-8",
-      "name": "Jerry Cười khúc khích",
-      "emoji": "😂",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "kurumi-1",
-      "name": "Kurumi Đồ đỏ",
-      "emoji": "👧",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "kurumi-2",
-      "name": "Kurumi Mắt đỏ",
-      "emoji": "👁️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "kurumi-3",
-      "name": "Zafkiel Thời gian",
-      "emoji": "⏰",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "kurumi-4",
-      "name": "Kurumi Áo choàng",
-      "emoji": "🧥",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "kurumi-5",
-      "name": "Kurumi Nụ cười",
-      "emoji": "😊",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "kurumi-6",
-      "name": "Kurumi Thả dây",
+      "id": "sticker-1",
+      "name": "Sticker 1",
       "emoji": "🎀",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "kurumi-7",
-      "name": "Không gian Bóng tối",
-      "emoji": "🌑",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "kurumi-8",
-      "name": "Thủ lĩnh Tinh linh",
-      "emoji": "👑",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "mickey-1",
-      "name": "Mickey Chuột",
-      "emoji": "🐭",
+      "image": "/stickers/sticker_1.webp",
       "rarity": "common",
       "rarityLabel": "Phổ thông",
       "color": "#9CA3AF"
     },
     {
-      "id": "mickey-2",
-      "name": "Minnie Chuột",
-      "emoji": "🐭",
+      "id": "sticker-2",
+      "name": "Sticker 2",
+      "emoji": "💖",
+      "image": "/stickers/sticker_2.webp",
       "rarity": "common",
       "rarityLabel": "Phổ thông",
       "color": "#9CA3AF"
     },
     {
-      "id": "mickey-3",
-      "name": "Donald Vịt",
-      "emoji": "🦆",
+      "id": "sticker-3",
+      "name": "Sticker 3",
+      "emoji": "🌸",
+      "image": "/stickers/sticker_3.webp",
       "rarity": "common",
       "rarityLabel": "Phổ thông",
       "color": "#9CA3AF"
     },
     {
-      "id": "mickey-4",
-      "name": "Goofy Chó",
-      "emoji": "🐶",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "mickey-5",
-      "name": "Pluto Chó",
-      "emoji": "🐕",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "mickey-6",
-      "name": "Daisy Vịt",
-      "emoji": "🦆",
+      "id": "sticker-4",
+      "name": "Sticker 4",
+      "emoji": "⭐",
+      "image": "/stickers/sticker_4.webp",
       "rarity": "rare",
       "rarityLabel": "Hiếm",
       "color": "#3B82F6"
     },
     {
-      "id": "mickey-7",
-      "name": "Scrooge",
-      "emoji": "🦆",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "mickey-8",
-      "name": "Lâu đài Disney",
-      "emoji": "🏰",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "looney-1",
-      "name": "Bugs Bunny",
-      "emoji": "🐰",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "looney-2",
-      "name": "Daffy Duck",
-      "emoji": "🦆",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "looney-3",
-      "name": "Porky Pig",
-      "emoji": "🐷",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "looney-4",
-      "name": "Tweety Bird",
-      "emoji": "🐥",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "looney-5",
-      "name": "Sylvester Mèo",
+      "id": "sticker-5",
+      "name": "Sticker 5",
       "emoji": "🐱",
+      "image": "/stickers/sticker_5.webp",
       "rarity": "rare",
       "rarityLabel": "Hiếm",
       "color": "#3B82F6"
     },
     {
-      "id": "looney-6",
-      "name": "Wile E. Coyote",
-      "emoji": "🐺",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "looney-7",
-      "name": "Road Runner",
-      "emoji": "🐦",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "looney-8",
-      "name": "Tasmanian Devil",
-      "emoji": "🌀",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "spongebob-1",
-      "name": "SpongeBob",
-      "emoji": "🧽",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "spongebob-2",
-      "name": "Patrick Ngôi sao",
-      "emoji": "⭐",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "spongebob-3",
-      "name": "Squidward Mực",
-      "emoji": "🦑",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "spongebob-4",
-      "name": "Mr. Krabs Cua",
-      "emoji": "🦀",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "spongebob-5",
-      "name": "Sandy Sóc",
-      "emoji": "🐿️",
+      "id": "sticker-6",
+      "name": "Sticker 6",
+      "emoji": "🐰",
+      "image": "/stickers/sticker_6.webp",
       "rarity": "rare",
       "rarityLabel": "Hiếm",
       "color": "#3B82F6"
     },
     {
-      "id": "spongebob-6",
-      "name": "Plankton",
-      "emoji": "🦠",
+      "id": "sticker-7",
+      "name": "Sticker 7",
+      "emoji": "🐻",
+      "image": "/stickers/sticker_7.webp",
       "rarity": "rare",
       "rarityLabel": "Hiếm",
       "color": "#3B82F6"
     },
     {
-      "id": "spongebob-7",
-      "name": "Gary Ốc sên",
-      "emoji": "🐌",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "spongebob-8",
-      "name": "Nhà dứa",
-      "emoji": "🍍",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "pokemon-1",
-      "name": "Pikachu",
-      "emoji": "⚡",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "pokemon-2",
-      "name": "Eevee",
+      "id": "sticker-8",
+      "name": "Sticker 8",
       "emoji": "🦊",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "pokemon-3",
-      "name": "Snorlax",
-      "emoji": "😴",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "pokemon-4",
-      "name": "Charizard",
-      "emoji": "🔥",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "pokemon-5",
-      "name": "Mewtwo",
-      "emoji": "🔮",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "pokemon-6",
-      "name": "Bulbasaur",
-      "emoji": "🌱",
+      "image": "/stickers/sticker_8.webp",
       "rarity": "rare",
       "rarityLabel": "Hiếm",
       "color": "#3B82F6"
     },
     {
-      "id": "pokemon-7",
-      "name": "Squirtle",
-      "emoji": "💧",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "pokemon-8",
-      "name": "Jigglypuff",
-      "emoji": "🎵",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "dc-1",
-      "name": "Batman",
-      "emoji": "🦇",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "dc-2",
-      "name": "Superman",
-      "emoji": "🦸",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "dc-3",
-      "name": "Wonder Woman",
-      "emoji": "👸",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "dc-4",
-      "name": "The Flash",
-      "emoji": "⚡",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "dc-5",
-      "name": "Joker",
-      "emoji": "🃏",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "dc-6",
-      "name": "Harley Quinn",
-      "emoji": "💜",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "doraemon-1",
-      "name": "Doraemon",
-      "emoji": "🤖",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "doraemon-2",
-      "name": "Nobita",
-      "emoji": "👦",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "doraemon-3",
-      "name": "Shizuka",
-      "emoji": "👧",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "doraemon-4",
-      "name": "Jaian",
-      "emoji": "👊",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "doraemon-5",
-      "name": "Suneo",
-      "emoji": "😎",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "doraemon-6",
-      "name": "Cửa thần kỳ",
-      "emoji": "🚪",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "doraemon-7",
-      "name": "Chiếc máy bay",
-      "emoji": "🚁",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "doraemon-8",
-      "name": "Bánh mì thay đổi",
-      "emoji": "🍞",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "powerpuff-1",
-      "name": "Blossom",
-      "emoji": "🌸",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "powerpuff-2",
-      "name": "Bubbles",
-      "emoji": "💙",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "powerpuff-3",
-      "name": "Buttercup",
-      "emoji": "💚",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "powerpuff-4",
-      "name": "Mojo Jojo",
-      "emoji": "🐒",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "powerpuff-5",
-      "name": "Professor Utonium",
-      "emoji": "🧪",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "dragon-1",
-      "name": "Son Goku",
-      "emoji": "🔥",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "dragon-2",
-      "name": "Vegeta",
-      "emoji": "👑",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "dragon-3",
-      "name": "Piccolo",
-      "emoji": "👽",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "dragon-4",
-      "name": "Gohan",
-      "emoji": "📚",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "dragon-5",
-      "name": "Buu hồng",
-      "emoji": "🩷",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "dragon-6",
-      "name": "Super Saiyan",
-      "emoji": "💛",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "dragon-7",
-      "name": "Dragon Ball",
-      "emoji": "🐉",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "one-piece-1",
-      "name": "Luffy",
-      "emoji": "🏴‍☠️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "one-piece-2",
-      "name": "Zoro",
-      "emoji": "⚔️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "one-piece-3",
-      "name": "Nami",
-      "emoji": "🍊",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "one-piece-4",
-      "name": "Sanji",
-      "emoji": "🍳",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "one-piece-5",
-      "name": "Chopper",
-      "emoji": "🦌",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "one-piece-6",
-      "name": "Thuyền chiến",
-      "emoji": "⛵",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "naruto-1",
-      "name": "Naruto",
-      "emoji": "🍥",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "naruto-2",
-      "name": "Sasuke",
-      "emoji": "⚡",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "naruto-3",
-      "name": "Sakura",
-      "emoji": "🌸",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "naruto-4",
-      "name": "Kakashi",
-      "emoji": "📖",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "naruto-5",
-      "name": "Rasengan",
-      "emoji": "🌀",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "naruto-6",
-      "name": "Sharingan",
-      "emoji": "👁️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "ninjago-1",
-      "name": "Lloyd",
-      "emoji": "🟢",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ninjago-2",
-      "name": "Kai",
-      "emoji": "🔥",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ninjago-3",
-      "name": "Jay",
-      "emoji": "⚡",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ninjago-4",
-      "name": "Cole",
-      "emoji": "🪨",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ninjago-5",
-      "name": "Zane",
-      "emoji": "❄️",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ninjago-6",
-      "name": "Nya",
-      "emoji": "💧",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "teen-1",
-      "name": "Robin",
-      "emoji": "🦅",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "teen-2",
-      "name": "Cyborg",
-      "emoji": "🤖",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "teen-3",
-      "name": "Starfire",
-      "emoji": "💜",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "teen-4",
-      "name": "Raven",
-      "emoji": "🌑",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "teen-5",
-      "name": "Beast Boy",
-      "emoji": "🦍",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "avenger-1",
-      "name": "Iron Man",
-      "emoji": "🤖",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "avenger-2",
-      "name": "Captain America",
-      "emoji": "🛡️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "avenger-3",
-      "name": "Thor",
-      "emoji": "🔨",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "avenger-4",
-      "name": "Hulk",
-      "emoji": "💪",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "avenger-5",
-      "name": "Black Widow",
-      "emoji": "🕷️",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "avenger-6",
-      "name": "Spider-Man",
-      "emoji": "🕸️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "ben-1",
-      "name": "Ben 10",
-      "emoji": "⌚",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "ben-2",
-      "name": "Heatblast",
-      "emoji": "🔥",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ben-3",
-      "name": "XLR8",
-      "emoji": "💨",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ben-4",
-      "name": "Four Arms",
-      "emoji": "💪",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ben-5",
-      "name": "Diamondhead",
-      "emoji": "💎",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ben-6",
-      "name": "Omnitrix",
-      "emoji": "🟢",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "adventure-1",
-      "name": "Finn",
-      "emoji": "⚔️",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "adventure-2",
-      "name": "Jake",
-      "emoji": "🐕",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "adventure-3",
-      "name": "Princess Bubblegum",
-      "emoji": "🍬",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "adventure-4",
-      "name": "Marceline",
-      "emoji": "🧛",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "adventure-5",
-      "name": "Ice King",
-      "emoji": "❄️",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "regular-1",
-      "name": "Mordecai",
-      "emoji": "🐦",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "regular-2",
-      "name": "Rigby",
-      "emoji": "🦝",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "regular-3",
-      "name": "Benson",
-      "emoji": "🎤",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "regular-4",
-      "name": "Pops",
-      "emoji": "🍭",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "regular-5",
-      "name": "Skips",
-      "emoji": "🦘",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "gravity-1",
-      "name": "Dipper",
-      "emoji": "🎩",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "gravity-2",
-      "name": "Mabel",
-      "emoji": "🌟",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "gravity-3",
-      "name": "Grunkle Stan",
-      "emoji": "👒",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "gravity-4",
-      "name": "Waddles",
-      "emoji": "🐷",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "gravity-5",
-      "name": "Journal 3",
-      "emoji": "📖",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "gravity-6",
-      "name": "Bill Cipher",
-      "emoji": "👁️",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
-    },
-    {
-      "id": "teen-titans-1",
-      "name": "Cyborg",
-      "emoji": "🦾",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "teen-titans-2",
-      "name": "Starfire",
-      "emoji": "🔥",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "teen-titans-3",
-      "name": "Raven",
-      "emoji": "🌑",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "teen-titans-4",
-      "name": "Beast Boy",
-      "emoji": "🐸",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "teen-titans-5",
-      "name": "Robin",
-      "emoji": "🦇",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "hi-1",
-      "name": "Johnny Bravo",
-      "emoji": "💪",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-2",
-      "name": "Dexter",
-      "emoji": "🔬",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-3",
-      "name": "Dee Dee",
-      "emoji": "💃",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-4",
-      "name": "Ed Edd n Eddy",
-      "emoji": "🍭",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-5",
-      "name": "Courage",
+      "id": "sticker-10",
+      "name": "Sticker 10",
       "emoji": "🐶",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-6",
-      "name": "Cow and Chicken",
-      "emoji": "🐔",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-7",
-      "name": "I Am Weasel",
-      "emoji": "🦦",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "hi-8",
-      "name": "Powerpuff Girls",
-      "emoji": "🌸",
+      "image": "/stickers/sticker_10.webp",
       "rarity": "epic",
       "rarityLabel": "Sử thi",
       "color": "#A855F7"
     },
     {
-      "id": "nick-1",
-      "name": "SpongeBob",
-      "emoji": "🧽",
+      "id": "sticker-11",
+      "name": "Sticker 11",
+      "emoji": "🐧",
+      "image": "/stickers/sticker_11.webp",
       "rarity": "epic",
       "rarityLabel": "Sử thi",
       "color": "#A855F7"
     },
     {
-      "id": "nick-2",
-      "name": "Avatar Aang",
-      "emoji": "🌪️",
+      "id": "sticker-12",
+      "name": "Sticker 12",
+      "emoji": "🦋",
+      "image": "/stickers/sticker_12.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker-13",
+      "name": "Sticker 13",
+      "emoji": "🌈",
+      "image": "/stickers/sticker_13.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker-14",
+      "name": "Sticker 14",
+      "emoji": "⚡",
+      "image": "/stickers/sticker_14.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker-15",
+      "name": "Sticker 15",
+      "emoji": "🔥",
+      "image": "/stickers/sticker_15.webp",
       "rarity": "legendary",
       "rarityLabel": "Huyền thoại",
       "color": "#F59E0B"
     },
     {
-      "id": "nick-3",
-      "name": "Zuko",
-      "emoji": "🔥",
+      "id": "sticker-16",
+      "name": "Sticker 16",
+      "emoji": "💎",
+      "image": "/stickers/sticker_16.webp",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "sticker-17",
+      "name": "Sticker 17",
+      "emoji": "👑",
+      "image": "/stickers/sticker_17.webp",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "sticker-18",
+      "name": "Sticker 18",
+      "emoji": "🏆",
+      "image": "/stickers/sticker_18.webp",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "sticker-19",
+      "name": "Sticker 19",
+      "emoji": "🌟",
+      "image": "/stickers/sticker_19.webp",
       "rarity": "epic",
       "rarityLabel": "Sử thi",
       "color": "#A855F7"
     },
     {
-      "id": "nick-4",
-      "name": "Katara",
-      "emoji": "💧",
+      "id": "sticker-21",
+      "name": "Sticker 21",
+      "emoji": "🎀",
+      "image": "/stickers/sticker_21.webp",
       "rarity": "epic",
       "rarityLabel": "Sử thi",
       "color": "#A855F7"
     },
     {
-      "id": "nick-5",
-      "name": "Toph",
-      "emoji": "🪨",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "nick-6",
-      "name": "Rocket Power",
-      "emoji": "🛹",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "nick-7",
-      "name": "Rugrats",
-      "emoji": "👶",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "nick-8",
-      "name": "Hey Arnold",
-      "emoji": "🏙️",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-1",
-      "name": "Cosmo",
-      "emoji": "⭐",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-2",
-      "name": "Wanda",
+      "id": "sticker-22",
+      "name": "Sticker 22",
       "emoji": "💫",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-3",
-      "name": "Timmy Turner",
-      "emoji": "🎩",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-4",
-      "name": "Poof",
-      "emoji": "👶",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-5",
-      "name": "Jorgen",
-      "emoji": "💪",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "fairy-6",
-      "name": "Vicky",
-      "emoji": "😈",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-7",
-      "name": "Crocker",
-      "emoji": "🔍",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "fairy-8",
-      "name": "Fairy World",
-      "emoji": "🏰",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "class-1",
-      "name": "Timmy",
-      "emoji": "👦",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "class-2",
-      "name": "Jimmy Neutron",
-      "emoji": "🚀",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "class-3",
-      "name": "Goddard",
-      "emoji": "🐕",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "class-4",
-      "name": "Cindy Vortex",
-      "emoji": "👧",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "class-5",
-      "name": "Carl",
-      "emoji": "🧐",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "class-6",
-      "name": "Sheen",
-      "emoji": "🦸",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "class-7",
-      "name": "Retroville",
-      "emoji": "🏙️",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "class-8",
-      "name": "Lab dưới đất",
-      "emoji": "🔬",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
-    },
-    {
-      "id": "ed-1",
-      "name": "Ed",
-      "emoji": "🤪",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "ed-2",
-      "name": "Edd",
-      "emoji": "🧠",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "ed-3",
-      "name": "Eddy",
-      "emoji": "😎",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "ed-4",
-      "name": "Rolf",
-      "emoji": "🚜",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "ed-5",
-      "name": "Nazz",
-      "emoji": "👧",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "ed-6",
-      "name": "Johnny",
-      "emoji": "🪵",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "ed-7",
-      "name": "Plank",
-      "emoji": "🪵",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "ed-8",
-      "name": "Jawbreakers",
-      "emoji": "🍬",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "image": "/stickers/sticker_22.webp",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
     }
   ],
   "rarity": {
     "common": {
       "label": "Phổ thông",
       "color": "#9CA3AF",
-      "chance": 50
+      "chance": 40
     },
     "rare": {
       "label": "Hiếm",
@@ -1375,12 +195,12 @@
     "epic": {
       "label": "Sử thi",
       "color": "#A855F7",
-      "chance": 15
+      "chance": 20
     },
     "legendary": {
       "label": "Huyền thoại",
       "color": "#F59E0B",
-      "chance": 5
+      "chance": 10
     }
   }
 }
