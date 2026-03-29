@@ -266,6 +266,58 @@ function displayResult(result) {
     }
   }
 
+  // Thưởng từ world nếu làm bài từ world map
+  const currentWorld = localStorage.getItem('currentWorld');
+  if (currentWorld && result.score >= 60) {
+    // Lấy thông tin world và thưởng
+    fetch('/api/world-map')
+      .then(res => res.json())
+      .then(data => {
+        const world = data.worlds.find(w => w.id === currentWorld);
+        if (world && world.rewards) {
+          // Hiển thị thông báo thưởng từ world
+          const worldRewardDiv = document.createElement('div');
+          worldRewardDiv.className = 'world-reward';
+          worldRewardDiv.style.cssText = `
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 15px;
+            margin: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            animation: slideIn 0.5s ease;
+          `;
+          worldRewardDiv.innerHTML = `
+            🎁 Phần thưởng từ ${world.name}!<br>
+            ${world.rewards.xp ? `+${world.rewards.xp} XP` : ''}
+            ${world.rewards.gold ? `| +${world.rewards.gold} Gold` : ''}
+            ${world.rewards.pet ? `| Pet: ${world.rewards.pet}` : ''}
+          `;
+
+          const resultContainer = document.getElementById('resultContainer');
+          const scoreDiv = resultContainer.querySelector('.score-display');
+          if (scoreDiv && scoreDiv.parentNode) {
+            scoreDiv.parentNode.insertBefore(worldRewardDiv, scoreDiv.nextSibling);
+          }
+
+          // Thưởng XP và gold từ world
+          if (typeof petSystem !== 'undefined') {
+            if (world.rewards.xp) {
+              petSystem.xp += world.rewards.xp;
+            }
+            if (world.rewards.gold) {
+              petSystem.gold += world.rewards.gold;
+            }
+            if (world.rewards.pet) {
+              petSystem.unlockPet(world.rewards.pet);
+            }
+            petSystem.savePetData();
+          }
+        }
+      });
+  }
+
   // Ẩn đề thi, hiển thị kết quả
   document.getElementById('examContainer').style.display = 'none';
   document.getElementById('resultContainer').style.display = 'block';
@@ -294,6 +346,9 @@ function displayResult(result) {
     showRewardSticker(result.rewardSticker);
     saveSticker(result.rewardSticker);
   }
+
+  // Xóa currentWorld sau khi thưởng
+  localStorage.removeItem('currentWorld');
 
   // Lưu kết quả chi tiết để xem sau
   window.examResult = result;

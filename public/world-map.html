@@ -67,6 +67,10 @@
             <div class="world-stat-value" id="modalLevel">1</div>
           </div>
           <div class="world-stat">
+            <div class="world-stat-label">Thử thách</div>
+            <div class="world-stat-value" id="modalChallenges">5 câu</div>
+          </div>
+          <div class="world-stat">
             <div class="world-stat-label">Stickers</div>
             <div class="world-stat-value" id="modalStickerCount">5</div>
           </div>
@@ -337,6 +341,7 @@
       document.getElementById('modalDescription').textContent = world.description;
       document.getElementById('modalLevel').textContent = world.unlockLevel;
       document.getElementById('modalStickerCount').textContent = world.stickers?.length || 0;
+      document.getElementById('modalChallenges').textContent = (world.challenges || 10) + ' câu';
 
       // World actions section
       const actionsSection = document.getElementById('worldActions');
@@ -350,12 +355,12 @@
         actionsSection.style.display = 'block';
 
         if (isCurrent) {
-          btnExplore.innerHTML = '<span>✅ Đang ở đây</span>';
-          btnExplore.disabled = true;
-          btnExplore.classList.add('disabled');
+          btnExplore.innerHTML = '<span>🗺️ Làm thử thách (' + (world.challenges || 10) + ' câu)</span>';
+          btnExplore.disabled = false;
+          btnExplore.classList.remove('disabled');
           btnTravel.style.display = 'none';
         } else {
-          btnExplore.innerHTML = '<span>🗺️ Khám phá</span>';
+          btnExplore.innerHTML = '<span>🗺️ Làm thử thách (' + (world.challenges || 10) + ' câu)</span>';
           btnExplore.disabled = false;
           btnExplore.classList.remove('disabled');
           btnTravel.style.display = 'inline-block';
@@ -407,14 +412,46 @@
     function exploreWorld() {
       if (!selectedWorld) return;
 
-      // Khám phá world = làm bài tập toán để thu thập sticker
-      showMessage(`Đang khám phá ${selectedWorld.name}...`, 'success');
+      // Lưu world ID để tạo đề thi phù hợp
+      localStorage.setItem('selectedWorld', JSON.stringify({
+        id: selectedWorld.id,
+        name: selectedWorld.name,
+        challenges: selectedWorld.challenges || 10
+      }));
 
-      // Chuyển đến trang làm bài
-      closeWorldModal();
+      // Tạo đề thi với số câu hỏi theo world
+      const examData = {
+        count: selectedWorld.challenges || 10,
+        types: null, // Tất cả các loại
+        difficulty: null // Tất cả độ khó
+      };
 
-      // Có thể thêm logic để lọc câu hỏi theo world sau này
-      window.location.href = '/';
+      // Gọi API tạo đề thi
+      fetch('/api/exam/generate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(examData)
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // Lưu thông tin đề thi và world
+          localStorage.setItem('currentExam', JSON.stringify(data.exam));
+          localStorage.setItem('currentWorld', selectedWorld.id);
+
+          // Chuyển đến trang làm bài
+          closeWorldModal();
+          window.location.href = '/exam';
+        } else {
+          showMessage('Lỗi: ' + data.message, 'error');
+        }
+      })
+      .catch(error => {
+        console.error('Lỗi:', error);
+        showMessage('Có lỗi xảy ra. Vui lòng thử lại!', 'error');
+      });
     }
 
     function travelToWorld() {

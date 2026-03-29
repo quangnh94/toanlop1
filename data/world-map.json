@@ -8,6 +8,7 @@
       "backgroundColor": "#90EE90",
       "unlockLevel": 1,
       "position": { "x": 50, "y": 80 },
+      "challenges": 5,
       "stickers": ["cat-white", "dog-golden", "rabbit-pink"],
       "rewards": {
         "xp": 50,
@@ -23,6 +24,7 @@
       "backgroundColor": "#FFB6C1",
       "unlockLevel": 3,
       "position": { "x": 20, "y": 60 },
+      "challenges": 10,
       "stickers": ["cinnamoroll-1", "cinnamoroll-2", "mochi-1", "mochi-2"],
       "rewards": {
         "xp": 100,
@@ -40,6 +42,7 @@
       "backgroundColor": "#228B22",
       "unlockLevel": 5,
       "position": { "x": 35, "y": 40 },
+      "challenges": 15,
       "stickers": ["pikachu-1", "eevee-1", "snorlax-1", "vaporeon-1", "jolteon-1"],
       "rewards": {
         "xp": 150,
@@ -62,6 +65,7 @@
       "backgroundColor": "#00CED1",
       "unlockLevel": 7,
       "position": { "x": 65, "y": 40 },
+      "challenges": 15,
       "stickers": ["spongebob-1", "patrick-1", "gary-1", "squidward-1", "sandy-1"],
       "rewards": {
         "xp": 150,
@@ -84,6 +88,7 @@
       "backgroundColor": "#DDA0DD",
       "unlockLevel": 10,
       "position": { "x": 50, "y": 20 },
+      "challenges": 20,
       "stickers": ["mickey-1", "minnie-1", "donald-1", "daisy-1", "goofy-1"],
       "rewards": {
         "xp": 200,
@@ -106,6 +111,7 @@
       "backgroundColor": "#F4A460",
       "unlockLevel": 5,
       "position": { "x": 80, "y": 60 },
+      "challenges": 10,
       "stickers": ["tom-1", "jerry-1", "tom-jerry-1", "spike-1"],
       "rewards": {
         "xp": 100,
@@ -122,6 +128,7 @@
       "backgroundColor": "#FFE4E1",
       "unlockLevel": 8,
       "position": { "x": 20, "y": 20 },
+      "challenges": 20,
       "stickers": ["hellokitty-1", "hellokitty-2", "kuromi-1", "mymelody-1", "pompurin-1"],
       "rewards": {
         "xp": 200,
@@ -144,6 +151,7 @@
       "backgroundColor": "#8B0000",
       "unlockLevel": 15,
       "position": { "x": 80, "y": 20 },
+      "challenges": 25,
       "stickers": ["charizard-1", "mewtwo-1", "dragonite-1", "rayquaza-1"],
       "rewards": {
         "xp": 300,
@@ -166,6 +174,7 @@
       "backgroundColor": "#E6E6FA",
       "unlockLevel": 20,
       "position": { "x": 50, "y": 5 },
+      "challenges": 30,
       "stickers": ["unicorn", "legendary-bird", "moltres", "articuno", "zapdos"],
       "rewards": {
         "xp": 500,
