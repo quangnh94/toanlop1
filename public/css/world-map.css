@@ -421,6 +421,56 @@
   cursor: not-allowed;
 }
 
+/* World Actions */
+.world-actions {
+  margin-bottom: 20px;
+}
+
+.world-actions h4 {
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-explore,
+.btn-travel {
+  flex: 1;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-explore:hover:not(:disabled),
+.btn-travel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-explore:disabled,
+.btn-explore.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-travel {
+  background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+}
+
 /* World List */
 .world-list {
   display: grid;

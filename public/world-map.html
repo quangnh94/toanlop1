@@ -81,6 +81,18 @@
           <div class="sticker-preview" id="modalStickers"></div>
         </div>
 
+        <div class="world-actions" id="worldActions">
+          <h4>🎮 Hành động</h4>
+          <div class="action-buttons">
+            <button class="btn btn-explore" id="btnExplore" onclick="exploreWorld()">
+              <span>🗺️ Khám phá</span>
+            </button>
+            <button class="btn btn-travel" id="btnTravel" onclick="travelToWorld()">
+              <span>🚶 Đi đến</span>
+            </button>
+          </div>
+        </div>
+
         <div class="boss-section" id="bossSection">
           <h4>👹 Boss</h4>
           <div class="boss-info">
@@ -94,7 +106,7 @@
         </div>
 
         <div class="result-actions">
-          <button class="btn btn-primary" onclick="closeWorldModal()">Đóng</button>
+          <button class="btn btn-secondary" onclick="closeWorldModal()">Đóng</button>
         </div>
       </div>
     </div>
@@ -326,6 +338,32 @@
       document.getElementById('modalLevel').textContent = world.unlockLevel;
       document.getElementById('modalStickerCount').textContent = world.stickers?.length || 0;
 
+      // World actions section
+      const actionsSection = document.getElementById('worldActions');
+      const btnExplore = document.getElementById('btnExplore');
+      const btnTravel = document.getElementById('btnTravel');
+
+      const isUnlocked = worldMapSystem.isWorldUnlocked(world.id);
+      const isCurrent = worldMapSystem.currentWorld === world.id;
+
+      if (isUnlocked) {
+        actionsSection.style.display = 'block';
+
+        if (isCurrent) {
+          btnExplore.innerHTML = '<span>✅ Đang ở đây</span>';
+          btnExplore.disabled = true;
+          btnExplore.classList.add('disabled');
+          btnTravel.style.display = 'none';
+        } else {
+          btnExplore.innerHTML = '<span>🗺️ Khám phá</span>';
+          btnExplore.disabled = false;
+          btnExplore.classList.remove('disabled');
+          btnTravel.style.display = 'inline-block';
+        }
+      } else {
+        actionsSection.style.display = 'none';
+      }
+
       // Boss section
       const bossSection = document.getElementById('bossSection');
       if (world.boss) {
@@ -364,6 +402,34 @@
       }
 
       document.getElementById('worldDetailModal').classList.add('show');
+    }
+
+    function exploreWorld() {
+      if (!selectedWorld) return;
+
+      // Khám phá world = làm bài tập toán để thu thập sticker
+      showMessage(`Đang khám phá ${selectedWorld.name}...`, 'success');
+
+      // Chuyển đến trang làm bài
+      closeWorldModal();
+
+      // Có thể thêm logic để lọc câu hỏi theo world sau này
+      window.location.href = '/';
+    }
+
+    function travelToWorld() {
+      if (!selectedWorld) return;
+
+      const result = worldMapSystem.travelToWorld(selectedWorld.id);
+
+      if (result.success) {
+        showMessage(`Đã đến ${selectedWorld.name}!`, 'success');
+        renderMap();
+        renderWorldList();
+        closeWorldModal();
+      } else {
+        showMessage(result.message, 'error');
+      }
     }
 
     function closeWorldModal() {
