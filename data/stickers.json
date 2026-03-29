@@ -1,181 +1,262 @@
 {
   "stickers": [
     {
-      "id": "sticker-1",
-      "name": "Sticker 1",
+      "id": "sticker_tom_and_jerry_1",
+      "name": "Sticker Tom And Jerry 1",
+      "emoji": "🌟",
+      "image": "/stickers/sticker-tom-and-jerry-1.jpg",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_tom_and_jerry_14",
+      "name": "Sticker Tom And Jerry 14",
+      "emoji": "⭐",
+      "image": "/stickers/sticker-tom-and-jerry-14.jpg",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_tom_and_jerry_3",
+      "name": "Sticker Tom And Jerry 3",
+      "emoji": "✨",
+      "image": "/stickers/sticker-tom-and-jerry-3.jpg",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_tom_and_jerry_4",
+      "name": "Sticker Tom And Jerry 4",
+      "emoji": "💫",
+      "image": "/stickers/sticker-tom-and-jerry-4.jpg",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_tom_and_jerry_6",
+      "name": "Sticker Tom And Jerry 6",
+      "emoji": "🌈",
+      "image": "/stickers/sticker-tom-and-jerry-6.jpg",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_tom_and_jerry_9",
+      "name": "Sticker Tom And Jerry 9",
       "emoji": "🎀",
+      "image": "/stickers/sticker-tom-and-jerry-9.jpg",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_1",
+      "name": "Sticker 1",
+      "emoji": "💖",
+      "image": "/stickers/sticker_1.avif",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_1",
+      "name": "Sticker 1",
+      "emoji": "💗",
+      "image": "/stickers/sticker_1.gif",
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "sticker_1",
+      "name": "Sticker 1",
+      "emoji": "💝",
       "image": "/stickers/sticker_1.webp",
       "rarity": "common",
       "rarityLabel": "Phổ thông",
       "color": "#9CA3AF"
     },
     {
-      "id": "sticker-2",
-      "name": "Sticker 2",
-      "emoji": "💖",
-      "image": "/stickers/sticker_2.webp",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "sticker-3",
-      "name": "Sticker 3",
-      "emoji": "🌸",
-      "image": "/stickers/sticker_3.webp",
-      "rarity": "common",
-      "rarityLabel": "Phổ thông",
-      "color": "#9CA3AF"
-    },
-    {
-      "id": "sticker-4",
-      "name": "Sticker 4",
-      "emoji": "⭐",
-      "image": "/stickers/sticker_4.webp",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "sticker-5",
-      "name": "Sticker 5",
-      "emoji": "🐱",
-      "image": "/stickers/sticker_5.webp",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "sticker-6",
-      "name": "Sticker 6",
-      "emoji": "🐰",
-      "image": "/stickers/sticker_6.webp",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "sticker-7",
-      "name": "Sticker 7",
-      "emoji": "🐻",
-      "image": "/stickers/sticker_7.webp",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "sticker-8",
-      "name": "Sticker 8",
-      "emoji": "🦊",
-      "image": "/stickers/sticker_8.webp",
-      "rarity": "rare",
-      "rarityLabel": "Hiếm",
-      "color": "#3B82F6"
-    },
-    {
-      "id": "sticker-10",
+      "id": "sticker_10",
       "name": "Sticker 10",
-      "emoji": "🐶",
+      "emoji": "💕",
       "image": "/stickers/sticker_10.webp",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
     },
     {
-      "id": "sticker-11",
+      "id": "sticker_11",
       "name": "Sticker 11",
-      "emoji": "🐧",
+      "emoji": "❤️",
       "image": "/stickers/sticker_11.webp",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
     },
     {
-      "id": "sticker-12",
+      "id": "sticker_12",
       "name": "Sticker 12",
-      "emoji": "🦋",
+      "emoji": "🧡",
       "image": "/stickers/sticker_12.webp",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "rarity": "common",
+      "rarityLabel": "Phổ thông",
+      "color": "#9CA3AF"
     },
     {
-      "id": "sticker-13",
+      "id": "sticker_13",
       "name": "Sticker 13",
-      "emoji": "🌈",
+      "emoji": "🎈",
       "image": "/stickers/sticker_13.webp",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-14",
+      "id": "sticker_14",
       "name": "Sticker 14",
-      "emoji": "⚡",
+      "emoji": "🎇",
       "image": "/stickers/sticker_14.webp",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-15",
+      "id": "sticker_15",
       "name": "Sticker 15",
-      "emoji": "🔥",
+      "emoji": "🎆",
       "image": "/stickers/sticker_15.webp",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-16",
+      "id": "sticker_16",
       "name": "Sticker 16",
-      "emoji": "💎",
+      "emoji": "✨",
       "image": "/stickers/sticker_16.webp",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-17",
+      "id": "sticker_17",
       "name": "Sticker 17",
-      "emoji": "👑",
+      "emoji": "💫",
       "image": "/stickers/sticker_17.webp",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-18",
+      "id": "sticker_18",
       "name": "Sticker 18",
-      "emoji": "🏆",
+      "emoji": "⭐",
       "image": "/stickers/sticker_18.webp",
-      "rarity": "legendary",
-      "rarityLabel": "Huyền thoại",
-      "color": "#F59E0B"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-19",
+      "id": "sticker_19",
       "name": "Sticker 19",
       "emoji": "🌟",
       "image": "/stickers/sticker_19.webp",
-      "rarity": "epic",
-      "rarityLabel": "Sử thi",
-      "color": "#A855F7"
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
     },
     {
-      "id": "sticker-21",
+      "id": "sticker_2",
+      "name": "Sticker 2",
+      "emoji": "🌙",
+      "image": "/stickers/sticker_2.avif",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sticker_2",
+      "name": "Sticker 2",
+      "emoji": "👑",
+      "image": "/stickers/sticker_2.webp",
+      "rarity": "rare",
+      "rarityLabel": "Hiếm",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sticker_21",
       "name": "Sticker 21",
-      "emoji": "🎀",
+      "emoji": "🌈",
       "image": "/stickers/sticker_21.webp",
       "rarity": "epic",
       "rarityLabel": "Sử thi",
       "color": "#A855F7"
     },
     {
-      "id": "sticker-22",
+      "id": "sticker_22",
       "name": "Sticker 22",
-      "emoji": "💫",
+      "emoji": "🦄",
       "image": "/stickers/sticker_22.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker_3",
+      "name": "Sticker 3",
+      "emoji": "🐉",
+      "image": "/stickers/sticker_3.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker_4",
+      "name": "Sticker 4",
+      "emoji": "🔥",
+      "image": "/stickers/sticker_4.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker_5",
+      "name": "Sticker 5",
+      "emoji": "💫",
+      "image": "/stickers/sticker_5.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker_6",
+      "name": "Sticker 6",
+      "emoji": "✨",
+      "image": "/stickers/sticker_6.webp",
+      "rarity": "epic",
+      "rarityLabel": "Sử thi",
+      "color": "#A855F7"
+    },
+    {
+      "id": "sticker_7",
+      "name": "Sticker 7",
+      "emoji": "🎊",
+      "image": "/stickers/sticker_7.webp",
+      "rarity": "legendary",
+      "rarityLabel": "Huyền thoại",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "sticker_8",
+      "name": "Sticker 8",
+      "emoji": "🎉",
+      "image": "/stickers/sticker_8.webp",
       "rarity": "legendary",
       "rarityLabel": "Huyền thoại",
       "color": "#F59E0B"
