@@ -238,7 +238,6 @@ router.get('/types', (req, res) => {
     { value: 'fraction', label: 'Phân số đơn giản' },
     { value: 'grouping', label: 'Nhóm/Lớp' },
     { value: 'find-missing', label: 'Tìm số còn thiếu' },
-    { value: 'estimate', label: 'Ước lượng' },
     { value: 'position', label: 'Vị trí thứ tự' },
     { value: 'sequence', label: 'Sắp xếp dãy số theo quy luật' }
   ];
