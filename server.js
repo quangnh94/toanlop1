@@ -32,6 +32,11 @@ app.get('/collection.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'collection.html'));
 });
 
+// Serve trang test âm thanh
+app.get('/sound-test', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'sound-test.html'));
+});
+
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({

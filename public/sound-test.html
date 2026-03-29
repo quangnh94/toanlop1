@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Âm Thanh</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 500px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      color: #667eea;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .sound-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .sound-btn {
+      padding: 20px;
+      border: 2px solid #e0e0e0;
+      border-radius: 15px;
+      background: white;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-size: 16px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .sound-btn:hover {
+      border-color: #667eea;
+      background: #f8f8ff;
+      transform: scale(1.05);
+    }
+
+    .sound-btn:active {
+      transform: scale(0.95);
+    }
+
+    .sound-btn.correct {
+      background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+      color: white;
+      border-color: #11998e;
+    }
+
+    .sound-btn.incorrect {
+      background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+      color: white;
+      border-color: #eb3349;
+    }
+
+    .sound-btn.reward {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-color: #667eea;
+    }
+
+    .toggle-btn {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .toggle-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .toggle-btn.off {
+      background: #9CA3AF;
+    }
+
+    .status {
+      text-align: center;
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      background: #f0f0f0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔊 Test Hiệu Ứng Âm Thanh</h1>
+
+    <div class="sound-grid">
+      <button class="sound-btn correct" onclick="soundManager.playCorrect()">
+        ✅ Đúng (Correct)
+      </button>
+
+      <button class="sound-btn incorrect" onclick="soundManager.playIncorrect()">
+        ❌ Sai (Incorrect)
+      </button>
+
+      <button class="sound-btn" onclick="soundManager.playHighScore(10)">
+        🏆 Điểm cao (10 điểm)
+      </button>
+
+      <button class="sound-btn" onclick="soundManager.playStickerReward({name: 'Cinnamoroll'})">
+        🎁 Nhận sticker
+      </button>
+
+      <button class="sound-btn" onclick="soundManager.playLevelUp(5)">
+        ⬆️ Level Up
+      </button>
+
+      <button class="sound-btn" onclick="soundManager.playClick()">
+        👆 Click
+      </button>
+    </div>
+
+    <button class="toggle-btn" id="toggleBtn" onclick="toggleSound()">
+      🔊 Bật/Tắt Âm Thanh
+    </button>
+
+    <div class="status" id="status">
+      Trạng thái: Đang bật
+    </div>
+  </div>
+
+  <script src="js/sound-effects.js"></script>
+  <script>
+    function toggleSound() {
+      const enabled = soundManager.toggle();
+      const btn = document.getElementById('toggleBtn');
+      const status = document.getElementById('status');
+
+      if (enabled) {
+        btn.textContent = '🔊 Bật/Tắt Âm Thanh';
+        btn.classList.remove('off');
+        status.textContent = 'Trạng thái: Đang bật';
+      } else {
+        btn.textContent = '🔇 Bật/Tắt Âm Thanh';
+        btn.classList.add('off');
+        status.textContent = 'Trạng thái: Đang tắt';
+      }
+    }
+
+    // Phím tắt
+    document.addEventListener('keydown', (e) => {
+      switch(e.key) {
+        case '1':
+          soundManager.playCorrect();
+          break;
+        case '2':
+          soundManager.playIncorrect();
+          break;
+        case '3':
+          soundManager.playHighScore(10);
+          break;
+        case '4':
+          soundManager.playStickerReward({name: 'Cinnamoroll'});
+          break;
+        case ' ':
+          toggleSound();
+          break;
+      }
+    });
+  </script>
+</body>
+</html>

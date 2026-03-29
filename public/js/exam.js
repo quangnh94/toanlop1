@@ -91,6 +91,11 @@ function createQuestionCard(question, index) {
 
 // Chọn đáp án
 function selectAnswer(questionIndex, answerIndex) {
+  // Phát âm click
+  if (typeof soundManager !== 'undefined') {
+    soundManager.playClick();
+  }
+
   // Cập nhật đáp án
   userAnswers[questionIndex] = answerIndex;
 
@@ -154,6 +159,23 @@ function setupEventListeners() {
     localStorage.removeItem('currentExam');
     window.location.href = '/';
   });
+
+  // Nút toggle âm thanh
+  const toggleSoundBtn = document.getElementById('toggleSound');
+  if (toggleSoundBtn) {
+    toggleSoundBtn.addEventListener('click', () => {
+      if (typeof soundManager !== 'undefined') {
+        const enabled = soundManager.toggle();
+        if (enabled) {
+          toggleSoundBtn.textContent = '🔊';
+          toggleSoundBtn.classList.remove('off');
+        } else {
+          toggleSoundBtn.textContent = '🔇';
+          toggleSoundBtn.classList.add('off');
+        }
+      }
+    });
+  }
 }
 
 // Nộp bài
@@ -208,6 +230,11 @@ function saveSticker(sticker) {
 
 // Hiển thị kết quả
 function displayResult(result) {
+  // Phát âm thanh khi hiển thị kết quả
+  if (typeof soundManager !== 'undefined') {
+    soundManager.playHighScore(result.score);
+  }
+
   // Ẩn đề thi, hiển thị kết quả
   document.getElementById('examContainer').style.display = 'none';
   document.getElementById('resultContainer').style.display = 'block';
@@ -243,6 +270,11 @@ function displayResult(result) {
 
 // Hiển thị sticker thưởng
 function showRewardSticker(sticker) {
+  // Phát âm thanh khi nhận sticker
+  if (typeof soundManager !== 'undefined') {
+    soundManager.playStickerReward(sticker);
+  }
+
   const imageHtml = sticker.image ? `<img src="${sticker.image}" alt="${sticker.name}" class="sticker-reward-image" onerror="this.replaceWith(document.createElement('div')).className='sticker-emoji';this.style.fontSize='80px';this.textContent='${sticker.emoji}'">` : `<div class="sticker-emoji" style="font-size: 80px;">${sticker.emoji}</div>`;
 
   // Tạo modal hiển thị sticker

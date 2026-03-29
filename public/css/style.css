@@ -239,6 +239,30 @@ body {
   color: #667eea;
 }
 
+.sound-toggle {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sound-toggle:hover {
+  border-color: #667eea;
+  background: #f8f8ff;
+  transform: scale(1.05);
+}
+
+.sound-toggle.off {
+  opacity: 0.5;
+}
+
 .timer {
   color: #764ba2;
 }
